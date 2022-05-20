@@ -1,0 +1,27 @@
+[
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\Source\\ObstacleAssault\\MovingPlatform.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.205.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\Source\\ObstacleAssault\\MovingPlatform.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.205.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.Build.cs",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.205.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.205.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault\\ObstacleAssault.205.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	}
+]
