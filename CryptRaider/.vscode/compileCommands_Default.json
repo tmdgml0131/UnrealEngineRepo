@@ -1,0 +1,67 @@
+[
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaider.Build.cs",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaider.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaider.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaiderCharacter.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaiderCharacter.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaiderGameMode.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaiderGameMode.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaiderProjectile.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\CryptRaiderProjectile.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\TP_PickUpComponent.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\TP_PickUpComponent.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\TP_WeaponComponent.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\TP_WeaponComponent.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	}
+]
