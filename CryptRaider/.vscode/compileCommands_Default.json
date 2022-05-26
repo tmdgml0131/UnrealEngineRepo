@@ -45,6 +45,26 @@
 		"directory": "F:\\UE_5.0\\Engine\\Source"
 	},
 	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\Grabber.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\Grabber.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\Mover.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\Mover.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
 		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\TP_PickUpComponent.cpp",
 		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
 		"directory": "F:\\UE_5.0\\Engine\\Source"
@@ -61,6 +81,16 @@
 	},
 	{
 		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\TP_WeaponComponent.h",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\TriggerComponent.cpp",
+		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\CryptRaider\\Source\\CryptRaider\\TriggerComponent.h",
 		"command": "\"E:\\visual studio\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe\" @F:\\Git\\UnrealEngineRepo\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.211.rsp",
 		"directory": "F:\\UE_5.0\\Engine\\Source"
 	}
