@@ -1,0 +1,30 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\git\\unrealenginerepo\\toontanks\\source\\toontanks\\tank.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\toontanks\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\unrealgame\\development\\toontanks\\definitions.toontanks.h",
+            "f:\\git\\unrealenginerepo\\toontanks\\source\\toontanks\\tank.h",
+            "f:\\git\\unrealenginerepo\\toontanks\\source\\toontanks\\basepawn.h",
+            "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\unrealgame\\inc\\toontanks\\basepawn.generated.h",
+            "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\unrealgame\\inc\\toontanks\\tank.generated.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\springarmcomponent.generated.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\cameracomponent.generated.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\kismetsystemlibrary.generated.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\dialoguetypes.generated.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\gameplaystaticstypes.generated.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\gameplaystatics.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -323,6 +323,7 @@
 /I "F:\UE_5.0\Engine\Plugins\Bridge\Intermediate\Build\Win64\UnrealEditor\Inc\MegascansPlugin" 
 /I "F:\UE_5.0\Engine\Plugins\Bridge\Source" 
 /I "F:\UE_5.0\Engine\Plugins\Bridge\Source\MegascansPlugin\Public" 
+/I "F:\UE_5.0\Engine\Plugins\Bridge\Source\MegascansPlugin\Internal" 
 /I "F:\UE_5.0\Engine\Source\ThirdParty\mimalloc\include" 
 /I "F:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source\Win64" 
 /I "F:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source" 
