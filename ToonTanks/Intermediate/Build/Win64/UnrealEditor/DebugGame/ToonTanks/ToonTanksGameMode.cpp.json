@@ -26,7 +26,9 @@
             "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\basepawn.generated.h",
             "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\tank.generated.h",
             "f:\\git\\unrealenginerepo\\toontanks\\source\\toontanks\\tower.h",
-            "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\tower.generated.h"
+            "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\tower.generated.h",
+            "f:\\git\\unrealenginerepo\\toontanks\\source\\toontanks\\toontanksplayercontroller.h",
+            "f:\\git\\unrealenginerepo\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\toontanksplayercontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
