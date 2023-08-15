@@ -20,7 +20,14 @@
             "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\dialoguetypes.generated.h",
             "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
             "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystaticstypes.generated.h",
-            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystatics.generated.h"
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystatics.generated.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystemcomponent.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystem.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\particleperfstats.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\particlesystem.generated.h",
+            "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\emitter.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\emitter.generated.h",
+            "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\particlesystemcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
