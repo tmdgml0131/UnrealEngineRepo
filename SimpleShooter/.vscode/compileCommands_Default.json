@@ -1,5 +1,15 @@
 [
 	{
+		"file": "F:\\Git\\UnrealEngineRepo\\SimpleShooter\\Source\\SimpleShooter\\ShooterCharacter.cpp",
+		"command": "F:\\vsStudio\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @F:\\Git\\UnrealEngineRepo\\SimpleShooter\\.vscode\\compileCommands_Default\\SimpleShooter.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\Git\\UnrealEngineRepo\\SimpleShooter\\Source\\SimpleShooter\\ShooterCharacter.h",
+		"command": "F:\\vsStudio\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @F:\\Git\\UnrealEngineRepo\\SimpleShooter\\.vscode\\compileCommands_Default\\SimpleShooter.211.rsp",
+		"directory": "F:\\UE_5.0\\Engine\\Source"
+	},
+	{
 		"file": "F:\\Git\\UnrealEngineRepo\\SimpleShooter\\Source\\SimpleShooter\\SimpleShooter.Build.cs",
 		"command": "F:\\vsStudio\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe @F:\\Git\\UnrealEngineRepo\\SimpleShooter\\.vscode\\compileCommands_Default\\SimpleShooter.211.rsp",
 		"directory": "F:\\UE_5.0\\Engine\\Source"
