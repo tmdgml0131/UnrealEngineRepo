@@ -13,7 +13,9 @@
             "f:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
             "f:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
-            "f:\\git\\unrealenginerepo\\simpleshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleshooter\\shootercharacter.generated.h"
+            "f:\\git\\unrealenginerepo\\simpleshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleshooter\\shootercharacter.generated.h",
+            "f:\\git\\unrealenginerepo\\simpleshooter\\source\\simpleshooter\\gun.h",
+            "f:\\git\\unrealenginerepo\\simpleshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleshooter\\gun.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
