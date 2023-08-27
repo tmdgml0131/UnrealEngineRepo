@@ -23,8 +23,26 @@ void AGun::PullTrigger()
 {
 	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
 	
+	APawn* OwnerPawn = Cast<APawn>(GetOwner());
+	AController* Ownercontroller = OwnerPawn->GetController();
+
+	if (OwnerPawn == nullptr) return;
+	if (Ownercontroller == nullptr) return;
 	
-	DrawDebugCamera(GetWorld(), GetActorLocation(), GetActorRotation(), 90, 2, FColor::Red, true);
+	FVector Location;
+	FRotator Rotation;
+
+	Ownercontroller->GetPlayerViewPoint(Location, Rotation);
+
+	FVector End = Location + Rotation.Vector() * MaxRange;
+	
+	FHitResult Hit;
+	bool bSuccess = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECollisionChannel::ECC_GameTraceChannel1);
+	if (bSuccess)
+	{
+		FVector ShotDirection = -Rotation.Vector();
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location, ShotDirection.Rotation());
+	}
 }
 
 // Called when the game starts or when spawned
