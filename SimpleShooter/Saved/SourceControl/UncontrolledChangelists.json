@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/BluePrints/BP_Rifle.uasset",
-				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/Sandbox.umap"
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/Sandbox.umap",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/Animation/ABP_ShooterCharacter.uasset"
 			]
 		}
 	]
