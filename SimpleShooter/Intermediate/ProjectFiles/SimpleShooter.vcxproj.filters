@@ -44,6 +44,12 @@
     <ClInclude Include="..\..\Source\SimpleShooter\Gun.h">
       <Filter>Source\SimpleShooter</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\SimpleShooter\ShooterAIController.cpp">
+      <Filter>Source\SimpleShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SimpleShooter\ShooterAIController.h">
+      <Filter>Source\SimpleShooter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SimpleShooter\ShooterCharacter.cpp">
       <Filter>Source\SimpleShooter</Filter>
     </ClCompile>
