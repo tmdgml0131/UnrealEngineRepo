@@ -9,7 +9,10 @@
 				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/Sandbox.umap",
 				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/Animation/ABP_ShooterCharacter.uasset",
 				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/BluePrints/BP_ShooterAIController.uasset",
-				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/BluePrints/BP_ShooterCharacter.uasset"
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/BluePrints/BP_ShooterCharacter.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/AI/BT_EnemyAI.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/AI/BB_EnemyAI.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/AI/BP_ShooterAIController.uasset"
 			]
 		}
 	]
