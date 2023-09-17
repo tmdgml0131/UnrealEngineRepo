@@ -68,6 +68,12 @@
     <ClInclude Include="..\..\Source\SimpleShooter\Gun.h">
       <Filter>Source\SimpleShooter</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\SimpleShooter\KillEmAllGameMode.cpp">
+      <Filter>Source\SimpleShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SimpleShooter\KillEmAllGameMode.h">
+      <Filter>Source\SimpleShooter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SimpleShooter\ShooterAIController.cpp">
       <Filter>Source\SimpleShooter</Filter>
     </ClCompile>
@@ -78,6 +84,12 @@
       <Filter>Source\SimpleShooter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SimpleShooter\ShooterCharacter.h">
+      <Filter>Source\SimpleShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SimpleShooter\ShooterPlayerController.cpp">
+      <Filter>Source\SimpleShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SimpleShooter\ShooterPlayerController.h">
       <Filter>Source\SimpleShooter</Filter>
     </ClInclude>
     <None Include="..\..\Source\SimpleShooter\SimpleShooter.Build.cs">
