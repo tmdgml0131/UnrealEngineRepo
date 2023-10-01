@@ -16,6 +16,12 @@
 				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/BluePrints/BP_ShooterGameMode.uasset",
 				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/BluePrints/BP_ShooterPlayerController.uasset",
 				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/UI/WBP_LoseScreen.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/UI/WBP_WinScreen.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/SFX/A_RifleShot_Cue.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/SFX/A_RifleImpact_Cue.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/SFX/ATT_Default.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/UI/WBP_HUD.uasset",
+				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/BluePrints/BP_PlayerShooterCharacter.uasset",
 				"F:/Git/UnrealEngineRepo/SimpleShooter/Content/BluePrints/BP_ShooterAIController.uasset"
 			]
 		}

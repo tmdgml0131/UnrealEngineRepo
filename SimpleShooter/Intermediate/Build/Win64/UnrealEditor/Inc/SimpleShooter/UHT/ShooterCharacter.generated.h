@@ -17,11 +17,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_Git_UnrealEngineRepo_SimpleShooter_Source_SimpleShooter_ShooterCharacter_h_14_SPARSE_DATA
 #define FID_Git_UnrealEngineRepo_SimpleShooter_Source_SimpleShooter_ShooterCharacter_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead);
 
 
 #define FID_Git_UnrealEngineRepo_SimpleShooter_Source_SimpleShooter_ShooterCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead);
 
 
