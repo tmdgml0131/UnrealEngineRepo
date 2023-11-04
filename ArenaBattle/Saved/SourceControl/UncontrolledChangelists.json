@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Book/Maps/Step1.umap",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Fountain.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/BluePrints/Fountain.uasset"
+			]
+		}
+	]
+}
