@@ -6,8 +6,17 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Book/Maps/Step1.umap",
-				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Fountain.uasset",
-				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/BluePrints/Fountain.uasset"
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/BluePrints/Fountain.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Book/Maps/Step2.umap",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorAttack2.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorAttack1.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorAttack3.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorAttack4.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorDead.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorIdle.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorRun.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorSkill1.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Fountain.uasset"
 			]
 		}
 	]
