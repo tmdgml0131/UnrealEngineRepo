@@ -9,14 +9,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UAnimMontage;
 #ifdef ARENABATTLE_ABCharacter_generated_h
 #error "ABCharacter.generated.h already included, missing '#pragma once' in ABCharacter.h"
 #endif
 #define ARENABATTLE_ABCharacter_generated_h
 
 #define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_SPARSE_DATA
-#define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_RPC_WRAPPERS
-#define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded);
+
+
+#define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnAttackMontageEnded);
+
+
 #define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_ACCESSORS
 #define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ABCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \

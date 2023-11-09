@@ -19,6 +19,14 @@
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/WarriorAnimBlueprint.uasset",
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset",
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/InfinityBladeWarriors/Character/CompleteCharacters/SK_Mannequin_Skeleton.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/GameRig.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/SK_Mannequin_Skeleton_Montage.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/GivingRig.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/JumpRig.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/ThirdPersonJump_Start.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/ThirdPersonJump_Loop.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/ThirdPersonJump_End.uasset",
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Fountain.uasset"
 			]
 		}
