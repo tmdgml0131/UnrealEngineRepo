@@ -27,6 +27,9 @@
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/ThirdPersonJump_Start.uasset",
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/ThirdPersonJump_Loop.uasset",
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/ThirdPersonJump_End.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/Rig/GameRig.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/Rig/GivingRig.uasset",
+				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Animation/Rig/JumpRig.uasset",
 				"F:/Git/UnrealEngineRepo/ArenaBattle/Content/Fountain.uasset"
 			]
 		}
