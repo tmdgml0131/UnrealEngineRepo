@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/BTTask_TurnToTarget.h"
+#include "ArenaBattle/Public/BTTask_TurnToTarget.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 // Cross Module References
@@ -39,7 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_TurnToTarget_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "BTTask_TurnToTarget.h" },
-		{ "ModuleRelativePath", "BTTask_TurnToTarget.h" },
+		{ "ModuleRelativePath", "Public/BTTask_TurnToTarget.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBTTask_TurnToTarget_Statics::StaticCppClassTypeInfo = {
@@ -74,15 +74,15 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_TurnToTarget);
 	UBTTask_TurnToTarget::~UBTTask_TurnToTarget() {}
-	struct Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_BTTask_TurnToTarget_h_Statics
+	struct Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_BTTask_TurnToTarget_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_BTTask_TurnToTarget_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UBTTask_TurnToTarget, UBTTask_TurnToTarget::StaticClass, TEXT("UBTTask_TurnToTarget"), &Z_Registration_Info_UClass_UBTTask_TurnToTarget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBTTask_TurnToTarget), 3418434316U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_BTTask_TurnToTarget_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UBTTask_TurnToTarget, UBTTask_TurnToTarget::StaticClass, TEXT("UBTTask_TurnToTarget"), &Z_Registration_Info_UClass_UBTTask_TurnToTarget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBTTask_TurnToTarget), 919533022U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_BTTask_TurnToTarget_h_1878532664(TEXT("/Script/ArenaBattle"),
-		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_BTTask_TurnToTarget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_BTTask_TurnToTarget_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_BTTask_TurnToTarget_h_3288286639(TEXT("/Script/ArenaBattle"),
+		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_BTTask_TurnToTarget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_BTTask_TurnToTarget_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

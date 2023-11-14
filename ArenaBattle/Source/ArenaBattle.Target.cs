@@ -10,6 +10,6 @@ public class ArenaBattleTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		ExtraModuleNames.Add("ArenaBattle");
+		ExtraModuleNames.AddRange( new string[] { "ArenaBattle", "ArenaBattleSetting" });
 	}
 }

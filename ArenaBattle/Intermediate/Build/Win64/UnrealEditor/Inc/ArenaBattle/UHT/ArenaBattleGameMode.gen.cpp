@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ArenaBattleGameMode.h"
+#include "ArenaBattle/Public/ArenaBattleGameMode.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeArenaBattleGameMode() {}
 // Cross Module References
@@ -39,7 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleGameMode() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaBattleGameMode_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "ArenaBattleGameMode.h" },
-		{ "ModuleRelativePath", "ArenaBattleGameMode.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
@@ -75,15 +75,15 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleGameMode() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AArenaBattleGameMode);
 	AArenaBattleGameMode::~AArenaBattleGameMode() {}
-	struct Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleGameMode_h_Statics
+	struct Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleGameMode_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleGameMode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AArenaBattleGameMode, AArenaBattleGameMode::StaticClass, TEXT("AArenaBattleGameMode"), &Z_Registration_Info_UClass_AArenaBattleGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AArenaBattleGameMode), 2651474951U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleGameMode_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AArenaBattleGameMode, AArenaBattleGameMode::StaticClass, TEXT("AArenaBattleGameMode"), &Z_Registration_Info_UClass_AArenaBattleGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AArenaBattleGameMode), 3727315762U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleGameMode_h_984261284(TEXT("/Script/ArenaBattle"),
-		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleGameMode_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleGameMode_h_818378910(TEXT("/Script/ArenaBattle"),
+		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

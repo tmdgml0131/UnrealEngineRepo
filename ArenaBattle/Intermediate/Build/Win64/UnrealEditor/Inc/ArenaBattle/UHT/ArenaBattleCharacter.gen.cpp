@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ArenaBattle/ArenaBattleCharacter.h"
+#include "ArenaBattle/Public/ArenaBattleCharacter.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 // Cross Module References
@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArenaBattleCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "ArenaBattleCharacter.h" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 	};
 #endif
 #if WITH_METADATA
@@ -77,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		{ "Category", "Camera" },
 		{ "Comment", "/** Camera boom positioning the camera behind the character */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 	};
 #endif
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		{ "Category", "Camera" },
 		{ "Comment", "/** Follow camera */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Follow camera" },
 	};
 #endif
@@ -98,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
 		{ "Comment", "/** MappingContext */" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "MappingContext" },
 	};
 #endif
@@ -108,7 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
 		{ "Comment", "/** Jump Input Action */" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Jump Input Action" },
 	};
 #endif
@@ -118,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
 		{ "Comment", "/** Move Input Action */" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Move Input Action" },
 	};
 #endif
@@ -128,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
 		{ "Comment", "/** Look Input Action */" },
-		{ "ModuleRelativePath", "ArenaBattleCharacter.h" },
+		{ "ModuleRelativePath", "Public/ArenaBattleCharacter.h" },
 		{ "ToolTip", "Look Input Action" },
 	};
 #endif
@@ -173,15 +173,15 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattleCharacter() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AArenaBattleCharacter);
 	AArenaBattleCharacter::~AArenaBattleCharacter() {}
-	struct Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleCharacter_h_Statics
+	struct Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleCharacter_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AArenaBattleCharacter, AArenaBattleCharacter::StaticClass, TEXT("AArenaBattleCharacter"), &Z_Registration_Info_UClass_AArenaBattleCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AArenaBattleCharacter), 796883082U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleCharacter_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AArenaBattleCharacter, AArenaBattleCharacter::StaticClass, TEXT("AArenaBattleCharacter"), &Z_Registration_Info_UClass_AArenaBattleCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AArenaBattleCharacter), 3639282633U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleCharacter_h_321431878(TEXT("/Script/ArenaBattle"),
-		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_ArenaBattleCharacter_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleCharacter_h_3744874040(TEXT("/Script/ArenaBattle"),
+		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ArenaBattleCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

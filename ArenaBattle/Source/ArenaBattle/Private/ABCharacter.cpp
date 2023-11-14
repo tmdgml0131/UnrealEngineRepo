@@ -10,6 +10,8 @@
 #include "ABCharacterWidget.h"
 #include "ABAIController.h"
 #include "Engine/DamageEvents.h"
+#include "ABCharacterSetting.h"
+#include "ABGameInstance.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -70,12 +72,34 @@ AABCharacter::AABCharacter()
 
 	AIControllerClass = AABAIController::StaticClass();
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
+
+	auto DefaultSetting = GetDefault<UABCharacterSetting>();
+	if (DefaultSetting->CharacterAssets.Num() > 0)
+	{
+		for (auto CharacterAsset : DefaultSetting->CharacterAssets)
+		{
+			ABLOG(Warning, TEXT("Character Asset : %s"), *CharacterAsset.ToString());
+		}
+	}
 }
 
 // Called when the game starts or when spawned
 void AABCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (!IsPlayerControlled())
+	{
+		auto DefaultSetting = GetDefault<UABCharacterSetting>();
+		int32 RandIndex = FMath::RandRange(0, DefaultSetting->CharacterAssets.Num() - 1);
+		CharacterAssetToLoad = DefaultSetting->CharacterAssets[RandIndex];
+
+		auto ABGameInstance = Cast<UABGameInstance>(GetGameInstance());
+		if (ABGameInstance != nullptr)
+		{
+			AssetStreamHandle = ABGameInstance->StreamableManager.RequestAsyncLoad(CharacterAssetToLoad, FStreamableDelegate::CreateUObject(this, &AABCharacter::OnAssetLoadCompleted));
+		}
+	}
 }
 
 void AABCharacter::SetControlMode(EControlMode NewControlMode)
@@ -412,6 +436,16 @@ void AABCharacter::AttackCheck()
 			FDamageEvent DamageEvent;
 			HitResult.GetActor()->TakeDamage(CharacterStat->GetAttack(), DamageEvent, GetController(), this);
 		}
+	}
+}
+
+void AABCharacter::OnAssetLoadCompleted()
+{
+	AssetStreamHandle->ReleaseHandle();
+	TSoftObjectPtr<USkeletalMesh> LoadedAssetPath(CharacterAssetToLoad);
+	if (LoadedAssetPath.IsValid())
+	{
+		GetMesh()->SetSkeletalMesh(LoadedAssetPath.Get());
 	}
 }
 

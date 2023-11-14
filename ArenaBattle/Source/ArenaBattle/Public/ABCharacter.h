@@ -91,6 +91,7 @@ private:
 	void AttackEndComboState();
 	void AttackCheck();
 
+	void OnAssetLoadCompleted();
 private:
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 	bool IsAttacking;
@@ -110,4 +111,6 @@ private:
 	UPROPERTY()
 	class UABAnimInstance* ABAnim;
 
+	FSoftObjectPath CharacterAssetToLoad = FSoftObjectPath(nullptr);
+	TSharedPtr<struct FStreamableHandle> AssetStreamHandle;
 };
