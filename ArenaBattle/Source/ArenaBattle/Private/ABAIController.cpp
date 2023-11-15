@@ -12,6 +12,28 @@ const FName AABAIController::HomePosKey(TEXT("HomePos"));
 const FName AABAIController::PatrolPosKey(TEXT("PatrolPos"));
 const FName AABAIController::TargetKey(TEXT("Target"));
 
+void AABAIController::RunAI()
+{
+	UBlackboardComponent* TmpBB = Cast<UBlackboardComponent>(Blackboard);
+	if (UseBlackboard(BBAsset, TmpBB))
+	{
+		Blackboard->SetValueAsVector(HomePosKey, GetPawn()->GetActorLocation());
+		if (!RunBehaviorTree(BTAsset))
+		{
+			ABLOG(Error, TEXT("AIController couldn't run behavior tree!"));
+		}
+	}
+}
+
+void AABAIController::StopAI()
+{
+	auto BehaviorTreeComponent = Cast<UBehaviorTreeComponent>(BrainComponent);
+	if (BehaviorTreeComponent != nullptr)
+	{
+		BehaviorTreeComponent->StopTree(EBTStopMode::Safe);
+	}
+}
+
 AABAIController::AABAIController()
 {
 	static ConstructorHelpers::FObjectFinder<UBlackboardData> BBObject(TEXT("/Game/AI/BB_ABCharacter.BB_ABCharacter"));
@@ -30,15 +52,6 @@ AABAIController::AABAIController()
 void AABAIController::OnPossess(APawn* InPawn)
 {
 	Super::OnPossess(InPawn);
-	UBlackboardComponent* TmpBB = Cast<UBlackboardComponent>(Blackboard);
-	if (UseBlackboard(BBAsset, TmpBB))
-	{
-		Blackboard->SetValueAsVector(HomePosKey, InPawn->GetActorLocation());
-		if (!RunBehaviorTree(BTAsset))
-		{
-			ABLOG(Error, TEXT("AIController couldn't run behavior tree!"));
-		}
-	}
 }
 
 //void AABAIController::OnUnPossess()
