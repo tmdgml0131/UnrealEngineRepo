@@ -42,6 +42,9 @@ private:
 		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	void OnNPCSpawn();
+
+	UFUNCTION()
+	void OnKeyNPCDestroyed(AActor* DestroyedActor);
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

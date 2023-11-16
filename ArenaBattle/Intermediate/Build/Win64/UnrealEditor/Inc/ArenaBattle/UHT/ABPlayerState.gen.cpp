@@ -33,9 +33,17 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerState() {}
 #endif
 		static const UECodeGen_Private::FIntPropertyParams NewProp_GameScore;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_GameHighScore_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_GameHighScore;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CharacterLevel_MetaData[];
 #endif
 		static const UECodeGen_Private::FIntPropertyParams NewProp_CharacterLevel;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Exp_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_Exp;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -60,14 +68,28 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerState() {}
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameScore = { "GameScore", nullptr, (EPropertyFlags)0x0020080000002000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AABPlayerState, GameScore), METADATA_PARAMS(Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameScore_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore_MetaData[] = {
+		{ "ModuleRelativePath", "Public/ABPlayerState.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore = { "GameHighScore", nullptr, (EPropertyFlags)0x0020080000002000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AABPlayerState, GameHighScore), METADATA_PARAMS(Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPlayerState_Statics::NewProp_CharacterLevel_MetaData[] = {
 		{ "ModuleRelativePath", "Public/ABPlayerState.h" },
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AABPlayerState_Statics::NewProp_CharacterLevel = { "CharacterLevel", nullptr, (EPropertyFlags)0x0020080000002000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AABPlayerState, CharacterLevel), METADATA_PARAMS(Z_Construct_UClass_AABPlayerState_Statics::NewProp_CharacterLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPlayerState_Statics::NewProp_CharacterLevel_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABPlayerState_Statics::NewProp_Exp_MetaData[] = {
+		{ "ModuleRelativePath", "Public/ABPlayerState.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AABPlayerState_Statics::NewProp_Exp = { "Exp", nullptr, (EPropertyFlags)0x0020080000002000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AABPlayerState, Exp), METADATA_PARAMS(Z_Construct_UClass_AABPlayerState_Statics::NewProp_Exp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABPlayerState_Statics::NewProp_Exp_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AABPlayerState_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameScore,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerState_Statics::NewProp_GameHighScore,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerState_Statics::NewProp_CharacterLevel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABPlayerState_Statics::NewProp_Exp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABPlayerState_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AABPlayerState>::IsAbstract,
@@ -106,9 +128,9 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerState() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABPlayerState_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AABPlayerState, AABPlayerState::StaticClass, TEXT("AABPlayerState"), &Z_Registration_Info_UClass_AABPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABPlayerState), 769160552U) },
+		{ Z_Construct_UClass_AABPlayerState, AABPlayerState::StaticClass, TEXT("AABPlayerState"), &Z_Registration_Info_UClass_AABPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABPlayerState), 2458935807U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABPlayerState_h_2733448430(TEXT("/Script/ArenaBattle"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABPlayerState_h_1705898784(TEXT("/Script/ArenaBattle"),
 		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABPlayerState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABPlayerState_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

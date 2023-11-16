@@ -20,12 +20,14 @@ struct FHitResult;
 #define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABSection_h_12_SPARSE_DATA
 #define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABSection_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnKeyNPCDestroyed); \
 	DECLARE_FUNCTION(execOnGateTriggerBeginOverlap); \
 	DECLARE_FUNCTION(execOnTriggerBeginOverlap);
 
 
 #define FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABSection_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnKeyNPCDestroyed); \
 	DECLARE_FUNCTION(execOnGateTriggerBeginOverlap); \
 	DECLARE_FUNCTION(execOnTriggerBeginOverlap);
 

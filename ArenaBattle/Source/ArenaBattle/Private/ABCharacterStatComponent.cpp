@@ -80,3 +80,8 @@ float UABCharacterStatComponent::GetHPRatio()
 	return (CurrentStatData->MaxHP < KINDA_SMALL_NUMBER) ? 0.0f : (CurrentHP / CurrentStatData->MaxHP);
 }
 
+float UABCharacterStatComponent::GetDropExp() const
+{
+	return CurrentStatData->DropExp;
+}
+
