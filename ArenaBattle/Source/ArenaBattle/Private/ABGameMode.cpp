@@ -6,7 +6,7 @@
 #include "ABPlayerController.h"
 #include "ABPlayerState.h"
 #include "ABGameState.h"
-	
+#include "EngineUtils.h"
 
 AABGameMode::AABGameMode()
 {
@@ -14,6 +14,7 @@ AABGameMode::AABGameMode()
 	PlayerControllerClass = AABPlayerController::StaticClass();
 	PlayerStateClass = AABPlayerState::StaticClass();
 	GameStateClass = AABGameState::StaticClass();
+	ScoreToClear = 2;
 }
 
 void AABGameMode::PostInitializeComponents()
@@ -44,4 +45,32 @@ void AABGameMode::AddScore(class AABPlayerController* Player)
 	}
 
 	ABGameState->AddGameScore();
+
+	if (GetScore() >= ScoreToClear)
+	{
+		ABGameState->SetGameCleared();
+
+		for (TActorIterator<APawn> It(GetWorld()); It; ++It)
+		{
+			APawn* CurrentPawn = *It;
+			if (CurrentPawn)
+			{
+				CurrentPawn->TurnOff();
+			}
+		}
+
+		for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; It++)
+		{
+			const auto ABPlayerController = Cast<AABPlayerController>(It->Get());
+			if (ABPlayerController != nullptr)
+			{
+				ABPlayerController->ShowResultUI();
+			}
+		}
+	}
+}
+
+int AABGameMode::GetScore() const
+{
+	return ABGameState->GetTotalGameScore();
 }

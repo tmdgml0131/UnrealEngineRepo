@@ -14,14 +14,18 @@ class ARENABATTLE_API AABGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
 	AABGameMode();
 
-public:
 	virtual void PostInitializeComponents() override;
 	virtual void PostLogin(APlayerController* NewPlayer) override;
 	void AddScore(class AABPlayerController* Player);
+	int GetScore() const;
 
 private:
 	UPROPERTY()
 	class AABGameState* ABGameState;
+
+	UPROPERTY()
+	int32 ScoreToClear;
 };

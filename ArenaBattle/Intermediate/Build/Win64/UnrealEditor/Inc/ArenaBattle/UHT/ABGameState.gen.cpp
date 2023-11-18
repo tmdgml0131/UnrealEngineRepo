@@ -32,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeABGameState() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_TotalGameScore_MetaData[];
 #endif
 		static const UECodeGen_Private::FIntPropertyParams NewProp_TotalGameScore;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bGameCleared_MetaData[];
+#endif
+		static void NewProp_bGameCleared_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bGameCleared;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -55,8 +60,19 @@ void EmptyLinkFunctionForGeneratedCodeABGameState() {}
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AABGameState_Statics::NewProp_TotalGameScore = { "TotalGameScore", nullptr, (EPropertyFlags)0x0040000000002000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AABGameState, TotalGameScore), METADATA_PARAMS(Z_Construct_UClass_AABGameState_Statics::NewProp_TotalGameScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABGameState_Statics::NewProp_TotalGameScore_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AABGameState_Statics::NewProp_bGameCleared_MetaData[] = {
+		{ "ModuleRelativePath", "Public/ABGameState.h" },
+	};
+#endif
+	void Z_Construct_UClass_AABGameState_Statics::NewProp_bGameCleared_SetBit(void* Obj)
+	{
+		((AABGameState*)Obj)->bGameCleared = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AABGameState_Statics::NewProp_bGameCleared = { "bGameCleared", nullptr, (EPropertyFlags)0x0040000000002000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AABGameState), &Z_Construct_UClass_AABGameState_Statics::NewProp_bGameCleared_SetBit, METADATA_PARAMS(Z_Construct_UClass_AABGameState_Statics::NewProp_bGameCleared_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AABGameState_Statics::NewProp_bGameCleared_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AABGameState_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABGameState_Statics::NewProp_TotalGameScore,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AABGameState_Statics::NewProp_bGameCleared,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AABGameState_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AABGameState>::IsAbstract,
@@ -95,9 +111,9 @@ void EmptyLinkFunctionForGeneratedCodeABGameState() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABGameState_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AABGameState, AABGameState::StaticClass, TEXT("AABGameState"), &Z_Registration_Info_UClass_AABGameState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABGameState), 21405397U) },
+		{ Z_Construct_UClass_AABGameState, AABGameState::StaticClass, TEXT("AABGameState"), &Z_Registration_Info_UClass_AABGameState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AABGameState), 969867586U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABGameState_h_2336817571(TEXT("/Script/ArenaBattle"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABGameState_h_1008336639(TEXT("/Script/ArenaBattle"),
 		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABGameState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_ArenaBattle_Source_ArenaBattle_Public_ABGameState_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
