@@ -3,6 +3,7 @@
 
 # test
 *.test
+*.ucas
 
 ### UnrealEngine ###
 # Visual Studio 2015 user specific files

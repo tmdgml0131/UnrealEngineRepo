@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MPTesting",
+			"Path": "F:\\Git\\UnrealEngineRepo\\MPTesting\\Source\\MPTesting.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MPTestingEditor",
+			"Path": "F:\\Git\\UnrealEngineRepo\\MPTesting\\Source\\MPTestingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
