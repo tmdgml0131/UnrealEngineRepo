@@ -9,6 +9,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Kismet/GameplayStatics.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -63,6 +64,31 @@ void AMPTestingCharacter::BeginPlay()
 		{
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
+	}
+}
+
+void AMPTestingCharacter::OpenLobby()
+{
+	UWorld* World = GetWorld();
+
+	if (World)
+	{
+		World->ServerTravel("/Game/ThirdPerson/Maps/Lobby?listen");											// 로비 레벨로 간다. 로비 레벨은 Listen 서버로 설정된다.
+	}
+}
+
+void AMPTestingCharacter::CallOpenLevel(const FString& Address)
+{
+	UGameplayStatics::OpenLevel(this, *Address);															// 서버에 접속한 모든 사용자를 이동 시키는 함수
+}
+
+void AMPTestingCharacter::CallClientTravel(const FString& Address)
+{
+	APlayerController* PlayerController = GetGameInstance()->GetFirstLocalPlayerController();
+
+	if (PlayerController)
+	{
+		PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);								// 특정 플레이어만 이동 시키는 함수
 	}
 }
 

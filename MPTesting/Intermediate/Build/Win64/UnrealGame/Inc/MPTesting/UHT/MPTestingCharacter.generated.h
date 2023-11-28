@@ -15,8 +15,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MPTESTING_MPTestingCharacter_generated_h
 
 #define FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_14_SPARSE_DATA
-#define FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_14_RPC_WRAPPERS
-#define FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCallClientTravel); \
+	DECLARE_FUNCTION(execCallOpenLevel); \
+	DECLARE_FUNCTION(execOpenLobby);
+
+
+#define FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCallClientTravel); \
+	DECLARE_FUNCTION(execCallOpenLevel); \
+	DECLARE_FUNCTION(execOpenLobby);
+
+
 #define FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_14_ACCESSORS
 #define FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \

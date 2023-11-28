@@ -18,8 +18,140 @@ void EmptyLinkFunctionForGeneratedCodeMPTestingCharacter() {}
 	MPTESTING_API UClass* Z_Construct_UClass_AMPTestingCharacter_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_MPTesting();
 // End Cross Module References
+	DEFINE_FUNCTION(AMPTestingCharacter::execCallClientTravel)
+	{
+		P_GET_PROPERTY(FStrProperty,Z_Param_Address);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->CallClientTravel(Z_Param_Address);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMPTestingCharacter::execCallOpenLevel)
+	{
+		P_GET_PROPERTY(FStrProperty,Z_Param_Address);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->CallOpenLevel(Z_Param_Address);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AMPTestingCharacter::execOpenLobby)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OpenLobby();
+		P_NATIVE_END;
+	}
 	void AMPTestingCharacter::StaticRegisterNativesAMPTestingCharacter()
 	{
+		UClass* Class = AMPTestingCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "CallClientTravel", &AMPTestingCharacter::execCallClientTravel },
+			{ "CallOpenLevel", &AMPTestingCharacter::execCallOpenLevel },
+			{ "OpenLobby", &AMPTestingCharacter::execOpenLobby },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics
+	{
+		struct MPTestingCharacter_eventCallClientTravel_Parms
+		{
+			FString Address;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Address_MetaData[];
+#endif
+		static const UECodeGen_Private::FStrPropertyParams NewProp_Address;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::NewProp_Address_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::NewProp_Address = { "Address", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MPTestingCharacter_eventCallClientTravel_Parms, Address), METADATA_PARAMS(Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::NewProp_Address_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::NewProp_Address_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::NewProp_Address,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MPTestingCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMPTestingCharacter, nullptr, "CallClientTravel", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::MPTestingCharacter_eventCallClientTravel_Parms), Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics
+	{
+		struct MPTestingCharacter_eventCallOpenLevel_Parms
+		{
+			FString Address;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Address_MetaData[];
+#endif
+		static const UECodeGen_Private::FStrPropertyParams NewProp_Address;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::NewProp_Address_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::NewProp_Address = { "Address", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MPTestingCharacter_eventCallOpenLevel_Parms, Address), METADATA_PARAMS(Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::NewProp_Address_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::NewProp_Address_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::NewProp_Address,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MPTestingCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMPTestingCharacter, nullptr, "CallOpenLevel", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::MPTestingCharacter_eventCallOpenLevel_Parms), Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMPTestingCharacter_OpenLobby_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMPTestingCharacter_OpenLobby_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MPTestingCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMPTestingCharacter_OpenLobby_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMPTestingCharacter, nullptr, "OpenLobby", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMPTestingCharacter_OpenLobby_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMPTestingCharacter_OpenLobby_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMPTestingCharacter_OpenLobby()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMPTestingCharacter_OpenLobby_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AMPTestingCharacter);
 	UClass* Z_Construct_UClass_AMPTestingCharacter_NoRegister()
@@ -29,6 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeMPTestingCharacter() {}
 	struct Z_Construct_UClass_AMPTestingCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -63,6 +196,11 @@ void EmptyLinkFunctionForGeneratedCodeMPTestingCharacter() {}
 	UObject* (*const Z_Construct_UClass_AMPTestingCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_MPTesting,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AMPTestingCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMPTestingCharacter_CallClientTravel, "CallClientTravel" }, // 3115113561
+		{ &Z_Construct_UFunction_AMPTestingCharacter_CallOpenLevel, "CallOpenLevel" }, // 3043338301
+		{ &Z_Construct_UFunction_AMPTestingCharacter_OpenLobby, "OpenLobby" }, // 386953202
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMPTestingCharacter_Statics::Class_MetaDataParams[] = {
@@ -149,11 +287,11 @@ void EmptyLinkFunctionForGeneratedCodeMPTestingCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AMPTestingCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AMPTestingCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -178,9 +316,9 @@ void EmptyLinkFunctionForGeneratedCodeMPTestingCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMPTestingCharacter, AMPTestingCharacter::StaticClass, TEXT("AMPTestingCharacter"), &Z_Registration_Info_UClass_AMPTestingCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMPTestingCharacter), 4143689293U) },
+		{ Z_Construct_UClass_AMPTestingCharacter, AMPTestingCharacter::StaticClass, TEXT("AMPTestingCharacter"), &Z_Registration_Info_UClass_AMPTestingCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMPTestingCharacter), 1044128332U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_1710774264(TEXT("/Script/MPTesting"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_37747849(TEXT("/Script/MPTesting"),
 		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_MPTesting_Source_MPTesting_MPTestingCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

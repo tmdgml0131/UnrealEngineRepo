@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\Git\\UnrealEngineRepo\\MenuSystem\\Source\\MenuSystem\\MenuSystem.Build.cs",
+		"F:\\Git\\UnrealEngineRepo\\MenuSystem\\Source\\MenuSystem.Target.cs",
+		"F:\\Git\\UnrealEngineRepo\\MenuSystem\\Source\\MenuSystemEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}
