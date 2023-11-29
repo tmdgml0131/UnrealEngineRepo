@@ -17,11 +17,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_Git_UnrealEngineRepo_MenuSystem_Source_MenuSystem_MenuSystemCharacter_h_16_SPARSE_DATA
 #define FID_Git_UnrealEngineRepo_MenuSystem_Source_MenuSystem_MenuSystemCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execJoinGameSession); \
 	DECLARE_FUNCTION(execCreateGameSession);
 
 
 #define FID_Git_UnrealEngineRepo_MenuSystem_Source_MenuSystem_MenuSystemCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execJoinGameSession); \
 	DECLARE_FUNCTION(execCreateGameSession);
 
 

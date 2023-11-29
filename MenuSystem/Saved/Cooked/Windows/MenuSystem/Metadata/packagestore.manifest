@@ -337,6 +337,14 @@
 			"ChunkId": "4eefe050ec0582d800000001"
 		},
 		{
+			"Path": "Engine/Content/EngineMaterials/BlendFunc_DefBase.uasset",
+			"ChunkId": "34b40296d0d3844e00000001"
+		},
+		{
+			"Path": "Engine/Content/EngineMaterials/BlendFunc_DefBlend.uasset",
+			"ChunkId": "b1dd9666d4d25cf600000001"
+		},
+		{
 			"Path": "Engine/Content/EngineMaterials/DefaultBloomKernel.uasset",
 			"ChunkId": "cbab6b01dd8b7ffe00000001"
 		},
@@ -749,6 +757,10 @@
 			"ChunkId": "4762b775bfe4b22d00000001"
 		},
 		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.uasset",
+			"ChunkId": "f0bdde7a2df6543900000001"
+		},
+		{
 			"Path": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset",
 			"ChunkId": "b5db971094e28fc500000001"
 		},
@@ -773,6 +785,14 @@
 			"ChunkId": "f8e206283906657a00000001"
 		},
 		{
+			"Path": "Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset",
+			"ChunkId": "15d0ea2c4d43c43c00000001"
+		},
+		{
+			"Path": "Engine/Content/MapTemplates/SM_Template_Map_Floor.ubulk",
+			"ChunkId": "15d0ea2c4d43c43c00000002"
+		},
+		{
 			"Path": "Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset",
 			"ChunkId": "37cdeb5ce1d3ccd800000001"
 		},
@@ -783,6 +803,26 @@
 		{
 			"Path": "Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset",
 			"ChunkId": "2a8ace463a029fae00000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/M_ProcGrid.uasset",
+			"ChunkId": "801dc51816054cd400000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/MF_ProcGrid.uasset",
+			"ChunkId": "1a175ae23ad6d41400000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/MI_ProcGrid.uasset",
+			"ChunkId": "ab6e8d7a46c9d53c00000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/T_GridChecker_A.uasset",
+			"ChunkId": "eb26c788a1a10ea100000001"
+		},
+		{
+			"Path": "Engine/Content/OpenWorldTemplate/LandscapeMaterial/T_GridChecker_A.ubulk",
+			"ChunkId": "eb26c788a1a10ea100000002"
 		},
 		{
 			"Path": "Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset",
@@ -2225,6 +2265,10 @@
 			"ChunkId": "146cacb33d822f4400000001"
 		},
 		{
+			"Path": "MenuSystem/Content/ThirdPerson/Maps/Lobby.umap",
+			"ChunkId": "c009a738782f6a0600000001"
+		},
+		{
 			"Path": "MenuSystem/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
 			"ChunkId": "3b83b753e0b0474e00000001"
 		},
@@ -3199,6 +3243,18 @@
 			]
 		},
 		{
+			"Name": "/Engine/EngineMaterials/BlendFunc_DefBase",
+			"ExportBundleChunkIds": [
+				"34b40296d0d3844e00000001"
+			]
+		},
+		{
+			"Name": "/Engine/EngineMaterials/BlendFunc_DefBlend",
+			"ExportBundleChunkIds": [
+				"b1dd9666d4d25cf600000001"
+			]
+		},
+		{
 			"Name": "/Engine/EngineMaterials/DefaultBloomKernel",
 			"ExportBundleChunkIds": [
 				"cbab6b01dd8b7ffe00000001"
@@ -3778,6 +3834,12 @@
 			]
 		},
 		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay",
+			"ExportBundleChunkIds": [
+				"f0bdde7a2df6543900000001"
+			]
+		},
+		{
 			"Name": "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend",
 			"ExportBundleChunkIds": [
 				"b5db971094e28fc500000001"
@@ -3814,6 +3876,15 @@
 			]
 		},
 		{
+			"Name": "/Engine/MapTemplates/SM_Template_Map_Floor",
+			"ExportBundleChunkIds": [
+				"15d0ea2c4d43c43c00000001"
+			],
+			"BulkDataChunkIds": [
+				"15d0ea2c4d43c43c00000002"
+			]
+		},
+		{
 			"Name": "/Engine/MobileResources/HUD/DefaultVirtualJoysticks",
 			"ExportBundleChunkIds": [
 				"37cdeb5ce1d3ccd800000001"
@@ -3829,6 +3900,33 @@
 			"Name": "/Engine/MobileResources/HUD/VirtualJoystick_Thumb",
 			"ExportBundleChunkIds": [
 				"2a8ace463a029fae00000001"
+			]
+		},
+		{
+			"Name": "/Engine/OpenWorldTemplate/LandscapeMaterial/M_ProcGrid",
+			"ExportBundleChunkIds": [
+				"801dc51816054cd400000001"
+			]
+		},
+		{
+			"Name": "/Engine/OpenWorldTemplate/LandscapeMaterial/MF_ProcGrid",
+			"ExportBundleChunkIds": [
+				"1a175ae23ad6d41400000001"
+			]
+		},
+		{
+			"Name": "/Engine/OpenWorldTemplate/LandscapeMaterial/MI_ProcGrid",
+			"ExportBundleChunkIds": [
+				"ab6e8d7a46c9d53c00000001"
+			]
+		},
+		{
+			"Name": "/Engine/OpenWorldTemplate/LandscapeMaterial/T_GridChecker_A",
+			"ExportBundleChunkIds": [
+				"eb26c788a1a10ea100000001"
+			],
+			"BulkDataChunkIds": [
+				"eb26c788a1a10ea100000002"
 			]
 		},
 		{
@@ -5020,6 +5118,12 @@
 			"Name": "/Game/ThirdPerson/Input/IMC_Default",
 			"ExportBundleChunkIds": [
 				"146cacb33d822f4400000001"
+			]
+		},
+		{
+			"Name": "/Game/ThirdPerson/Maps/Lobby",
+			"ExportBundleChunkIds": [
+				"c009a738782f6a0600000001"
 			]
 		},
 		{
