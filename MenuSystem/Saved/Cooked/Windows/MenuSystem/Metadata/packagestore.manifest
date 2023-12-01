@@ -2279,6 +2279,10 @@
 		{
 			"Path": "MenuSystem/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.ubulk",
 			"ChunkId": "0e473a8317c34d1100000002"
+		},
+		{
+			"Path": "MenuSystem/Plugins/MultiplayerSessions/Content/WBP_Menu.uasset",
+			"ChunkId": "1fef851504b88ced00000001"
 		}
 	],
 	"Packages": [
@@ -5184,6 +5188,12 @@
 			"Name": "/MeshModelingToolset/Materials/M_DynamicMeshComponentVtxColor",
 			"ExportBundleChunkIds": [
 				"f1ebd6418dba317a00000001"
+			]
+		},
+		{
+			"Name": "/MultiplayerSessions/WBP_Menu",
+			"ExportBundleChunkIds": [
+				"1fef851504b88ced00000001"
 			]
 		},
 		{
