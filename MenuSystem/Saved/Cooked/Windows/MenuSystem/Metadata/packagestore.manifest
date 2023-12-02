@@ -2245,6 +2245,10 @@
 			"ChunkId": "4fec0163af43e6cc00000002"
 		},
 		{
+			"Path": "MenuSystem/Content/ThirdPerson/Blueprints/BP_LobbyGameMode.uasset",
+			"ChunkId": "3e251a004884db1100000001"
+		},
+		{
 			"Path": "MenuSystem/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 			"ChunkId": "d46ee1d581cd085100000001"
 		},
@@ -5092,6 +5096,12 @@
 			],
 			"BulkDataChunkIds": [
 				"4fec0163af43e6cc00000002"
+			]
+		},
+		{
+			"Name": "/Game/ThirdPerson/Blueprints/BP_LobbyGameMode",
+			"ExportBundleChunkIds": [
+				"3e251a004884db1100000001"
 			]
 		},
 		{
