@@ -99,17 +99,35 @@
     <ClInclude Include="..\..\Source\Blaster\Blaster.h">
       <Filter>Source\Blaster</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Blaster\BlasterCharacter.cpp">
-      <Filter>Source\Blaster</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Blaster\BlasterCharacter.h">
-      <Filter>Source\Blaster</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\Blaster\BlasterGameModeBase.cpp">
       <Filter>Source\Blaster</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Blaster\BlasterGameModeBase.h">
       <Filter>Source\Blaster</Filter>
+    </ClInclude>
+    <Filter Include="Source\Blaster\Character">
+      <UniqueIdentifier>{DE1BD488-6B84-307A-9BE6-F714F6EBF278}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blaster\Character\BlasterAnimInstance.cpp">
+      <Filter>Source\Blaster\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\Character\BlasterAnimInstance.h">
+      <Filter>Source\Blaster\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Blaster\Character\BlasterCharacter.cpp">
+      <Filter>Source\Blaster\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\Character\BlasterCharacter.h">
+      <Filter>Source\Blaster\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\Blaster\GameMode">
+      <UniqueIdentifier>{3EA2507D-5ADC-33F4-AB1D-9213C5883358}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blaster\GameMode\LobbyGameMode.cpp">
+      <Filter>Source\Blaster\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\GameMode\LobbyGameMode.h">
+      <Filter>Source\Blaster\GameMode</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

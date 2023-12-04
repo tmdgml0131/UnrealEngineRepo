@@ -1,796 +1,532 @@
 {
 	"Files": [
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
-			"ChunkId": "0d47b2b552204c3100000001"
+			"Path": "Blaster/Content/Blueprints/Character/Animation/BlasterAnimBP.uasset",
+			"ChunkId": "63ff88b9225bea6000000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset",
-			"ChunkId": "691fe18426aa92ca00000001"
+			"Path": "Blaster/Content/Blueprints/Character/Animation/UnequippedIdleWalkRun.uasset",
+			"ChunkId": "58f0be22713547e400000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset",
-			"ChunkId": "ee65967208d199d400000001"
+			"Path": "Blaster/Content/Blueprints/Character/BP_BlasterCharacter.uasset",
+			"ChunkId": "86a18e518fe22edd00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Manny/MM_Fall_Loop.uasset",
-			"ChunkId": "eb907257d54308b600000001"
+			"Path": "Blaster/Content/Blueprints/GameMode/BP_LobbyGameMode.uasset",
+			"ChunkId": "9e0a115bce89003900000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Manny/MM_Idle.uasset",
-			"ChunkId": "4826eff1c35ff54a00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Functions/MF_ColorMask.uasset",
+			"ChunkId": "ee48f6374e5585f200000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Manny/MM_Jump.uasset",
-			"ChunkId": "71b872a6a25ad46800000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Functions/MF_MasterMaterialFunction.uasset",
+			"ChunkId": "96f7cdd1681c644e00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Manny/MM_Land.uasset",
-			"ChunkId": "b0264acc981aa99f00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Functions/MF_MasterObjectGradient.uasset",
+			"ChunkId": "93fa357acdd51ad700000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset",
-			"ChunkId": "f23390565f82a10e00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Materials/M_LearningKit_Foliage_Master.uasset",
+			"ChunkId": "13a58baa3f2255d700000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset",
-			"ChunkId": "c49dcfdee6cfcd7b00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Materials/M_LearningKit_MasterGradient.uasset",
+			"ChunkId": "9054ea3da169894500000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Manny/MM_Walk_InPlace.uasset",
-			"ChunkId": "5e13db391c6522d300000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Materials/M_LearningKit_MasterMaterial.uasset",
+			"ChunkId": "72b70efba311ac4e00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun.uasset",
-			"ChunkId": "b84aa2679adfcfcf00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Materials/MI_Grass_BaseInstance.uasset",
+			"ChunkId": "cce208cf4ed78a3900000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Quinn/MF_Idle.uasset",
-			"ChunkId": "50841f0a48c7a3bb00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Materials/MI_Opaque_BaseInstance.uasset",
+			"ChunkId": "9298bc6fe7b92cdf00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.uasset",
-			"ChunkId": "9e4040bccc56f95c00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_ARM.uasset",
+			"ChunkId": "9891c18d854de3e800000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.uasset",
-			"ChunkId": "9eed6c7b9d2c9b8100000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_ARM.ubulk",
+			"ChunkId": "9891c18d854de3e800000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Materials/Functions/CA_Mannequin.uasset",
-			"ChunkId": "2d363b27bc05999600000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_BC.uasset",
+			"ChunkId": "e7d96d29456d5a0000000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Materials/Functions/ChromaticCurve.uasset",
-			"ChunkId": "2e1138d8ab1e76f000000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_BC.ubulk",
+			"ChunkId": "e7d96d29456d5a0000000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Materials/Functions/MF_Diffraction.uasset",
-			"ChunkId": "b244a991402ed24400000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_E.uasset",
+			"ChunkId": "d3ae71816543d96500000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Materials/Functions/MF_logo3layers.uasset",
-			"ChunkId": "5c3641809979caae00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_E.ubulk",
+			"ChunkId": "d3ae71816543d96500000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Materials/Functions/ML_BaseColorFallOff.uasset",
-			"ChunkId": "63e7a2b93191fb1d00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_N.uasset",
+			"ChunkId": "8cd5a8705862922200000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01.uasset",
-			"ChunkId": "15b55d540fa5a03d00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_N.ubulk",
+			"ChunkId": "8cd5a8705862922200000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02.uasset",
-			"ChunkId": "5a6e8d8b7df0764400000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_O.uasset",
+			"ChunkId": "b3ffef6ec713632b00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Materials/M_Mannequin.uasset",
-			"ChunkId": "0fe77467488343e300000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_O.ubulk",
+			"ChunkId": "b3ffef6ec713632b00000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
-			"ChunkId": "ac89e33c10df405300000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_RGB.uasset",
+			"ChunkId": "388fe07004c2ee8600000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Meshes/SKM_Quinn_Simple.uasset",
-			"ChunkId": "5f76d67f82402c9700000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Default_RGB.ubulk",
+			"ChunkId": "388fe07004c2ee8600000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK.uasset",
-			"ChunkId": "d18ddd4f6e3af61000000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Grass_Tile_ARM.uasset",
+			"ChunkId": "a1e24aae443510ca00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Rigs/PA_Mannequin.uasset",
-			"ChunkId": "9e86c40780915c5c00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Grass_Tile_ARM.ubulk",
+			"ChunkId": "a1e24aae443510ca00000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset",
-			"ChunkId": "c58ca88ee9bef84d00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Grass_Tile_D.uasset",
+			"ChunkId": "620412e4bcfd930b00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.ubulk",
-			"ChunkId": "c58ca88ee9bef84d00000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/_Shared/Textures/T_Grass_Tile_D.ubulk",
+			"ChunkId": "620412e4bcfd930b00000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_BN.uasset",
-			"ChunkId": "1bd46f252a7c31e500000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_Celebrate.uasset",
+			"ChunkId": "5809b6106ed1e30800000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_BN.ubulk",
-			"ChunkId": "1bd46f252a7c31e500000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_Idle.uasset",
+			"ChunkId": "ca336937f3a613ae00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset",
-			"ChunkId": "3820d131464b39af00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_JumpUp_End.uasset",
+			"ChunkId": "3dc5ae3eef54dfcf00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.ubulk",
-			"ChunkId": "3820d131464b39af00000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_JumpUp_Loop.uasset",
+			"ChunkId": "e5846ec00ba0d70000000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_D.uasset",
-			"ChunkId": "3d85e2a62071581500000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_JumpUp_Start.uasset",
+			"ChunkId": "3dd5bb7f219cfa2c00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_D.ubulk",
-			"ChunkId": "3d85e2a62071581500000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_Run.uasset",
+			"ChunkId": "10862da2cdd02ebd00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK.uasset",
-			"ChunkId": "ae120f8c9bc5140600000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_Walk.uasset",
+			"ChunkId": "f7aec849a1803ce900000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK.ubulk",
-			"ChunkId": "ae120f8c9bc5140600000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/M_EpicCharacter_Optimized.uasset",
+			"ChunkId": "66b59d0dae4dfcf600000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_N.uasset",
-			"ChunkId": "08393f9258c11e8c00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Backpack.uasset",
+			"ChunkId": "a6bc31ad5184092000000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_N.ubulk",
-			"ChunkId": "08393f9258c11e8c00000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_BedRoll.uasset",
+			"ChunkId": "91c0f1b8c06310e500000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan.uasset",
-			"ChunkId": "66c08c0da8d2774100000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Boots.uasset",
+			"ChunkId": "d824d64e9e782b2600000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan.ubulk",
-			"ChunkId": "66c08c0da8d2774100000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Head.uasset",
+			"ChunkId": "e346650b5d58d91700000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK.uasset",
-			"ChunkId": "23dd3e8d3617f13500000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Hood.uasset",
+			"ChunkId": "8f637e50980924dd00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK.ubulk",
-			"ChunkId": "23dd3e8d3617f13500000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Skin.uasset",
+			"ChunkId": "cb436042a858eab600000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK.uasset",
-			"ChunkId": "4ddb95c392a4a4a000000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_SleevesShorts.uasset",
+			"ChunkId": "802c28b7d98e5c3c00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK.ubulk",
-			"ChunkId": "4ddb95c392a4a4a000000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Tunic.uasset",
+			"ChunkId": "e7c9db306be73d3100000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_BN.uasset",
-			"ChunkId": "e1f21fdee4299d4d00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter.uasset",
+			"ChunkId": "4de3754e300d935600000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_BN.ubulk",
-			"ChunkId": "e1f21fdee4299d4d00000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Optimized.uasset",
+			"ChunkId": "d42a88a0a77a2e4000000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_D.uasset",
-			"ChunkId": "2b269e06bf50ec2900000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Physics.uasset",
+			"ChunkId": "f1fcf270f9936a7400000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_D.ubulk",
-			"ChunkId": "2b269e06bf50ec2900000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Skeleton.uasset",
+			"ChunkId": "426606d8a99fd80800000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_MSR_MSK.uasset",
-			"ChunkId": "e50ea8890369ab4200000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_ARM.uasset",
+			"ChunkId": "9d47292cd34c5c4e00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_MSR_MSK.ubulk",
-			"ChunkId": "e50ea8890369ab4200000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_ARM.ubulk",
+			"ChunkId": "9d47292cd34c5c4e00000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_N.uasset",
-			"ChunkId": "470bc2a9e03aa87b00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_ARM.uasset",
+			"ChunkId": "4e58e5d9cd50965c00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_N.ubulk",
-			"ChunkId": "470bc2a9e03aa87b00000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_ARM.ubulk",
+			"ChunkId": "4e58e5d9cd50965c00000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_Tan.uasset",
-			"ChunkId": "225060142d888d8400000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_BC.uasset",
+			"ChunkId": "aff1403dea7a14b500000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_Tan.ubulk",
-			"ChunkId": "225060142d888d8400000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_BC.ubulk",
+			"ChunkId": "aff1403dea7a14b500000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK.uasset",
-			"ChunkId": "719e062740f44cf400000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_RGB.uasset",
+			"ChunkId": "6d71435508b08d6400000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK.ubulk",
-			"ChunkId": "719e062740f44cf400000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_RGB.ubulk",
+			"ChunkId": "6d71435508b08d6400000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK.uasset",
-			"ChunkId": "c3a4e07766e62de800000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_BCE.uasset",
+			"ChunkId": "3127b7187c57f9f400000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK.ubulk",
-			"ChunkId": "c3a4e07766e62de800000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_BCE.ubulk",
+			"ChunkId": "3127b7187c57f9f400000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_BN.uasset",
-			"ChunkId": "68780ec3985eaa7600000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_ARM.uasset",
+			"ChunkId": "26ca41e12f9a717f00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_BN.ubulk",
-			"ChunkId": "68780ec3985eaa7600000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_ARM.ubulk",
+			"ChunkId": "26ca41e12f9a717f00000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_D.uasset",
-			"ChunkId": "25e3bcbb0dfb0bd500000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_BC.uasset",
+			"ChunkId": "bf2310f4f75f859a00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_D.ubulk",
-			"ChunkId": "25e3bcbb0dfb0bd500000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_BC.ubulk",
+			"ChunkId": "bf2310f4f75f859a00000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_MSR_MSK.uasset",
-			"ChunkId": "94269e3f61cd9dec00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_RGB.uasset",
+			"ChunkId": "3c82a7cef1b0d16300000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_MSR_MSK.ubulk",
-			"ChunkId": "94269e3f61cd9dec00000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_RGB.ubulk",
+			"ChunkId": "3c82a7cef1b0d16300000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_N.uasset",
-			"ChunkId": "c0b125fc839e07ea00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_ARM.uasset",
+			"ChunkId": "245169a6342eac8d00000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_N.ubulk",
-			"ChunkId": "c0b125fc839e07ea00000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_ARM.ubulk",
+			"ChunkId": "245169a6342eac8d00000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_Tan.uasset",
-			"ChunkId": "737b306ed562664700000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_BC.uasset",
+			"ChunkId": "9434eebee151f09800000001"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_Tan.ubulk",
-			"ChunkId": "737b306ed562664700000002"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_BC.ubulk",
+			"ChunkId": "9434eebee151f09800000002"
 		},
 		{
-			"Path": "Blaster/Content/Characters/Mannequins/Textures/Shared/T_UE_Logo_M.uasset",
-			"ChunkId": "76414a1d577db14f00000001"
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_RGB.uasset",
+			"ChunkId": "bd94aad70238accd00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_RGB.ubulk",
+			"ChunkId": "bd94aad70238accd00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Colors.uasset",
+			"ChunkId": "b982f71fc4ed06a100000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Colors.ubulk",
+			"ChunkId": "b982f71fc4ed06a100000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_ARM.uasset",
+			"ChunkId": "148c3023c7206c2b00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_ARM.ubulk",
+			"ChunkId": "148c3023c7206c2b00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_BC.uasset",
+			"ChunkId": "cde7d91a7c635f1000000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_BC.ubulk",
+			"ChunkId": "cde7d91a7c635f1000000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_E.uasset",
+			"ChunkId": "76225a0d7066150f00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_E.ubulk",
+			"ChunkId": "76225a0d7066150f00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_RGB.uasset",
+			"ChunkId": "ed4df05c72f49b4b00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_RGB.ubulk",
+			"ChunkId": "ed4df05c72f49b4b00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_ARM.uasset",
+			"ChunkId": "e293156c53df6d6100000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_ARM.ubulk",
+			"ChunkId": "e293156c53df6d6100000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_BC.uasset",
+			"ChunkId": "19faa7984cf09a9e00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_BC.ubulk",
+			"ChunkId": "19faa7984cf09a9e00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_RGB.uasset",
+			"ChunkId": "39d2916b4380ecae00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_RGB.ubulk",
+			"ChunkId": "39d2916b4380ecae00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_ARM.uasset",
+			"ChunkId": "cf4994a95ff9a7b400000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_ARM.ubulk",
+			"ChunkId": "cf4994a95ff9a7b400000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_BC.uasset",
+			"ChunkId": "48754ec84ebfba4300000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_BC.ubulk",
+			"ChunkId": "48754ec84ebfba4300000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_RGB.uasset",
+			"ChunkId": "66c83e254d65d9e500000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_RGB.ubulk",
+			"ChunkId": "66c83e254d65d9e500000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_ARM.uasset",
+			"ChunkId": "d2d70ef171f9fb9500000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_ARM.ubulk",
+			"ChunkId": "d2d70ef171f9fb9500000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_BC.uasset",
+			"ChunkId": "9a221d927d491b4700000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_BC.ubulk",
+			"ChunkId": "9a221d927d491b4700000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_RGB.uasset",
+			"ChunkId": "d1ea94d6062e257e00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_RGB.ubulk",
+			"ChunkId": "d1ea94d6062e257e00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_ARM.uasset",
+			"ChunkId": "ac6ebe605b7c8d9c00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_ARM.ubulk",
+			"ChunkId": "ac6ebe605b7c8d9c00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_BC.uasset",
+			"ChunkId": "278f5df5e3a1fc3f00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_BC.ubulk",
+			"ChunkId": "278f5df5e3a1fc3f00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_E.uasset",
+			"ChunkId": "20e056030c83dded00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_E.ubulk",
+			"ChunkId": "20e056030c83dded00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_RGB.uasset",
+			"ChunkId": "9959fdf4ea1566f500000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_RGB.ubulk",
+			"ChunkId": "9959fdf4ea1566f500000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Material/MI_FloatingIsland_Bot.uasset",
+			"ChunkId": "67131a1caffe808c00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Material/MI_FloatingIsland_Bot_L.uasset",
+			"ChunkId": "593bcfbdb59d419900000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Material/MI_FloatingIsland_Ground.uasset",
+			"ChunkId": "78ff31fa84f7bb4400000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/SM_FloatingIsland_L.uasset",
+			"ChunkId": "b84577412490309500000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/SM_FloatingIsland_L.ubulk",
+			"ChunkId": "b84577412490309500000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_L_ARM.uasset",
+			"ChunkId": "2cb22933157145fd00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_L_ARM.ubulk",
+			"ChunkId": "2cb22933157145fd00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_L_BC.uasset",
+			"ChunkId": "76848d8092aaa5ee00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_L_BC.ubulk",
+			"ChunkId": "76848d8092aaa5ee00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_M_ARM.uasset",
+			"ChunkId": "191110e65965fc5600000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_M_ARM.ubulk",
+			"ChunkId": "191110e65965fc5600000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_M_BC.uasset",
+			"ChunkId": "c09124a92c3e774400000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_M_BC.ubulk",
+			"ChunkId": "c09124a92c3e774400000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Ground_ARM.uasset",
+			"ChunkId": "7a2e9d3b7131b99a00000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Ground_ARM.ubulk",
+			"ChunkId": "7a2e9d3b7131b99a00000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Ground_BC.uasset",
+			"ChunkId": "3f7f6e8fea2f4cc000000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Ground_BC.ubulk",
+			"ChunkId": "3f7f6e8fea2f4cc000000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/KitGround/SM_KitGround_Cobblestone_Corner.uasset",
+			"ChunkId": "d4e54879db70c3d300000001"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/Assets/Environment/KitGround/SM_KitGround_Cobblestone_Corner.ubulk",
+			"ChunkId": "d4e54879db70c3d300000002"
+		},
+		{
+			"Path": "Blaster/Content/LearningKit_Games/MaterialLibrary/ObjBasedGradients/MI_Grad_Cobblestone.uasset",
+			"ChunkId": "45ec6bf1b184cd0200000001"
+		},
+		{
+			"Path": "Blaster/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset",
+			"ChunkId": "dee22158a4e72f8300000001"
+		},
+		{
+			"Path": "Blaster/Content/LevelPrototyping/Materials/MF_ProcGrid.uasset",
+			"ChunkId": "61c71c1f791566ff00000001"
+		},
+		{
+			"Path": "Blaster/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset",
+			"ChunkId": "4fec0163af43e6cc00000001"
+		},
+		{
+			"Path": "Blaster/Content/LevelPrototyping/Textures/T_GridChecker_A.ubulk",
+			"ChunkId": "4fec0163af43e6cc00000002"
 		},
 		{
 			"Path": "Blaster/Content/Maps/GameStartupMap.umap",
 			"ChunkId": "26c28606c0af613300000001"
 		},
 		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-1.ubulk",
-			"ChunkId": "5df649af826d5cd900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-1.umap",
-			"ChunkId": "5df649af826d5cd900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-2.ubulk",
-			"ChunkId": "69ca544d6b0c5e5700000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-2.umap",
-			"ChunkId": "69ca544d6b0c5e5700000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-3.ubulk",
-			"ChunkId": "47364e724116132c00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-3.umap",
-			"ChunkId": "47364e724116132c00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-4.ubulk",
-			"ChunkId": "6b9c890c746b86c600000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-4.umap",
-			"ChunkId": "6b9c890c746b86c600000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y0.ubulk",
-			"ChunkId": "708fabaa7b4364da00000002"
-		},
-		{
 			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y0.umap",
 			"ChunkId": "708fabaa7b4364da00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y1.ubulk",
-			"ChunkId": "a7a85486968a545600000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y1.umap",
-			"ChunkId": "a7a85486968a545600000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y2.ubulk",
-			"ChunkId": "a40a7521e87a516d00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y2.umap",
-			"ChunkId": "a40a7521e87a516d00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y3.ubulk",
-			"ChunkId": "8fb17e30cd20e60900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y3.umap",
-			"ChunkId": "8fb17e30cd20e60900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-1.ubulk",
-			"ChunkId": "faa58f17dd87132f00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-1.umap",
-			"ChunkId": "faa58f17dd87132f00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-2.ubulk",
-			"ChunkId": "d2bbc31ffcd1545300000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-2.umap",
-			"ChunkId": "d2bbc31ffcd1545300000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-3.ubulk",
-			"ChunkId": "86b9f1ee6a005dd800000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-3.umap",
-			"ChunkId": "86b9f1ee6a005dd800000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-4.ubulk",
-			"ChunkId": "84ff6f0de82891e800000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-4.umap",
-			"ChunkId": "84ff6f0de82891e800000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y0.ubulk",
-			"ChunkId": "8a059605559b298500000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y0.umap",
-			"ChunkId": "8a059605559b298500000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y1.ubulk",
-			"ChunkId": "d2e00a5039f6cb6400000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y1.umap",
-			"ChunkId": "d2e00a5039f6cb6400000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y2.ubulk",
-			"ChunkId": "44c781c8074de10a00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y2.umap",
-			"ChunkId": "44c781c8074de10a00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y3.ubulk",
-			"ChunkId": "80a87371a8a9b6f000000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y3.umap",
-			"ChunkId": "80a87371a8a9b6f000000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-1.ubulk",
-			"ChunkId": "1672f0c6e25e3f4700000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-1.umap",
-			"ChunkId": "1672f0c6e25e3f4700000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-2.ubulk",
-			"ChunkId": "619dec451ddc67b900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-2.umap",
-			"ChunkId": "619dec451ddc67b900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-3.ubulk",
-			"ChunkId": "091313cd1912c61900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-3.umap",
-			"ChunkId": "091313cd1912c61900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-4.ubulk",
-			"ChunkId": "e2173388eefb2fff00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-4.umap",
-			"ChunkId": "e2173388eefb2fff00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y0.ubulk",
-			"ChunkId": "5412ca125681e73e00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y0.umap",
-			"ChunkId": "5412ca125681e73e00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y1.ubulk",
-			"ChunkId": "404bdb380dc07e3d00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y1.umap",
-			"ChunkId": "404bdb380dc07e3d00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y2.ubulk",
-			"ChunkId": "83d931a7ac1973b900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y2.umap",
-			"ChunkId": "83d931a7ac1973b900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y3.ubulk",
-			"ChunkId": "c33480c06fca624800000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y3.umap",
-			"ChunkId": "c33480c06fca624800000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-1.ubulk",
-			"ChunkId": "779eb988ad661d5400000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-1.umap",
-			"ChunkId": "779eb988ad661d5400000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-2.ubulk",
-			"ChunkId": "c5099479ca9fa74b00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-2.umap",
-			"ChunkId": "c5099479ca9fa74b00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-3.ubulk",
-			"ChunkId": "f75b1a245ecdac7000000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-3.umap",
-			"ChunkId": "f75b1a245ecdac7000000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-4.ubulk",
-			"ChunkId": "41ca66ecfa8b435500000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-4.umap",
-			"ChunkId": "41ca66ecfa8b435500000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y0.ubulk",
-			"ChunkId": "56727093fa39d67200000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y0.umap",
-			"ChunkId": "56727093fa39d67200000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y1.ubulk",
-			"ChunkId": "b00990aed1d5e16800000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y1.umap",
-			"ChunkId": "b00990aed1d5e16800000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y2.ubulk",
-			"ChunkId": "935b8170ce133dab00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y2.umap",
-			"ChunkId": "935b8170ce133dab00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y3.ubulk",
-			"ChunkId": "f26797196e29fd4700000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y3.umap",
-			"ChunkId": "f26797196e29fd4700000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-1.ubulk",
-			"ChunkId": "f1b576aa92a932d500000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-1.umap",
-			"ChunkId": "f1b576aa92a932d500000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-2.ubulk",
-			"ChunkId": "559ff5bf6a1c4a7900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-2.umap",
-			"ChunkId": "559ff5bf6a1c4a7900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-3.ubulk",
-			"ChunkId": "ffa126f843549e2100000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-3.umap",
-			"ChunkId": "ffa126f843549e2100000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-4.ubulk",
-			"ChunkId": "91a36610d020566100000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-4.umap",
-			"ChunkId": "91a36610d020566100000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y0.ubulk",
-			"ChunkId": "3f4663931623866900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y0.umap",
-			"ChunkId": "3f4663931623866900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y1.ubulk",
-			"ChunkId": "53a5f4ca75f5640a00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y1.umap",
-			"ChunkId": "53a5f4ca75f5640a00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y2.ubulk",
-			"ChunkId": "f9d2b2f4713abc9900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y2.umap",
-			"ChunkId": "f9d2b2f4713abc9900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y3.ubulk",
-			"ChunkId": "88d17d229f25640800000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y3.umap",
-			"ChunkId": "88d17d229f25640800000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-1.ubulk",
-			"ChunkId": "0d4580f991a6e8e100000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-1.umap",
-			"ChunkId": "0d4580f991a6e8e100000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-2.ubulk",
-			"ChunkId": "f0ec09f244f0ca6500000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-2.umap",
-			"ChunkId": "f0ec09f244f0ca6500000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-3.ubulk",
-			"ChunkId": "a557503423f7072200000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-3.umap",
-			"ChunkId": "a557503423f7072200000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-4.ubulk",
-			"ChunkId": "059b8538d91b8eac00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-4.umap",
-			"ChunkId": "059b8538d91b8eac00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y0.ubulk",
-			"ChunkId": "e5245baa8235146200000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y0.umap",
-			"ChunkId": "e5245baa8235146200000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y1.ubulk",
-			"ChunkId": "6d72108e929cb2e700000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y1.umap",
-			"ChunkId": "6d72108e929cb2e700000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y2.ubulk",
-			"ChunkId": "3db5874dd628f2fa00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y2.umap",
-			"ChunkId": "3db5874dd628f2fa00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y3.ubulk",
-			"ChunkId": "8528b6b305eac3ad00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y3.umap",
-			"ChunkId": "8528b6b305eac3ad00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-1.ubulk",
-			"ChunkId": "771508f6b1650cf600000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-1.umap",
-			"ChunkId": "771508f6b1650cf600000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-2.ubulk",
-			"ChunkId": "8d76a990b81cac6d00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-2.umap",
-			"ChunkId": "8d76a990b81cac6d00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-3.ubulk",
-			"ChunkId": "28ff45ae68aea16900000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-3.umap",
-			"ChunkId": "28ff45ae68aea16900000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-4.ubulk",
-			"ChunkId": "0e66524c52488fc300000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-4.umap",
-			"ChunkId": "0e66524c52488fc300000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y0.ubulk",
-			"ChunkId": "e7b757179758103b00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y0.umap",
-			"ChunkId": "e7b757179758103b00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y1.ubulk",
-			"ChunkId": "5641d25dcc83e15300000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y1.umap",
-			"ChunkId": "5641d25dcc83e15300000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y2.ubulk",
-			"ChunkId": "dfe03da1f17a2f7200000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y2.umap",
-			"ChunkId": "dfe03da1f17a2f7200000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y3.ubulk",
-			"ChunkId": "d65790087e83f99d00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y3.umap",
-			"ChunkId": "d65790087e83f99d00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-1.ubulk",
-			"ChunkId": "a958d36dc9127f7f00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-1.umap",
-			"ChunkId": "a958d36dc9127f7f00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-2.ubulk",
-			"ChunkId": "48e76309d06fa4ce00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-2.umap",
-			"ChunkId": "48e76309d06fa4ce00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-3.ubulk",
-			"ChunkId": "8ec88fbdcac58e2200000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-3.umap",
-			"ChunkId": "8ec88fbdcac58e2200000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-4.ubulk",
-			"ChunkId": "ad157520a6dd2d0100000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-4.umap",
-			"ChunkId": "ad157520a6dd2d0100000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y0.ubulk",
-			"ChunkId": "b7cea0d1c610204e00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y0.umap",
-			"ChunkId": "b7cea0d1c610204e00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y1.ubulk",
-			"ChunkId": "739b68b2c296a97300000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y1.umap",
-			"ChunkId": "739b68b2c296a97300000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y2.ubulk",
-			"ChunkId": "db17f9de3af5024c00000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y2.umap",
-			"ChunkId": "db17f9de3af5024c00000001"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y3.ubulk",
-			"ChunkId": "343f97435e54d45200000002"
-		},
-		{
-			"Path": "Blaster/Content/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y3.umap",
-			"ChunkId": "343f97435e54d45200000001"
 		},
 		{
 			"Path": "Blaster/Content/Maps/GameStartupMap_HLOD0_Instancing.uasset",
@@ -801,28 +537,8 @@
 			"ChunkId": "a487b74b842a847800000001"
 		},
 		{
-			"Path": "Blaster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-			"ChunkId": "d46ee1d581cd085100000001"
-		},
-		{
-			"Path": "Blaster/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
-			"ChunkId": "0aaf51852e83d7af00000001"
-		},
-		{
-			"Path": "Blaster/Content/ThirdPerson/Input/Actions/IA_Jump.uasset",
-			"ChunkId": "51925cd43539ce6a00000001"
-		},
-		{
-			"Path": "Blaster/Content/ThirdPerson/Input/Actions/IA_Look.uasset",
-			"ChunkId": "cd6350167305d1ce00000001"
-		},
-		{
-			"Path": "Blaster/Content/ThirdPerson/Input/Actions/IA_Move.uasset",
-			"ChunkId": "d6d4dca9117c266300000001"
-		},
-		{
-			"Path": "Blaster/Content/ThirdPerson/Input/IMC_Default.uasset",
-			"ChunkId": "146cacb33d822f4400000001"
+			"Path": "Blaster/Content/Maps/TransitionMap.umap",
+			"ChunkId": "9f2528a03c8d204200000001"
 		},
 		{
 			"Path": "Blaster/Plugins/MultiplayerSessions/Content/WBP_Menu.uasset",
@@ -887,10 +603,6 @@
 		{
 			"Path": "Engine/Content/BasicShapes/Sphere.ubulk",
 			"ChunkId": "4a782f60fcb4c26e00000002"
-		},
-		{
-			"Path": "Engine/Content/EditorBlueprintResources/StandardMacros.uasset",
-			"ChunkId": "72ff6427f1042ed200000001"
 		},
 		{
 			"Path": "Engine/Content/EditorLandscapeResources/DataLayer.uasset",
@@ -1217,6 +929,14 @@
 			"ChunkId": "b4d3126ba7954ec000000001"
 		},
 		{
+			"Path": "Engine/Content/EngineMaterials/DefaultNormal.uasset",
+			"ChunkId": "e790deb464e7a3d200000001"
+		},
+		{
+			"Path": "Engine/Content/EngineMaterials/DefaultNormal.ubulk",
+			"ChunkId": "e790deb464e7a3d200000002"
+		},
+		{
 			"Path": "Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset",
 			"ChunkId": "86f514aa5cdc08e700000001"
 		},
@@ -1363,6 +1083,10 @@
 		{
 			"Path": "Engine/Content/EngineMaterials/WorldGridMaterial.uasset",
 			"ChunkId": "eeb296b2a739309500000001"
+		},
+		{
+			"Path": "Engine/Content/EngineMeshes/Humanoid.uasset",
+			"ChunkId": "c74fd82786f88e6900000001"
 		},
 		{
 			"Path": "Engine/Content/EngineMeshes/Sphere.uasset",
@@ -1529,12 +1253,20 @@
 			"ChunkId": "6752d9e62e6e395700000001"
 		},
 		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Shading/FuzzyShading.uasset",
+			"ChunkId": "e3ffa0d5fc3acb8500000001"
+		},
+		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset",
 			"ChunkId": "474711309ee6ba8900000001"
 		},
 		{
-			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset",
-			"ChunkId": "e786ac693542bdc000000001"
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture.uasset",
+			"ChunkId": "22ce47c64c5d7f1300000001"
+		},
+		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.uasset",
+			"ChunkId": "f61025f3da4cf87800000001"
 		},
 		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset",
@@ -1603,6 +1335,18 @@
 		{
 			"Path": "Engine/Content/MapTemplates/SM_Template_Map_Floor.ubulk",
 			"ChunkId": "15d0ea2c4d43c43c00000002"
+		},
+		{
+			"Path": "Engine/Content/MapTemplates/TilingNoise05.uasset",
+			"ChunkId": "91b3a35d8c91d01300000001"
+		},
+		{
+			"Path": "Engine/Content/MapTemplates/TilingNoise05.ubulk",
+			"ChunkId": "91b3a35d8c91d01300000002"
+		},
+		{
+			"Path": "Engine/Content/MaterialTemplates/LayerBlends/T_DefaultMaskTexture.uasset",
+			"ChunkId": "09cd6d3fede1cc0a00000001"
 		},
 		{
 			"Path": "Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset",
@@ -2159,10 +1903,6 @@
 		{
 			"Path": "Engine/Plugins/Animation/ControlRig/Content/Controls/ControlRigXRayMaterial.uasset",
 			"ChunkId": "6ca66bbcba09d42900000001"
-		},
-		{
-			"Path": "Engine/Plugins/Animation/ControlRig/Content/Controls/DefaultGizmoLibrary.uasset",
-			"ChunkId": "e5a3f27e43028e6300000001"
 		},
 		{
 			"Path": "Engine/Plugins/Animation/ControlRig/Content/Controls/DefaultGizmoLibraryNormalized.uasset",
@@ -2757,12 +2497,6 @@
 			]
 		},
 		{
-			"Name": "/ControlRig/Controls/DefaultGizmoLibrary",
-			"ExportBundleChunkIds": [
-				"e5a3f27e43028e6300000001"
-			]
-		},
-		{
 			"Name": "/ControlRig/Controls/DefaultGizmoLibraryNormalized",
 			"ExportBundleChunkIds": [
 				"c1ceadea19a929af00000001"
@@ -2844,12 +2578,6 @@
 			],
 			"BulkDataChunkIds": [
 				"4a782f60fcb4c26e00000002"
-			]
-		},
-		{
-			"Name": "/Engine/EditorBlueprintResources/StandardMacros",
-			"ExportBundleChunkIds": [
-				"72ff6427f1042ed200000001"
 			]
 		},
 		{
@@ -3294,6 +3022,15 @@
 			]
 		},
 		{
+			"Name": "/Engine/EngineMaterials/DefaultNormal",
+			"ExportBundleChunkIds": [
+				"e790deb464e7a3d200000001"
+			],
+			"BulkDataChunkIds": [
+				"e790deb464e7a3d200000002"
+			]
+		},
+		{
 			"Name": "/Engine/EngineMaterials/DefaultPhysicalMaterial",
 			"ExportBundleChunkIds": [
 				"86f514aa5cdc08e700000001"
@@ -3501,6 +3238,12 @@
 			"Name": "/Engine/EngineMaterials/WorldGridMaterial",
 			"ExportBundleChunkIds": [
 				"eeb296b2a739309500000001"
+			]
+		},
+		{
+			"Name": "/Engine/EngineMeshes/Humanoid",
+			"ExportBundleChunkIds": [
+				"c74fd82786f88e6900000001"
 			]
 		},
 		{
@@ -3726,15 +3469,27 @@
 			]
 		},
 		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Shading/FuzzyShading",
+			"ExportBundleChunkIds": [
+				"e3ffa0d5fc3acb8500000001"
+			]
+		},
+		{
 			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness",
 			"ExportBundleChunkIds": [
 				"474711309ee6ba8900000001"
 			]
 		},
 		{
-			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter",
+			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture",
 			"ExportBundleChunkIds": [
-				"e786ac693542bdc000000001"
+				"22ce47c64c5d7f1300000001"
+			]
+		},
+		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise",
+			"ExportBundleChunkIds": [
+				"f61025f3da4cf87800000001"
 			]
 		},
 		{
@@ -3834,6 +3589,21 @@
 			],
 			"BulkDataChunkIds": [
 				"15d0ea2c4d43c43c00000002"
+			]
+		},
+		{
+			"Name": "/Engine/MapTemplates/TilingNoise05",
+			"ExportBundleChunkIds": [
+				"91b3a35d8c91d01300000001"
+			],
+			"BulkDataChunkIds": [
+				"91b3a35d8c91d01300000002"
+			]
+		},
+		{
+			"Name": "/Engine/MaterialTemplates/LayerBlends/T_DefaultMaskTexture",
+			"ExportBundleChunkIds": [
+				"09cd6d3fede1cc0a00000001"
 			]
 		},
 		{
@@ -3951,354 +3721,645 @@
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/ABP_Manny",
+			"Name": "/Game/Blueprints/Character/Animation/BlasterAnimBP",
 			"ExportBundleChunkIds": [
-				"0d47b2b552204c3100000001"
+				"63ff88b9225bea6000000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/ABP_Quinn",
+			"Name": "/Game/Blueprints/Character/Animation/UnequippedIdleWalkRun",
 			"ExportBundleChunkIds": [
-				"691fe18426aa92ca00000001"
+				"58f0be22713547e400000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun",
+			"Name": "/Game/Blueprints/Character/BP_BlasterCharacter",
 			"ExportBundleChunkIds": [
-				"ee65967208d199d400000001"
+				"86a18e518fe22edd00000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Manny/MM_Fall_Loop",
+			"Name": "/Game/Blueprints/GameMode/BP_LobbyGameMode",
 			"ExportBundleChunkIds": [
-				"eb907257d54308b600000001"
+				"9e0a115bce89003900000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Manny/MM_Idle",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Functions/MF_ColorMask",
 			"ExportBundleChunkIds": [
-				"4826eff1c35ff54a00000001"
+				"ee48f6374e5585f200000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Manny/MM_Jump",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Functions/MF_MasterMaterialFunction",
 			"ExportBundleChunkIds": [
-				"71b872a6a25ad46800000001"
+				"96f7cdd1681c644e00000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Manny/MM_Land",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Functions/MF_MasterObjectGradient",
 			"ExportBundleChunkIds": [
-				"b0264acc981aa99f00000001"
+				"93fa357acdd51ad700000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Materials/M_LearningKit_Foliage_Master",
 			"ExportBundleChunkIds": [
-				"f23390565f82a10e00000001"
+				"13a58baa3f2255d700000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Materials/M_LearningKit_MasterGradient",
 			"ExportBundleChunkIds": [
-				"c49dcfdee6cfcd7b00000001"
+				"9054ea3da169894500000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Manny/MM_Walk_InPlace",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Materials/M_LearningKit_MasterMaterial",
 			"ExportBundleChunkIds": [
-				"5e13db391c6522d300000001"
+				"72b70efba311ac4e00000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Materials/MI_Grass_BaseInstance",
 			"ExportBundleChunkIds": [
-				"b84aa2679adfcfcf00000001"
+				"cce208cf4ed78a3900000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Quinn/MF_Idle",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Materials/MI_Opaque_BaseInstance",
 			"ExportBundleChunkIds": [
-				"50841f0a48c7a3bb00000001"
+				"9298bc6fe7b92cdf00000001"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Textures/T_Default_ARM",
 			"ExportBundleChunkIds": [
-				"9e4040bccc56f95c00000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd",
-			"ExportBundleChunkIds": [
-				"9eed6c7b9d2c9b8100000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Materials/Functions/CA_Mannequin",
-			"ExportBundleChunkIds": [
-				"2d363b27bc05999600000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Materials/Functions/ChromaticCurve",
-			"ExportBundleChunkIds": [
-				"2e1138d8ab1e76f000000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Materials/Functions/MF_Diffraction",
-			"ExportBundleChunkIds": [
-				"b244a991402ed24400000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Materials/Functions/MF_logo3layers",
-			"ExportBundleChunkIds": [
-				"5c3641809979caae00000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Materials/Functions/ML_BaseColorFallOff",
-			"ExportBundleChunkIds": [
-				"63e7a2b93191fb1d00000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01",
-			"ExportBundleChunkIds": [
-				"15b55d540fa5a03d00000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02",
-			"ExportBundleChunkIds": [
-				"5a6e8d8b7df0764400000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Materials/M_Mannequin",
-			"ExportBundleChunkIds": [
-				"0fe77467488343e300000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
-			"ExportBundleChunkIds": [
-				"ac89e33c10df405300000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
-			"ExportBundleChunkIds": [
-				"5f76d67f82402c9700000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK",
-			"ExportBundleChunkIds": [
-				"d18ddd4f6e3af61000000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Rigs/PA_Mannequin",
-			"ExportBundleChunkIds": [
-				"9e86c40780915c5c00000001"
-			]
-		},
-		{
-			"Name": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK",
-			"ExportBundleChunkIds": [
-				"c58ca88ee9bef84d00000001"
+				"9891c18d854de3e800000001"
 			],
 			"BulkDataChunkIds": [
-				"c58ca88ee9bef84d00000002"
+				"9891c18d854de3e800000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_BN",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Textures/T_Default_BC",
 			"ExportBundleChunkIds": [
-				"1bd46f252a7c31e500000001"
+				"e7d96d29456d5a0000000001"
 			],
 			"BulkDataChunkIds": [
-				"1bd46f252a7c31e500000002"
+				"e7d96d29456d5a0000000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Textures/T_Default_E",
 			"ExportBundleChunkIds": [
-				"3820d131464b39af00000001"
+				"d3ae71816543d96500000001"
 			],
 			"BulkDataChunkIds": [
-				"3820d131464b39af00000002"
+				"d3ae71816543d96500000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_D",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Textures/T_Default_N",
 			"ExportBundleChunkIds": [
-				"3d85e2a62071581500000001"
+				"8cd5a8705862922200000001"
 			],
 			"BulkDataChunkIds": [
-				"3d85e2a62071581500000002"
+				"8cd5a8705862922200000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Textures/T_Default_O",
 			"ExportBundleChunkIds": [
-				"ae120f8c9bc5140600000001"
+				"b3ffef6ec713632b00000001"
 			],
 			"BulkDataChunkIds": [
-				"ae120f8c9bc5140600000002"
+				"b3ffef6ec713632b00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_N",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Textures/T_Default_RGB",
 			"ExportBundleChunkIds": [
-				"08393f9258c11e8c00000001"
+				"388fe07004c2ee8600000001"
 			],
 			"BulkDataChunkIds": [
-				"08393f9258c11e8c00000002"
+				"388fe07004c2ee8600000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Textures/T_Grass_Tile_ARM",
 			"ExportBundleChunkIds": [
-				"66c08c0da8d2774100000001"
+				"a1e24aae443510ca00000001"
 			],
 			"BulkDataChunkIds": [
-				"66c08c0da8d2774100000002"
+				"a1e24aae443510ca00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK",
+			"Name": "/Game/LearningKit_Games/Assets/_Shared/Textures/T_Grass_Tile_D",
 			"ExportBundleChunkIds": [
-				"23dd3e8d3617f13500000001"
+				"620412e4bcfd930b00000001"
 			],
 			"BulkDataChunkIds": [
-				"23dd3e8d3617f13500000002"
+				"620412e4bcfd930b00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_Celebrate",
 			"ExportBundleChunkIds": [
-				"4ddb95c392a4a4a000000001"
+				"5809b6106ed1e30800000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_Idle",
+			"ExportBundleChunkIds": [
+				"ca336937f3a613ae00000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_JumpUp_End",
+			"ExportBundleChunkIds": [
+				"3dc5ae3eef54dfcf00000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_JumpUp_Loop",
+			"ExportBundleChunkIds": [
+				"e5846ec00ba0d70000000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_JumpUp_Start",
+			"ExportBundleChunkIds": [
+				"3dd5bb7f219cfa2c00000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_Run",
+			"ExportBundleChunkIds": [
+				"10862da2cdd02ebd00000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Animations/epicCharacter_Walk",
+			"ExportBundleChunkIds": [
+				"f7aec849a1803ce900000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/M_EpicCharacter_Optimized",
+			"ExportBundleChunkIds": [
+				"66b59d0dae4dfcf600000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Backpack",
+			"ExportBundleChunkIds": [
+				"a6bc31ad5184092000000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_BedRoll",
+			"ExportBundleChunkIds": [
+				"91c0f1b8c06310e500000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Boots",
+			"ExportBundleChunkIds": [
+				"d824d64e9e782b2600000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Head",
+			"ExportBundleChunkIds": [
+				"e346650b5d58d91700000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Hood",
+			"ExportBundleChunkIds": [
+				"8f637e50980924dd00000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Skin",
+			"ExportBundleChunkIds": [
+				"cb436042a858eab600000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_SleevesShorts",
+			"ExportBundleChunkIds": [
+				"802c28b7d98e5c3c00000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Material/MI_epicCharacter_Tunic",
+			"ExportBundleChunkIds": [
+				"e7c9db306be73d3100000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter",
+			"ExportBundleChunkIds": [
+				"4de3754e300d935600000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Optimized",
+			"ExportBundleChunkIds": [
+				"d42a88a0a77a2e4000000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Physics",
+			"ExportBundleChunkIds": [
+				"f1fcf270f9936a7400000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Skeleton",
+			"ExportBundleChunkIds": [
+				"426606d8a99fd80800000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_ARM",
+			"ExportBundleChunkIds": [
+				"9d47292cd34c5c4e00000001"
 			],
 			"BulkDataChunkIds": [
-				"4ddb95c392a4a4a000000002"
+				"9d47292cd34c5c4e00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_BN",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_ARM",
 			"ExportBundleChunkIds": [
-				"e1f21fdee4299d4d00000001"
+				"4e58e5d9cd50965c00000001"
 			],
 			"BulkDataChunkIds": [
-				"e1f21fdee4299d4d00000002"
+				"4e58e5d9cd50965c00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_D",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_BC",
 			"ExportBundleChunkIds": [
-				"2b269e06bf50ec2900000001"
+				"aff1403dea7a14b500000001"
 			],
 			"BulkDataChunkIds": [
-				"2b269e06bf50ec2900000002"
+				"aff1403dea7a14b500000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_MSR_MSK",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Backpack_RGB",
 			"ExportBundleChunkIds": [
-				"e50ea8890369ab4200000001"
+				"6d71435508b08d6400000001"
 			],
 			"BulkDataChunkIds": [
-				"e50ea8890369ab4200000002"
+				"6d71435508b08d6400000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_N",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_BCE",
 			"ExportBundleChunkIds": [
-				"470bc2a9e03aa87b00000001"
+				"3127b7187c57f9f400000001"
 			],
 			"BulkDataChunkIds": [
-				"470bc2a9e03aa87b00000002"
+				"3127b7187c57f9f400000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_Tan",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_ARM",
 			"ExportBundleChunkIds": [
-				"225060142d888d8400000001"
+				"26ca41e12f9a717f00000001"
 			],
 			"BulkDataChunkIds": [
-				"225060142d888d8400000002"
+				"26ca41e12f9a717f00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_BC",
 			"ExportBundleChunkIds": [
-				"719e062740f44cf400000001"
+				"bf2310f4f75f859a00000001"
 			],
 			"BulkDataChunkIds": [
-				"719e062740f44cf400000002"
+				"bf2310f4f75f859a00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Bedroll_RGB",
 			"ExportBundleChunkIds": [
-				"c3a4e07766e62de800000001"
+				"3c82a7cef1b0d16300000001"
 			],
 			"BulkDataChunkIds": [
-				"c3a4e07766e62de800000002"
+				"3c82a7cef1b0d16300000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_BN",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_ARM",
 			"ExportBundleChunkIds": [
-				"68780ec3985eaa7600000001"
+				"245169a6342eac8d00000001"
 			],
 			"BulkDataChunkIds": [
-				"68780ec3985eaa7600000002"
+				"245169a6342eac8d00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_D",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_BC",
 			"ExportBundleChunkIds": [
-				"25e3bcbb0dfb0bd500000001"
+				"9434eebee151f09800000001"
 			],
 			"BulkDataChunkIds": [
-				"25e3bcbb0dfb0bd500000002"
+				"9434eebee151f09800000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_MSR_MSK",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Boots_RGB",
 			"ExportBundleChunkIds": [
-				"94269e3f61cd9dec00000001"
+				"bd94aad70238accd00000001"
 			],
 			"BulkDataChunkIds": [
-				"94269e3f61cd9dec00000002"
+				"bd94aad70238accd00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_N",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Colors",
 			"ExportBundleChunkIds": [
-				"c0b125fc839e07ea00000001"
+				"b982f71fc4ed06a100000001"
 			],
 			"BulkDataChunkIds": [
-				"c0b125fc839e07ea00000002"
+				"b982f71fc4ed06a100000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_Tan",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_ARM",
 			"ExportBundleChunkIds": [
-				"737b306ed562664700000001"
+				"148c3023c7206c2b00000001"
 			],
 			"BulkDataChunkIds": [
-				"737b306ed562664700000002"
+				"148c3023c7206c2b00000002"
 			]
 		},
 		{
-			"Name": "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M",
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_BC",
 			"ExportBundleChunkIds": [
-				"76414a1d577db14f00000001"
+				"cde7d91a7c635f1000000001"
+			],
+			"BulkDataChunkIds": [
+				"cde7d91a7c635f1000000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_E",
+			"ExportBundleChunkIds": [
+				"76225a0d7066150f00000001"
+			],
+			"BulkDataChunkIds": [
+				"76225a0d7066150f00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Head_RGB",
+			"ExportBundleChunkIds": [
+				"ed4df05c72f49b4b00000001"
+			],
+			"BulkDataChunkIds": [
+				"ed4df05c72f49b4b00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_ARM",
+			"ExportBundleChunkIds": [
+				"e293156c53df6d6100000001"
+			],
+			"BulkDataChunkIds": [
+				"e293156c53df6d6100000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_BC",
+			"ExportBundleChunkIds": [
+				"19faa7984cf09a9e00000001"
+			],
+			"BulkDataChunkIds": [
+				"19faa7984cf09a9e00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Hood_RGB",
+			"ExportBundleChunkIds": [
+				"39d2916b4380ecae00000001"
+			],
+			"BulkDataChunkIds": [
+				"39d2916b4380ecae00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_ARM",
+			"ExportBundleChunkIds": [
+				"cf4994a95ff9a7b400000001"
+			],
+			"BulkDataChunkIds": [
+				"cf4994a95ff9a7b400000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_BC",
+			"ExportBundleChunkIds": [
+				"48754ec84ebfba4300000001"
+			],
+			"BulkDataChunkIds": [
+				"48754ec84ebfba4300000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Skin_RGB",
+			"ExportBundleChunkIds": [
+				"66c83e254d65d9e500000001"
+			],
+			"BulkDataChunkIds": [
+				"66c83e254d65d9e500000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_ARM",
+			"ExportBundleChunkIds": [
+				"d2d70ef171f9fb9500000001"
+			],
+			"BulkDataChunkIds": [
+				"d2d70ef171f9fb9500000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_BC",
+			"ExportBundleChunkIds": [
+				"9a221d927d491b4700000001"
+			],
+			"BulkDataChunkIds": [
+				"9a221d927d491b4700000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_SleevesShorts_RGB",
+			"ExportBundleChunkIds": [
+				"d1ea94d6062e257e00000001"
+			],
+			"BulkDataChunkIds": [
+				"d1ea94d6062e257e00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_ARM",
+			"ExportBundleChunkIds": [
+				"ac6ebe605b7c8d9c00000001"
+			],
+			"BulkDataChunkIds": [
+				"ac6ebe605b7c8d9c00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_BC",
+			"ExportBundleChunkIds": [
+				"278f5df5e3a1fc3f00000001"
+			],
+			"BulkDataChunkIds": [
+				"278f5df5e3a1fc3f00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_E",
+			"ExportBundleChunkIds": [
+				"20e056030c83dded00000001"
+			],
+			"BulkDataChunkIds": [
+				"20e056030c83dded00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Characters/Character/Texture/T_EpicCharacter_Tunic_RGB",
+			"ExportBundleChunkIds": [
+				"9959fdf4ea1566f500000001"
+			],
+			"BulkDataChunkIds": [
+				"9959fdf4ea1566f500000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Material/MI_FloatingIsland_Bot",
+			"ExportBundleChunkIds": [
+				"67131a1caffe808c00000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Material/MI_FloatingIsland_Bot_L",
+			"ExportBundleChunkIds": [
+				"593bcfbdb59d419900000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Material/MI_FloatingIsland_Ground",
+			"ExportBundleChunkIds": [
+				"78ff31fa84f7bb4400000001"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/SM_FloatingIsland_L",
+			"ExportBundleChunkIds": [
+				"b84577412490309500000001"
+			],
+			"BulkDataChunkIds": [
+				"b84577412490309500000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_L_ARM",
+			"ExportBundleChunkIds": [
+				"2cb22933157145fd00000001"
+			],
+			"BulkDataChunkIds": [
+				"2cb22933157145fd00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_L_BC",
+			"ExportBundleChunkIds": [
+				"76848d8092aaa5ee00000001"
+			],
+			"BulkDataChunkIds": [
+				"76848d8092aaa5ee00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_M_ARM",
+			"ExportBundleChunkIds": [
+				"191110e65965fc5600000001"
+			],
+			"BulkDataChunkIds": [
+				"191110e65965fc5600000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Bot_M_BC",
+			"ExportBundleChunkIds": [
+				"c09124a92c3e774400000001"
+			],
+			"BulkDataChunkIds": [
+				"c09124a92c3e774400000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Ground_ARM",
+			"ExportBundleChunkIds": [
+				"7a2e9d3b7131b99a00000001"
+			],
+			"BulkDataChunkIds": [
+				"7a2e9d3b7131b99a00000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/Islands/Texture/T_FloatingIsland_Ground_BC",
+			"ExportBundleChunkIds": [
+				"3f7f6e8fea2f4cc000000001"
+			],
+			"BulkDataChunkIds": [
+				"3f7f6e8fea2f4cc000000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/Assets/Environment/KitGround/SM_KitGround_Cobblestone_Corner",
+			"ExportBundleChunkIds": [
+				"d4e54879db70c3d300000001"
+			],
+			"BulkDataChunkIds": [
+				"d4e54879db70c3d300000002"
+			]
+		},
+		{
+			"Name": "/Game/LearningKit_Games/MaterialLibrary/ObjBasedGradients/MI_Grad_Cobblestone",
+			"ExportBundleChunkIds": [
+				"45ec6bf1b184cd0200000001"
+			]
+		},
+		{
+			"Name": "/Game/LevelPrototyping/Materials/M_PrototypeGrid",
+			"ExportBundleChunkIds": [
+				"dee22158a4e72f8300000001"
+			]
+		},
+		{
+			"Name": "/Game/LevelPrototyping/Materials/MF_ProcGrid",
+			"ExportBundleChunkIds": [
+				"61c71c1f791566ff00000001"
+			]
+		},
+		{
+			"Name": "/Game/LevelPrototyping/Textures/T_GridChecker_A",
+			"ExportBundleChunkIds": [
+				"4fec0163af43e6cc00000001"
+			],
+			"BulkDataChunkIds": [
+				"4fec0163af43e6cc00000002"
 			]
 		},
 		{
@@ -4308,579 +4369,9 @@
 			]
 		},
 		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-1",
-			"ExportBundleChunkIds": [
-				"5df649af826d5cd900000001"
-			],
-			"BulkDataChunkIds": [
-				"5df649af826d5cd900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-2",
-			"ExportBundleChunkIds": [
-				"69ca544d6b0c5e5700000001"
-			],
-			"BulkDataChunkIds": [
-				"69ca544d6b0c5e5700000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-3",
-			"ExportBundleChunkIds": [
-				"47364e724116132c00000001"
-			],
-			"BulkDataChunkIds": [
-				"47364e724116132c00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y-4",
-			"ExportBundleChunkIds": [
-				"6b9c890c746b86c600000001"
-			],
-			"BulkDataChunkIds": [
-				"6b9c890c746b86c600000002"
-			]
-		},
-		{
 			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y0",
 			"ExportBundleChunkIds": [
 				"708fabaa7b4364da00000001"
-			],
-			"BulkDataChunkIds": [
-				"708fabaa7b4364da00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y1",
-			"ExportBundleChunkIds": [
-				"a7a85486968a545600000001"
-			],
-			"BulkDataChunkIds": [
-				"a7a85486968a545600000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y2",
-			"ExportBundleChunkIds": [
-				"a40a7521e87a516d00000001"
-			],
-			"BulkDataChunkIds": [
-				"a40a7521e87a516d00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-1_Y3",
-			"ExportBundleChunkIds": [
-				"8fb17e30cd20e60900000001"
-			],
-			"BulkDataChunkIds": [
-				"8fb17e30cd20e60900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-1",
-			"ExportBundleChunkIds": [
-				"faa58f17dd87132f00000001"
-			],
-			"BulkDataChunkIds": [
-				"faa58f17dd87132f00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-2",
-			"ExportBundleChunkIds": [
-				"d2bbc31ffcd1545300000001"
-			],
-			"BulkDataChunkIds": [
-				"d2bbc31ffcd1545300000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-3",
-			"ExportBundleChunkIds": [
-				"86b9f1ee6a005dd800000001"
-			],
-			"BulkDataChunkIds": [
-				"86b9f1ee6a005dd800000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y-4",
-			"ExportBundleChunkIds": [
-				"84ff6f0de82891e800000001"
-			],
-			"BulkDataChunkIds": [
-				"84ff6f0de82891e800000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y0",
-			"ExportBundleChunkIds": [
-				"8a059605559b298500000001"
-			],
-			"BulkDataChunkIds": [
-				"8a059605559b298500000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y1",
-			"ExportBundleChunkIds": [
-				"d2e00a5039f6cb6400000001"
-			],
-			"BulkDataChunkIds": [
-				"d2e00a5039f6cb6400000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y2",
-			"ExportBundleChunkIds": [
-				"44c781c8074de10a00000001"
-			],
-			"BulkDataChunkIds": [
-				"44c781c8074de10a00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-2_Y3",
-			"ExportBundleChunkIds": [
-				"80a87371a8a9b6f000000001"
-			],
-			"BulkDataChunkIds": [
-				"80a87371a8a9b6f000000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-1",
-			"ExportBundleChunkIds": [
-				"1672f0c6e25e3f4700000001"
-			],
-			"BulkDataChunkIds": [
-				"1672f0c6e25e3f4700000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-2",
-			"ExportBundleChunkIds": [
-				"619dec451ddc67b900000001"
-			],
-			"BulkDataChunkIds": [
-				"619dec451ddc67b900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-3",
-			"ExportBundleChunkIds": [
-				"091313cd1912c61900000001"
-			],
-			"BulkDataChunkIds": [
-				"091313cd1912c61900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y-4",
-			"ExportBundleChunkIds": [
-				"e2173388eefb2fff00000001"
-			],
-			"BulkDataChunkIds": [
-				"e2173388eefb2fff00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y0",
-			"ExportBundleChunkIds": [
-				"5412ca125681e73e00000001"
-			],
-			"BulkDataChunkIds": [
-				"5412ca125681e73e00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y1",
-			"ExportBundleChunkIds": [
-				"404bdb380dc07e3d00000001"
-			],
-			"BulkDataChunkIds": [
-				"404bdb380dc07e3d00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y2",
-			"ExportBundleChunkIds": [
-				"83d931a7ac1973b900000001"
-			],
-			"BulkDataChunkIds": [
-				"83d931a7ac1973b900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-3_Y3",
-			"ExportBundleChunkIds": [
-				"c33480c06fca624800000001"
-			],
-			"BulkDataChunkIds": [
-				"c33480c06fca624800000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-1",
-			"ExportBundleChunkIds": [
-				"779eb988ad661d5400000001"
-			],
-			"BulkDataChunkIds": [
-				"779eb988ad661d5400000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-2",
-			"ExportBundleChunkIds": [
-				"c5099479ca9fa74b00000001"
-			],
-			"BulkDataChunkIds": [
-				"c5099479ca9fa74b00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-3",
-			"ExportBundleChunkIds": [
-				"f75b1a245ecdac7000000001"
-			],
-			"BulkDataChunkIds": [
-				"f75b1a245ecdac7000000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y-4",
-			"ExportBundleChunkIds": [
-				"41ca66ecfa8b435500000001"
-			],
-			"BulkDataChunkIds": [
-				"41ca66ecfa8b435500000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y0",
-			"ExportBundleChunkIds": [
-				"56727093fa39d67200000001"
-			],
-			"BulkDataChunkIds": [
-				"56727093fa39d67200000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y1",
-			"ExportBundleChunkIds": [
-				"b00990aed1d5e16800000001"
-			],
-			"BulkDataChunkIds": [
-				"b00990aed1d5e16800000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y2",
-			"ExportBundleChunkIds": [
-				"935b8170ce133dab00000001"
-			],
-			"BulkDataChunkIds": [
-				"935b8170ce133dab00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X-4_Y3",
-			"ExportBundleChunkIds": [
-				"f26797196e29fd4700000001"
-			],
-			"BulkDataChunkIds": [
-				"f26797196e29fd4700000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-1",
-			"ExportBundleChunkIds": [
-				"f1b576aa92a932d500000001"
-			],
-			"BulkDataChunkIds": [
-				"f1b576aa92a932d500000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-2",
-			"ExportBundleChunkIds": [
-				"559ff5bf6a1c4a7900000001"
-			],
-			"BulkDataChunkIds": [
-				"559ff5bf6a1c4a7900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-3",
-			"ExportBundleChunkIds": [
-				"ffa126f843549e2100000001"
-			],
-			"BulkDataChunkIds": [
-				"ffa126f843549e2100000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y-4",
-			"ExportBundleChunkIds": [
-				"91a36610d020566100000001"
-			],
-			"BulkDataChunkIds": [
-				"91a36610d020566100000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y0",
-			"ExportBundleChunkIds": [
-				"3f4663931623866900000001"
-			],
-			"BulkDataChunkIds": [
-				"3f4663931623866900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y1",
-			"ExportBundleChunkIds": [
-				"53a5f4ca75f5640a00000001"
-			],
-			"BulkDataChunkIds": [
-				"53a5f4ca75f5640a00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y2",
-			"ExportBundleChunkIds": [
-				"f9d2b2f4713abc9900000001"
-			],
-			"BulkDataChunkIds": [
-				"f9d2b2f4713abc9900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X0_Y3",
-			"ExportBundleChunkIds": [
-				"88d17d229f25640800000001"
-			],
-			"BulkDataChunkIds": [
-				"88d17d229f25640800000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-1",
-			"ExportBundleChunkIds": [
-				"0d4580f991a6e8e100000001"
-			],
-			"BulkDataChunkIds": [
-				"0d4580f991a6e8e100000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-2",
-			"ExportBundleChunkIds": [
-				"f0ec09f244f0ca6500000001"
-			],
-			"BulkDataChunkIds": [
-				"f0ec09f244f0ca6500000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-3",
-			"ExportBundleChunkIds": [
-				"a557503423f7072200000001"
-			],
-			"BulkDataChunkIds": [
-				"a557503423f7072200000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y-4",
-			"ExportBundleChunkIds": [
-				"059b8538d91b8eac00000001"
-			],
-			"BulkDataChunkIds": [
-				"059b8538d91b8eac00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y0",
-			"ExportBundleChunkIds": [
-				"e5245baa8235146200000001"
-			],
-			"BulkDataChunkIds": [
-				"e5245baa8235146200000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y1",
-			"ExportBundleChunkIds": [
-				"6d72108e929cb2e700000001"
-			],
-			"BulkDataChunkIds": [
-				"6d72108e929cb2e700000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y2",
-			"ExportBundleChunkIds": [
-				"3db5874dd628f2fa00000001"
-			],
-			"BulkDataChunkIds": [
-				"3db5874dd628f2fa00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X1_Y3",
-			"ExportBundleChunkIds": [
-				"8528b6b305eac3ad00000001"
-			],
-			"BulkDataChunkIds": [
-				"8528b6b305eac3ad00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-1",
-			"ExportBundleChunkIds": [
-				"771508f6b1650cf600000001"
-			],
-			"BulkDataChunkIds": [
-				"771508f6b1650cf600000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-2",
-			"ExportBundleChunkIds": [
-				"8d76a990b81cac6d00000001"
-			],
-			"BulkDataChunkIds": [
-				"8d76a990b81cac6d00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-3",
-			"ExportBundleChunkIds": [
-				"28ff45ae68aea16900000001"
-			],
-			"BulkDataChunkIds": [
-				"28ff45ae68aea16900000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y-4",
-			"ExportBundleChunkIds": [
-				"0e66524c52488fc300000001"
-			],
-			"BulkDataChunkIds": [
-				"0e66524c52488fc300000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y0",
-			"ExportBundleChunkIds": [
-				"e7b757179758103b00000001"
-			],
-			"BulkDataChunkIds": [
-				"e7b757179758103b00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y1",
-			"ExportBundleChunkIds": [
-				"5641d25dcc83e15300000001"
-			],
-			"BulkDataChunkIds": [
-				"5641d25dcc83e15300000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y2",
-			"ExportBundleChunkIds": [
-				"dfe03da1f17a2f7200000001"
-			],
-			"BulkDataChunkIds": [
-				"dfe03da1f17a2f7200000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X2_Y3",
-			"ExportBundleChunkIds": [
-				"d65790087e83f99d00000001"
-			],
-			"BulkDataChunkIds": [
-				"d65790087e83f99d00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-1",
-			"ExportBundleChunkIds": [
-				"a958d36dc9127f7f00000001"
-			],
-			"BulkDataChunkIds": [
-				"a958d36dc9127f7f00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-2",
-			"ExportBundleChunkIds": [
-				"48e76309d06fa4ce00000001"
-			],
-			"BulkDataChunkIds": [
-				"48e76309d06fa4ce00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-3",
-			"ExportBundleChunkIds": [
-				"8ec88fbdcac58e2200000001"
-			],
-			"BulkDataChunkIds": [
-				"8ec88fbdcac58e2200000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y-4",
-			"ExportBundleChunkIds": [
-				"ad157520a6dd2d0100000001"
-			],
-			"BulkDataChunkIds": [
-				"ad157520a6dd2d0100000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y0",
-			"ExportBundleChunkIds": [
-				"b7cea0d1c610204e00000001"
-			],
-			"BulkDataChunkIds": [
-				"b7cea0d1c610204e00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y1",
-			"ExportBundleChunkIds": [
-				"739b68b2c296a97300000001"
-			],
-			"BulkDataChunkIds": [
-				"739b68b2c296a97300000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y2",
-			"ExportBundleChunkIds": [
-				"db17f9de3af5024c00000001"
-			],
-			"BulkDataChunkIds": [
-				"db17f9de3af5024c00000002"
-			]
-		},
-		{
-			"Name": "/Game/Maps/GameStartupMap/_Generated_/GameStartupMap_MainGrid_L0_X3_Y3",
-			"ExportBundleChunkIds": [
-				"343f97435e54d45200000001"
-			],
-			"BulkDataChunkIds": [
-				"343f97435e54d45200000002"
 			]
 		},
 		{
@@ -4896,39 +4387,9 @@
 			]
 		},
 		{
-			"Name": "/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter",
+			"Name": "/Game/Maps/TransitionMap",
 			"ExportBundleChunkIds": [
-				"d46ee1d581cd085100000001"
-			]
-		},
-		{
-			"Name": "/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode",
-			"ExportBundleChunkIds": [
-				"0aaf51852e83d7af00000001"
-			]
-		},
-		{
-			"Name": "/Game/ThirdPerson/Input/Actions/IA_Jump",
-			"ExportBundleChunkIds": [
-				"51925cd43539ce6a00000001"
-			]
-		},
-		{
-			"Name": "/Game/ThirdPerson/Input/Actions/IA_Look",
-			"ExportBundleChunkIds": [
-				"cd6350167305d1ce00000001"
-			]
-		},
-		{
-			"Name": "/Game/ThirdPerson/Input/Actions/IA_Move",
-			"ExportBundleChunkIds": [
-				"d6d4dca9117c266300000001"
-			]
-		},
-		{
-			"Name": "/Game/ThirdPerson/Input/IMC_Default",
-			"ExportBundleChunkIds": [
-				"146cacb33d822f4400000001"
+				"9f2528a03c8d204200000001"
 			]
 		},
 		{
