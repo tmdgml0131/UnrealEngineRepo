@@ -99,6 +99,12 @@
     <ClInclude Include="..\..\Source\Blaster\Blaster.h">
       <Filter>Source\Blaster</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Blaster\BlasterCharacter.cpp">
+      <Filter>Source\Blaster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\BlasterCharacter.h">
+      <Filter>Source\Blaster</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Blaster\BlasterGameModeBase.cpp">
       <Filter>Source\Blaster</Filter>
     </ClCompile>
