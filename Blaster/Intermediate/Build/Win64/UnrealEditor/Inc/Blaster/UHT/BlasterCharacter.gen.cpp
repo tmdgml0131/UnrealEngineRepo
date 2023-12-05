@@ -14,6 +14,7 @@ void EmptyLinkFunctionForGeneratedCodeBlasterCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Blaster();
 // End Cross Module References
 	void ABlasterCharacter::StaticRegisterNativesABlasterCharacter()
@@ -38,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeBlasterCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OverheadWidget_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_OverheadWidget;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -69,9 +74,19 @@ void EmptyLinkFunctionForGeneratedCodeBlasterCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ABlasterCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_FollowCamera_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_OverheadWidget_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "BlasterCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Character/BlasterCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_OverheadWidget = { "OverheadWidget", nullptr, (EPropertyFlags)0x004000000008001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ABlasterCharacter, OverheadWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_OverheadWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_OverheadWidget_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABlasterCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_FollowCamera,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlasterCharacter_Statics::NewProp_OverheadWidget,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABlasterCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABlasterCharacter>::IsAbstract,
@@ -110,9 +125,9 @@ void EmptyLinkFunctionForGeneratedCodeBlasterCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABlasterCharacter, ABlasterCharacter::StaticClass, TEXT("ABlasterCharacter"), &Z_Registration_Info_UClass_ABlasterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABlasterCharacter), 2123565989U) },
+		{ Z_Construct_UClass_ABlasterCharacter, ABlasterCharacter::StaticClass, TEXT("ABlasterCharacter"), &Z_Registration_Info_UClass_ABlasterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABlasterCharacter), 902827780U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_859322387(TEXT("/Script/Blaster"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_4054349771(TEXT("/Script/Blaster"),
 		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

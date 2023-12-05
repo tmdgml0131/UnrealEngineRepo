@@ -129,5 +129,14 @@
     <ClInclude Include="..\..\Source\Blaster\GameMode\LobbyGameMode.h">
       <Filter>Source\Blaster\GameMode</Filter>
     </ClInclude>
+    <Filter Include="Source\Blaster\HUD">
+      <UniqueIdentifier>{B4AACAF6-499E-3F03-B768-0F749DE5B65B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blaster\HUD\OverheadWidget.cpp">
+      <Filter>Source\Blaster\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\HUD\OverheadWidget.h">
+      <Filter>Source\Blaster\HUD</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
