@@ -18,12 +18,12 @@ class APawn;
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_OverheadWidget_h_15_SPARSE_DATA
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_OverheadWidget_h_15_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execShowPlayerNetRole);
+	DECLARE_FUNCTION(execShowPlayerName);
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_OverheadWidget_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execShowPlayerNetRole);
+	DECLARE_FUNCTION(execShowPlayerName);
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_OverheadWidget_h_15_ACCESSORS

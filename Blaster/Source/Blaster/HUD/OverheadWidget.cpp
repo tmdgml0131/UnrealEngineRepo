@@ -3,6 +3,7 @@
 
 #include "OverheadWidget.h"
 #include "Components/TextBlock.h"
+#include "GameFramework/PlayerState.h"
 
 void UOverheadWidget::SetDisplayText(FString TextToDisplay)
 {
@@ -12,35 +13,17 @@ void UOverheadWidget::SetDisplayText(FString TextToDisplay)
 	}
 }
 
-void UOverheadWidget::ShowPlayerNetRole(APawn* InPawn)
+void UOverheadWidget::ShowPlayerName(APawn* InPawn)
 {
-	ENetRole RemoteRole = InPawn->GetRemoteRole();
-	
-	FString Role;
-	switch (RemoteRole)
-	{
-	case ROLE_None:
-		Role = FString("None");
-		break;
-	case ROLE_SimulatedProxy:
-		Role = FString("SimulatedProxy");
-		break;
-	case ROLE_AutonomousProxy:
-		Role = FString("AutonomousProxy");
-		break;
-	case ROLE_Authority:
-		Role = FString("Authority");
-		break;
-	case ROLE_MAX:
-		Role = FString("MAX");
-		break;
-	default:
-		Role = FString("UnKnown");
-		break;
-	}
+	TObjectPtr<APlayerState> PlayerState = InPawn->GetPlayerState();
 
-	FString RemoteRoleString = FString::Printf(TEXT("Remote Role %s"), *Role);
-	SetDisplayText(RemoteRoleString);
+	if (PlayerState)
+	{
+		FString PlayerName = PlayerState->GetPlayerName();
+
+		FString PlayerNameString = FString::Printf(TEXT("Player Name: %s"), *PlayerName);
+		SetDisplayText(PlayerNameString);
+	}
 }
 
 void UOverheadWidget::NativeDestruct()

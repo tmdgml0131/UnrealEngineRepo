@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"F:\\Git\\UnrealEngineRepo\\MPTesting\\Source\\MPTesting\\MPTesting.Build.cs",
-		"F:\\Git\\UnrealEngineRepo\\MPTesting\\Source\\MPTesting.Target.cs",
-		"F:\\Git\\UnrealEngineRepo\\MPTesting\\Source\\MPTestingEditor.Target.cs"
-	],
-	"EngineVersion": "5.2.1"
-}

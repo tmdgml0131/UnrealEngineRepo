@@ -9,14 +9,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AWeapon;
 #ifdef BLASTER_BlasterCharacter_generated_h
 #error "BlasterCharacter.generated.h already included, missing '#pragma once' in BlasterCharacter.h"
 #endif
 #define BLASTER_BlasterCharacter_generated_h
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_SPARSE_DATA
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_RPC_WRAPPERS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnRep_OverlappingWeapon);
+
+
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnRep_OverlappingWeapon);
+
+
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_ACCESSORS
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -24,7 +33,13 @@ private: \
 	friend struct Z_Construct_UClass_ABlasterCharacter_Statics; \
 public: \
 	DECLARE_CLASS(ABlasterCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Blaster"), NO_API) \
-	DECLARE_SERIALIZER(ABlasterCharacter)
+	DECLARE_SERIALIZER(ABlasterCharacter) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		OverlappingWeapon=NETFIELD_REP_START, \
+		NETFIELD_REP_END=OverlappingWeapon	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_INCLASS \
@@ -33,7 +48,13 @@ private: \
 	friend struct Z_Construct_UClass_ABlasterCharacter_Statics; \
 public: \
 	DECLARE_CLASS(ABlasterCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Blaster"), NO_API) \
-	DECLARE_SERIALIZER(ABlasterCharacter)
+	DECLARE_SERIALIZER(ABlasterCharacter) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		OverlappingWeapon=NETFIELD_REP_START, \
+		NETFIELD_REP_END=OverlappingWeapon	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_12_STANDARD_CONSTRUCTORS \
