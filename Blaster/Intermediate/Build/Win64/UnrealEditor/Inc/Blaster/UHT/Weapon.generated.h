@@ -20,12 +20,14 @@ struct FHitResult;
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_22_SPARSE_DATA
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_22_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnRep_WeaponState); \
 	DECLARE_FUNCTION(execOnSphereEndOverlap); \
 	DECLARE_FUNCTION(execOnSphereOverlap);
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnRep_WeaponState); \
 	DECLARE_FUNCTION(execOnSphereEndOverlap); \
 	DECLARE_FUNCTION(execOnSphereOverlap);
 
@@ -37,7 +39,13 @@ private: \
 	friend struct Z_Construct_UClass_AWeapon_Statics; \
 public: \
 	DECLARE_CLASS(AWeapon, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Blaster"), NO_API) \
-	DECLARE_SERIALIZER(AWeapon)
+	DECLARE_SERIALIZER(AWeapon) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		WeaponState=NETFIELD_REP_START, \
+		NETFIELD_REP_END=WeaponState	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_22_INCLASS \
@@ -46,7 +54,13 @@ private: \
 	friend struct Z_Construct_UClass_AWeapon_Statics; \
 public: \
 	DECLARE_CLASS(AWeapon, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Blaster"), NO_API) \
-	DECLARE_SERIALIZER(AWeapon)
+	DECLARE_SERIALIZER(AWeapon) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		WeaponState=NETFIELD_REP_START, \
+		NETFIELD_REP_END=WeaponState	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_22_STANDARD_CONSTRUCTORS \
