@@ -10,7 +10,21 @@
 				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Skeleton.uasset",
 				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset",
 				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/UE4_Mannequin/Rigs/RTG_Mannequin.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset"
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/Animation/EquippedIdleWalkRun.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Lean_R.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Rifle1.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Lean_L.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Rifle1.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Right_Lean_R.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Lean_L.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Lean_R.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Rifle1.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Lean_L.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Lean_R.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Rifle1.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Lean_R.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Lean_L.uasset"
 			]
 		}
 	]

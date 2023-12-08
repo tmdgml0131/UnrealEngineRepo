@@ -18,12 +18,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_13_RPC_WRAPPERS \
 	virtual void ServerSetAiming_Implementation(bool bIsAiming); \
  \
+	DECLARE_FUNCTION(execOnRep_EquippedWeapon); \
 	DECLARE_FUNCTION(execServerSetAiming);
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void ServerSetAiming_Implementation(bool bIsAiming); \
  \
+	DECLARE_FUNCTION(execOnRep_EquippedWeapon); \
 	DECLARE_FUNCTION(execServerSetAiming);
 
 
