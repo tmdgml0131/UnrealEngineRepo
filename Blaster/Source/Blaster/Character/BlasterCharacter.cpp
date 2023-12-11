@@ -9,6 +9,7 @@
 #include "Net/UnrealNetwork.h"
 #include "Blaster/Weapon/Weapon.h"
 #include "Blaster/BlasterComponents/CombatComponent.h"
+#include "Components/CapsuleComponent.h"
 
 ABlasterCharacter::ABlasterCharacter()
 {
@@ -35,6 +36,10 @@ ABlasterCharacter::ABlasterCharacter()
 
 	// Character 의 기본 설정 CanCrouch 활성화
 	GetCharacterMovement()->NavAgentProps.bCanCrouch = true;
+
+	// Camera Capsule 충돌
+	GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
+	GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
 }
 
 void ABlasterCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const

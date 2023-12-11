@@ -24,6 +24,7 @@ public:
 protected:
 	virtual void BeginPlay() override;
 	void SetAiming(bool bIsAiming);
+	
 
 	// RPC ÇÔ¼ö
 	UFUNCTION(Server, Reliable)
@@ -40,6 +41,13 @@ private:
 	
 	UPROPERTY(Replicated)
 	bool bAiming;
+
+	UPROPERTY()
+	float BaseWalkSpeed;
+
+	UPROPERTY()
+	float AimWalkSpeed;
+
 public:	
 	
 
