@@ -31,8 +31,8 @@ ABlasterCharacter::ABlasterCharacter()
 	OverheadWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("OverheadWidget"));
 	OverheadWidget->SetupAttachment(RootComponent);
 
-	CombatComponent = CreateDefaultSubobject<UCombatComponent>(TEXT("CombatComponent"));
-	CombatComponent->SetIsReplicated(true);
+	Combat = CreateDefaultSubobject<UCombatComponent>(TEXT("CombatComponent"));
+	Combat->SetIsReplicated(true);
 
 	// Character 의 기본 설정 CanCrouch 활성화
 	GetCharacterMovement()->NavAgentProps.bCanCrouch = true;
@@ -64,9 +64,9 @@ void ABlasterCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 
-	if (CombatComponent)
+	if (Combat)
 	{
-		CombatComponent->Character = this;
+		Combat->Character = this;
 	}
 }
 
@@ -131,12 +131,12 @@ void ABlasterCharacter::OnRep_OverlappingWeapon(AWeapon* LastWeapon)
 
 void ABlasterCharacter::EquipButtonPressed()
 {
-	if (CombatComponent)
+	if (Combat)
 	{
 		// Equip 요청이 서버인 경우
 		if (HasAuthority())
 		{
-			CombatComponent->EquipWeapon(OverlappingWeapon);
+			Combat->EquipWeapon(OverlappingWeapon);
 		}
 		// Equip 요청이 Client 인경우
 		else
@@ -161,26 +161,26 @@ void ABlasterCharacter::CrouchButtonPressed()
 
 void ABlasterCharacter::AimButtonPressed()
 {
-	if (CombatComponent)
+	if (Combat)
 	{
-		CombatComponent->SetAiming(true);
+		Combat->SetAiming(true);
 	}
 }
 
 void ABlasterCharacter::AimButtonReleased()
 {
-	if (CombatComponent)
+	if (Combat)
 	{
-		CombatComponent->SetAiming(false);
+		Combat->SetAiming(false);
 	}
 }
 
 // RPC 함수
 void ABlasterCharacter::ServerEquipButtonPressed_Implementation()
 {
-	if (CombatComponent)
+	if (Combat)
 	{
-		CombatComponent->EquipWeapon(OverlappingWeapon);
+		Combat->EquipWeapon(OverlappingWeapon);
 	}
 }
 
@@ -203,11 +203,11 @@ void ABlasterCharacter::SetOverlappingWeapon(AWeapon* Weapon)
 
 bool ABlasterCharacter::IsWeaponEquipped()
 {
-	return (CombatComponent && CombatComponent->EquippedWeapon);
+	return (Combat && Combat->EquippedWeapon);
 }
 
 bool ABlasterCharacter::IsAiming()
 {
-	return (CombatComponent && CombatComponent->bAiming);
+	return (Combat && Combat->bAiming);
 }
 

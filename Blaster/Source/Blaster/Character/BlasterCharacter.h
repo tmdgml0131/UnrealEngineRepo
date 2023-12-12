@@ -47,7 +47,7 @@ private:
 	void OnRep_OverlappingWeapon(AWeapon* LastWeapon);
 
 	UPROPERTY(VisibleAnywhere)
-	class UCombatComponent* CombatComponent;
+	class UCombatComponent* Combat;
 
 	// RPC ÇÔ¼ö
 	UFUNCTION(Server, Reliable)
