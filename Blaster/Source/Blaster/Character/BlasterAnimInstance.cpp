@@ -24,10 +24,12 @@ void UBlasterAnimInstance::NativeUpdateAnimation(float DeltaTime)
 
 	if (BlasterCharacter == nullptr) return;
 
+	// 캐릭터 속도
 	FVector Velocity = BlasterCharacter->GetVelocity();
 	Velocity.Z = 0.f;
 	Speed = Velocity.Size();
 
+	// 캐릭터 InAir
 	bIsInAir = BlasterCharacter->GetCharacterMovement()->IsFalling();
 	bIsAccelerating = BlasterCharacter->GetCharacterMovement()->GetCurrentAcceleration().Size() > 0 ? true : false;
 	bIsCrouched = BlasterCharacter->bIsCrouched;
@@ -48,4 +50,7 @@ void UBlasterAnimInstance::NativeUpdateAnimation(float DeltaTime)
 	const float Tartget = Delta.Yaw / DeltaTime;
 	const float Interp = FMath::FInterpTo(Lean, Tartget, DeltaTime, 6.f);
 	Lean = FMath::Clamp(Interp, -90.f, 90.f);
+
+	AO_Yaw = BlasterCharacter->GetAO_Yaw();
+	AO_Pitch = BlasterCharacter->GetAO_Pitch();
 }
