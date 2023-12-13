@@ -207,6 +207,16 @@ void ABlasterCharacter::AimOffset(float DeltaTime)
 	}
 
 	AO_Pitch = GetBaseAimRotation().Pitch;
+
+	// Pitch / Rotation 이 Unreal Engine 에서 Multi-Player 위해 Packing 될 때, 압축되어 -90 ~ 0 이 아닌 270 ~ 360 값으로 들어감
+	// 따라서 Pitch 값이 90이 넘어갈 경우 수정 필요
+	if (AO_Pitch > 90.f && !IsLocallyControlled())
+	{
+		// Pitch from [270, 360) -> [-90, 0)
+		FVector2D InRange(270.f, 360.f);
+		FVector2D OutRange(-90.f, 0.f);
+		AO_Pitch = FMath::GetMappedRangeValueClamped(InRange, OutRange, AO_Pitch);
+	}
 }
 
 // RPC 함수
