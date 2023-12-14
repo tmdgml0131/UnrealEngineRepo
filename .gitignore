@@ -5,6 +5,7 @@
 *.test
 *.ucas
 *.zip
+*.ddp
 
 ### UnrealEngine ###
 # Visual Studio 2015 user specific files

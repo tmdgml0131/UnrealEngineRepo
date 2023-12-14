@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"F:\\Git\\UnrealEngineRepo\\ShooterGame\\Source\\ShooterGame\\ShooterGame.Build.cs",
+		"F:\\Git\\UnrealEngineRepo\\ShooterGame\\Source\\ShooterGameLoadingScreen\\ShooterGameLoadingScreen.Build.cs",
+		"F:\\Git\\UnrealEngineRepo\\ShooterGame\\Source\\ShooterClient.Target.cs",
+		"F:\\Git\\UnrealEngineRepo\\ShooterGame\\Source\\ShooterGame.Target.cs",
+		"F:\\Git\\UnrealEngineRepo\\ShooterGame\\Source\\ShooterGameEditor.Target.cs",
+		"F:\\Git\\UnrealEngineRepo\\ShooterGame\\Source\\ShooterServer.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
