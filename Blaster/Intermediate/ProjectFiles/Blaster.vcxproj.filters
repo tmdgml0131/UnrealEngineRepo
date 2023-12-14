@@ -114,6 +114,12 @@
     <ClInclude Include="..\..\Source\Blaster\BlasterComponents\CombatComponent.h">
       <Filter>Source\Blaster\BlasterComponents</Filter>
     </ClInclude>
+    <Filter Include="Source\Blaster\BlasterTypes">
+      <UniqueIdentifier>{69A66E39-133C-39E2-987D-EBC64A18AEF7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Blaster\BlasterTypes\TurningInPlace.h">
+      <Filter>Source\Blaster\BlasterTypes</Filter>
+    </ClInclude>
     <Filter Include="Source\Blaster\Character">
       <UniqueIdentifier>{DE1BD488-6B84-307A-9BE6-F714F6EBF278}</UniqueIdentifier>
     </Filter>
