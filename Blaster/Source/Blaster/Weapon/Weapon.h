@@ -28,6 +28,9 @@ public:
 	
 	// 무기 줍기 위젯 보여줌
 	void ShowPickupWidget(bool bShowWidget);
+
+	// 발사
+	void Fire();
 	
 protected:
 	virtual void BeginPlay() override;
@@ -54,6 +57,9 @@ private:
 
 	UPROPERTY(VisibleAnywhere, Category = "Weapon Properties")
 	class UWidgetComponent* PickupWidget;
+
+	UPROPERTY(EditAnywhere, Category = "Weapon Properties")
+	class UAnimationAsset* FireAnimation;
 public:	
 	void SetWeaponState(EWeaponState State);
 	FORCEINLINE USphereComponent* GetAreaSphere() const { return AreaSphere; }
