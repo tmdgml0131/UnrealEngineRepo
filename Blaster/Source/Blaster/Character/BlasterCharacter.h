@@ -57,7 +57,7 @@ private:
 	void OnRep_OverlappingWeapon(AWeapon* LastWeapon);
 
 	UPROPERTY(VisibleAnywhere)
-	class UCombatComponent* Combat;
+	class UCombatComponent* CombatComponent;
 
 	// RPC ÇÔ¼ö
 	UFUNCTION(Server, Reliable)
@@ -71,7 +71,7 @@ private:
 	ETurningInPlace TurningInPlace;
 	void TurnInPlace(float DeltaTime);
 
-	UPROPERTY(EditAnywhere, Category = Combat)
+	UPROPERTY(EditAnywhere, Category = CombatComponent)
 	class UAnimMontage* FireWeaponMontage;
 
 public:	

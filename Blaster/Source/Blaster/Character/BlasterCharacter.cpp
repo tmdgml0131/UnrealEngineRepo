@@ -38,8 +38,8 @@ ABlasterCharacter::ABlasterCharacter()
 	OverheadWidget->SetupAttachment(RootComponent);
 
 	// 전투 설정
-	Combat = CreateDefaultSubobject<UCombatComponent>(TEXT("CombatComponent"));
-	Combat->SetIsReplicated(true);
+	CombatComponent = CreateDefaultSubobject<UCombatComponent>(TEXT("CombatComponent"));
+	CombatComponent->SetIsReplicated(true);
 
 	// Character 의 기본 설정 CanCrouch 활성화
 	GetCharacterMovement()->NavAgentProps.bCanCrouch = true;
@@ -83,15 +83,15 @@ void ABlasterCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 
-	if (Combat)
+	if (CombatComponent)
 	{
-		Combat->Character = this;
+		CombatComponent->Character = this;
 	}
 }
 
 void ABlasterCharacter::PlayFireMontage(bool bAiming)
 {
-	if (Combat == nullptr || Combat->EquippedWeapon == nullptr) return;
+	if (CombatComponent == nullptr || CombatComponent->EquippedWeapon == nullptr) return;
 
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 	if (AnimInstance && FireWeaponMontage)
@@ -166,12 +166,12 @@ void ABlasterCharacter::OnRep_OverlappingWeapon(AWeapon* LastWeapon)
 
 void ABlasterCharacter::EquipButtonPressed()
 {
-	if (Combat)
+	if (CombatComponent)
 	{
 		// Equip 요청이 서버인 경우
 		if (HasAuthority())
 		{
-			Combat->EquipWeapon(OverlappingWeapon);
+			CombatComponent->EquipWeapon(OverlappingWeapon);
 		}
 		// Equip 요청이 Client 인경우
 		else
@@ -196,24 +196,24 @@ void ABlasterCharacter::CrouchButtonPressed()
 
 void ABlasterCharacter::AimButtonPressed()
 {
-	if (Combat)
+	if (CombatComponent)
 	{
-		Combat->SetAiming(true);
+		CombatComponent->SetAiming(true);
 	}
 }
 
 void ABlasterCharacter::AimButtonReleased()
 {
-	if (Combat)
+	if (CombatComponent)
 	{
-		Combat->SetAiming(false);
+		CombatComponent->SetAiming(false);
 	}
 }
 
 void ABlasterCharacter::AimOffset(float DeltaTime)
 {
 	// 무기가 없다면 return
-	if (Combat && Combat->EquippedWeapon == nullptr) return;
+	if (CombatComponent && CombatComponent->EquippedWeapon == nullptr) return;
 
 	// 캐릭터 속도
 	FVector Velocity = GetVelocity();
@@ -274,17 +274,17 @@ void ABlasterCharacter::Jump()
 
 void ABlasterCharacter::FireButtonPressed()
 {
-	if (Combat)
+	if (CombatComponent)
 	{
-		Combat->FireButtonPressed(true);
+		CombatComponent->FireButtonPressed(true);
 	}
 }
 
 void ABlasterCharacter::FireButtonReleased()
 {
-	if (Combat)
+	if (CombatComponent)
 	{
-		Combat->FireButtonPressed(false);
+		CombatComponent->FireButtonPressed(false);
 	}
 }
 
@@ -315,9 +315,9 @@ void ABlasterCharacter::TurnInPlace(float DeltaTime)
 // RPC 함수
 void ABlasterCharacter::ServerEquipButtonPressed_Implementation()
 {
-	if (Combat)
+	if (CombatComponent)
 	{
-		Combat->EquipWeapon(OverlappingWeapon);
+		CombatComponent->EquipWeapon(OverlappingWeapon);
 	}
 }
 
@@ -341,17 +341,17 @@ void ABlasterCharacter::SetOverlappingWeapon(AWeapon* Weapon)
 
 bool ABlasterCharacter::IsWeaponEquipped()
 {
-	return (Combat && Combat->EquippedWeapon);
+	return (CombatComponent && CombatComponent->EquippedWeapon);
 }
 
 bool ABlasterCharacter::IsAiming()
 {
-	return (Combat && Combat->bAiming);
+	return (CombatComponent && CombatComponent->bAiming);
 }
 
 AWeapon* ABlasterCharacter::GetEquippedWeapon()
 {
-	if (Combat == nullptr) return nullptr;
-	return Combat->EquippedWeapon;
+	if (CombatComponent == nullptr) return nullptr;
+	return CombatComponent->EquippedWeapon;
 }
 
