@@ -6,6 +6,7 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "Blaster/BlasterComponents/CombatComponent.h"
+#include "../../Source/Runtime/Engine/Classes/Engine/NetSerialization.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 // Cross Module References
@@ -13,13 +14,15 @@ void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 	BLASTER_API UClass* Z_Construct_UClass_UCombatComponent();
 	BLASTER_API UClass* Z_Construct_UClass_UCombatComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FVector_NetQuantize();
 	UPackage* Z_Construct_UPackage__Script_Blaster();
 // End Cross Module References
 	DEFINE_FUNCTION(UCombatComponent::execMulticastFire)
 	{
+		P_GET_STRUCT(FVector_NetQuantize,Z_Param_TraceHitTarget);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->MulticastFire_Implementation();
+		P_THIS->MulticastFire_Implementation(Z_Param_TraceHitTarget);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UCombatComponent::execOnRep_EquippedWeapon)
@@ -31,9 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 	}
 	DEFINE_FUNCTION(UCombatComponent::execServerFire)
 	{
+		P_GET_STRUCT(FVector_NetQuantize,Z_Param_TraceHitTarget);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->ServerFire_Implementation();
+		P_THIS->ServerFire_Implementation(Z_Param_TraceHitTarget);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UCombatComponent::execServerSetAiming)
@@ -44,19 +48,31 @@ void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 		P_THIS->ServerSetAiming_Implementation(Z_Param_bIsAiming);
 		P_NATIVE_END;
 	}
+	struct CombatComponent_eventMulticastFire_Parms
+	{
+		FVector_NetQuantize TraceHitTarget;
+	};
+	struct CombatComponent_eventServerFire_Parms
+	{
+		FVector_NetQuantize TraceHitTarget;
+	};
 	struct CombatComponent_eventServerSetAiming_Parms
 	{
 		bool bIsAiming;
 	};
 	static FName NAME_UCombatComponent_MulticastFire = FName(TEXT("MulticastFire"));
-	void UCombatComponent::MulticastFire()
+	void UCombatComponent::MulticastFire(FVector_NetQuantize const& TraceHitTarget)
 	{
-		ProcessEvent(FindFunctionChecked(NAME_UCombatComponent_MulticastFire),NULL);
+		CombatComponent_eventMulticastFire_Parms Parms;
+		Parms.TraceHitTarget=TraceHitTarget;
+		ProcessEvent(FindFunctionChecked(NAME_UCombatComponent_MulticastFire),&Parms);
 	}
 	static FName NAME_UCombatComponent_ServerFire = FName(TEXT("ServerFire"));
-	void UCombatComponent::ServerFire()
+	void UCombatComponent::ServerFire(FVector_NetQuantize const& TraceHitTarget)
 	{
-		ProcessEvent(FindFunctionChecked(NAME_UCombatComponent_ServerFire),NULL);
+		CombatComponent_eventServerFire_Parms Parms;
+		Parms.TraceHitTarget=TraceHitTarget;
+		ProcessEvent(FindFunctionChecked(NAME_UCombatComponent_ServerFire),&Parms);
 	}
 	static FName NAME_UCombatComponent_ServerSetAiming = FName(TEXT("ServerSetAiming"));
 	void UCombatComponent::ServerSetAiming(bool bIsAiming)
@@ -79,9 +95,23 @@ void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 	struct Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics
 	{
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TraceHitTarget_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_TraceHitTarget;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::NewProp_TraceHitTarget_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::NewProp_TraceHitTarget = { "TraceHitTarget", nullptr, (EPropertyFlags)0x0010000008000082, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(CombatComponent_eventMulticastFire_Parms, TraceHitTarget), Z_Construct_UScriptStruct_FVector_NetQuantize, METADATA_PARAMS(Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::NewProp_TraceHitTarget_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::NewProp_TraceHitTarget_MetaData)) }; // 1613593159
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::NewProp_TraceHitTarget,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::Function_MetaDataParams[] = {
@@ -90,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 		{ "ToolTip", "\xef\xbf\xbd\xef\xbf\xbd\xc6\xbc\xc4\xb3\xef\xbf\xbd\xef\xbf\xbd\xc6\xae \xef\xbf\xbd\xd4\xbc\xef\xbf\xbd" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCombatComponent, nullptr, "MulticastFire", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00084CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCombatComponent, nullptr, "MulticastFire", nullptr, nullptr, sizeof(CombatComponent_eventMulticastFire_Parms), Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00084CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCombatComponent_MulticastFire_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCombatComponent_MulticastFire()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -125,16 +155,30 @@ void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 	struct Z_Construct_UFunction_UCombatComponent_ServerFire_Statics
 	{
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TraceHitTarget_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_TraceHitTarget;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::NewProp_TraceHitTarget_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::NewProp_TraceHitTarget = { "TraceHitTarget", nullptr, (EPropertyFlags)0x0010000008000082, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(CombatComponent_eventServerFire_Parms, TraceHitTarget), Z_Construct_UScriptStruct_FVector_NetQuantize, METADATA_PARAMS(Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::NewProp_TraceHitTarget_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::NewProp_TraceHitTarget_MetaData)) }; // 1613593159
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::NewProp_TraceHitTarget,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "BlasterComponents/CombatComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCombatComponent, nullptr, "ServerFire", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00280CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCombatComponent, nullptr, "ServerFire", nullptr, nullptr, sizeof(CombatComponent_eventServerFire_Parms), Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00280CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCombatComponent_ServerFire_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UCombatComponent_ServerFire()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -217,9 +261,9 @@ void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Blaster,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCombatComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UCombatComponent_MulticastFire, "MulticastFire" }, // 945150188
+		{ &Z_Construct_UFunction_UCombatComponent_MulticastFire, "MulticastFire" }, // 3595525436
 		{ &Z_Construct_UFunction_UCombatComponent_OnRep_EquippedWeapon, "OnRep_EquippedWeapon" }, // 4218197083
-		{ &Z_Construct_UFunction_UCombatComponent_ServerFire, "ServerFire" }, // 3252426510
+		{ &Z_Construct_UFunction_UCombatComponent_ServerFire, "ServerFire" }, // 3756717372
 		{ &Z_Construct_UFunction_UCombatComponent_ServerSetAiming, "ServerSetAiming" }, // 156669088
 	};
 #if WITH_METADATA
@@ -315,9 +359,9 @@ void EmptyLinkFunctionForGeneratedCodeCombatComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UCombatComponent, UCombatComponent::StaticClass, TEXT("UCombatComponent"), &Z_Registration_Info_UClass_UCombatComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCombatComponent), 2286216215U) },
+		{ Z_Construct_UClass_UCombatComponent, UCombatComponent::StaticClass, TEXT("UCombatComponent"), &Z_Registration_Info_UClass_UCombatComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCombatComponent), 9501831U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_2464071622(TEXT("/Script/Blaster"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_795452423(TEXT("/Script/Blaster"),
 		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

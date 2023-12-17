@@ -9,6 +9,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector_NetQuantize;
 #ifdef BLASTER_CombatComponent_generated_h
 #error "CombatComponent.generated.h already included, missing '#pragma once' in CombatComponent.h"
 #endif
@@ -16,8 +17,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_14_SPARSE_DATA
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_14_RPC_WRAPPERS \
-	virtual void MulticastFire_Implementation(); \
-	virtual void ServerFire_Implementation(); \
+	virtual void MulticastFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
+	virtual void ServerFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerSetAiming_Implementation(bool bIsAiming); \
  \
 	DECLARE_FUNCTION(execMulticastFire); \
@@ -27,8 +28,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void MulticastFire_Implementation(); \
-	virtual void ServerFire_Implementation(); \
+	virtual void MulticastFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
+	virtual void ServerFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerSetAiming_Implementation(bool bIsAiming); \
  \
 	DECLARE_FUNCTION(execMulticastFire); \

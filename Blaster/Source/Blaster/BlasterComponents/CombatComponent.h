@@ -32,7 +32,7 @@ protected:
 	void ServerSetAiming(bool bIsAiming);
 
 	UFUNCTION(Server, Reliable)
-	void ServerFire();
+	void ServerFire(const FVector_NetQuantize& TraceHitTarget);
 
 	UFUNCTION()
 	void OnRep_EquippedWeapon();
@@ -41,7 +41,7 @@ protected:
 
 	// 멀티캐스트 함수
 	UFUNCTION(NetMulticast, Reliable)
-	void MulticastFire();
+	void MulticastFire(const FVector_NetQuantize& TraceHitTarget);
 
 	void TraceUnderCrosshairs(FHitResult& TraceHitResult);
 	
