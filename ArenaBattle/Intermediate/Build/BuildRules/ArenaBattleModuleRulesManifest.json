@@ -1,9 +1,0 @@
-{
-	"SourceFiles": [
-		"F:\\Git\\UnrealEngineRepo\\ArenaBattle\\Source\\ArenaBattleSetting\\ArenaBattleSetting.Build.cs",
-		"F:\\Git\\UnrealEngineRepo\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.Build.cs",
-		"F:\\Git\\UnrealEngineRepo\\ArenaBattle\\Source\\ArenaBattle.Target.cs",
-		"F:\\Git\\UnrealEngineRepo\\ArenaBattle\\Source\\ArenaBattleEditor.Target.cs"
-	],
-	"EngineVersion": "5.2.1"
-}

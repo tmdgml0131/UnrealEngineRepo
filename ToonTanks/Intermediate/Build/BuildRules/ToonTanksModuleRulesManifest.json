@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"F:\\Git\\UnrealEngineRepo\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
-		"F:\\Git\\UnrealEngineRepo\\ToonTanks\\Source\\ToonTanks.Target.cs",
-		"F:\\Git\\UnrealEngineRepo\\ToonTanks\\Source\\ToonTanksEditor.Target.cs"
-	],
-	"EngineVersion": "5.0.3"
-}

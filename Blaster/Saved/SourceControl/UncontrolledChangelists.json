@@ -5,15 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/BP_BlasterCharacter.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/Projectiles/BP_Projectile.uasset",
 				"F:/Git/UnrealEngineRepo/Blaster/Content/Maps/testmap.umap",
 				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/BP_AssualtRifle.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/Assault_Rifle_A.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/Casing/BP_Casing.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/Materials/M_Ammo.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/AssaultRifleA_Ammo.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/Materials/M_WeaponMaster_01.uasset"
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/HUD/BP_BlasterHUD.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/GameMode/BP_BlasterGameMode.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/PlayerController/BP_BlasterPlayerController.uasset"
 			]
 		}
 	]

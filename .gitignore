@@ -6,6 +6,9 @@
 *.ucas
 *.zip
 *.ddp
+Intermediate/
+Saved/
+Binaries/
 
 ### UnrealEngine ###
 # Visual Studio 2015 user specific files

@@ -32,7 +32,6 @@ void ACasing::BeginPlay()
 
 void ACasing::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	// 탄피 소리인데.. Asset이 없어 ㅠㅠ
 	if (ShellSound)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, ShellSound, GetActorLocation());

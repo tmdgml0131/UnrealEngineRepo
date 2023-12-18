@@ -14,7 +14,7 @@ class BLASTER_API ACasing : public AActor
 	
 public:	
 	ACasing();
-
+	
 protected:
 	virtual void BeginPlay() override;
 

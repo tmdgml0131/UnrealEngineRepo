@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"F:\\Git\\UnrealEngineRepo\\SimpleShooter\\Source\\SimpleShooter\\SimpleShooter.Build.cs",
-		"F:\\Git\\UnrealEngineRepo\\SimpleShooter\\Source\\SimpleShooter.Target.cs",
-		"F:\\Git\\UnrealEngineRepo\\SimpleShooter\\Source\\SimpleShooterEditor.Target.cs"
-	],
-	"EngineVersion": "5.2.1"
-}
