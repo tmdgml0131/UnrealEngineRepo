@@ -5,11 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/Animation/BlasterAnimBP.uasset",
 				"F:/Git/UnrealEngineRepo/Blaster/Content/Maps/testmap.umap",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/BP_AssualtRifle.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/HUD/BP_BlasterHUD.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/GameMode/BP_BlasterGameMode.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/PlayerController/BP_BlasterPlayerController.uasset"
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Maps/BlasterMap.umap"
 			]
 		}
 	]

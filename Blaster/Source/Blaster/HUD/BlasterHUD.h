@@ -17,6 +17,9 @@ public:
 	UTexture2D* CrosshairsRight;
 	UTexture2D* CrosshairsTop;
 	UTexture2D* CrosshairsBottom;
+	// 조준점 확장을 위한 변수
+	// 이 변수 조정을 통해 조준점 확대/축소 시킴
+	float CrosshairSpread;
 };
 
 /**
@@ -33,7 +36,10 @@ public:
 private:
 	FHUDPackage HUDPackage;
 
-	void DrawCrosshair(UTexture2D* Texture, FVector2D ViewportCenter);
+	void DrawCrosshair(UTexture2D* Texture, FVector2D ViewportCenter, FVector2D Spread);
+
+	UPROPERTY(EditAnywhere)
+	float CrosshairSpreadMax = 16.f;
 public:
 	FORCEINLINE void SetHUDPackage(const FHUDPackage& Package) { HUDPackage = Package; }
 	

@@ -66,6 +66,12 @@ private:
 
 	bool bFireButtonPressed;
 
+	// HUD && Crosshairs
+	// how much will crosshair Spread
+	float CrosshairVelocityFactor;
+	float CrosshairInAirFactor;
+
+	FVector HitTarget;
 public:	
 	
 
