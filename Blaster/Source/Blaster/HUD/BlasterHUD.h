@@ -20,6 +20,8 @@ public:
 	// 조준점 확장을 위한 변수
 	// 이 변수 조정을 통해 조준점 확대/축소 시킴
 	float CrosshairSpread;
+
+	FLinearColor CrosshairColor;
 };
 
 /**
@@ -36,7 +38,7 @@ public:
 private:
 	FHUDPackage HUDPackage;
 
-	void DrawCrosshair(UTexture2D* Texture, FVector2D ViewportCenter, FVector2D Spread);
+	void DrawCrosshair(UTexture2D* Texture, FVector2D ViewportCenter, FVector2D Spread, FLinearColor CrosshairColor);
 
 	UPROPERTY(EditAnywhere)
 	float CrosshairSpreadMax = 16.f;

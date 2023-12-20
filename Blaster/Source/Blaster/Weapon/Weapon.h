@@ -52,13 +52,14 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
-	// PickupWidget 범위 판단 Start
+#pragma region PickupWidget RangeCheck
 	UFUNCTION()
 	virtual void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-	// PickupWidget 범위 판단 End
 	UFUNCTION()
 	void OnSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+#pragma endregion
+	
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Weapon Properties")
 	USkeletalMeshComponent* WeaponMesh;
@@ -81,9 +82,18 @@ private:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<class ACasing> CasingClass;
 
+#pragma region FOV ( Field of View ) Control while Aiming
+	
+	UPROPERTY(EditAnywhere)
+	float ZoomedFOV = 30.f;
 
+	UPROPERTY(EditAnywhere)
+	float ZoomInterpSpeed = 20.f;
+#pragma endregion
 public:	
 	void SetWeaponState(EWeaponState State);
 	FORCEINLINE USphereComponent* GetAreaSphere() const { return AreaSphere; }
 	FORCEINLINE USkeletalMeshComponent* GetWeaponMesh() const { return WeaponMesh; }
+	FORCEINLINE float GetZoomedFOV() const { return ZoomedFOV; }
+	FORCEINLINE float GetZoomInterpSpeed() const { return ZoomInterpSpeed; }
 };

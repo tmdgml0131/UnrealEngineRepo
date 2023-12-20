@@ -159,6 +159,15 @@
     <ClInclude Include="..\..\Source\Blaster\HUD\OverheadWidget.h">
       <Filter>Source\Blaster\HUD</Filter>
     </ClInclude>
+    <Filter Include="Source\Blaster\Interfaces">
+      <UniqueIdentifier>{02A5F7DF-2842-3DD3-9229-4A464EE87695}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blaster\Interfaces\InteractWithCrosshairsInterface.cpp">
+      <Filter>Source\Blaster\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\Interfaces\InteractWithCrosshairsInterface.h">
+      <Filter>Source\Blaster\Interfaces</Filter>
+    </ClInclude>
     <Filter Include="Source\Blaster\PlayerController">
       <UniqueIdentifier>{057539C8-6A62-3CA5-A52A-91A9DC512EDA}</UniqueIdentifier>
     </Filter>

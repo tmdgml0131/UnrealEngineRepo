@@ -4,7 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Blaster/HUD/BlasterHUD.h"
+
+/////////////////////////////////////////////
 #include "CombatComponent.generated.h"
+
 
 #define TRACE_LENGTH 80000.f
 
@@ -66,12 +70,32 @@ private:
 
 	bool bFireButtonPressed;
 
-	// HUD && Crosshairs
-	// how much will crosshair Spread
+#pragma region HUD & Crosshairs
 	float CrosshairVelocityFactor;
 	float CrosshairInAirFactor;
-
+	float CrosshairAimFactor;
+	float CrosshairShootingFactor;
 	FVector HitTarget;
+
+	FHUDPackage HUDPackage;
+#pragma endregion
+	
+
+
+#pragma region Aiming and FOV
+	// Beginplay FOV
+	float DefaultFOV;
+
+	UPROPERTY(EditAnywhere, Category = Combat)
+	float ZoomedFOV = 30.f;
+
+	float CurrentFOV;
+
+	UPROPERTY(EditAnywhere, Category = Combat)
+	float ZoomInterpSpeed = 20.f;
+
+	void InterpFOV(float DeltaTime);
+#pragma endregion
 public:	
 	
 

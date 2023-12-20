@@ -5,9 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/Animation/BlasterAnimBP.uasset",
 				"F:/Git/UnrealEngineRepo/Blaster/Content/Maps/testmap.umap",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Maps/BlasterMap.umap"
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/BP_BlasterCharacter.uasset"
 			]
 		}
 	]
