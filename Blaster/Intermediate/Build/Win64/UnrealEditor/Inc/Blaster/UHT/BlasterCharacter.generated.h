@@ -18,16 +18,20 @@ class AWeapon;
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_SPARSE_DATA
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_RPC_WRAPPERS \
 	virtual void ServerEquipButtonPressed_Implementation(); \
+	virtual void MulticastHit_Implementation(); \
  \
 	DECLARE_FUNCTION(execServerEquipButtonPressed); \
-	DECLARE_FUNCTION(execOnRep_OverlappingWeapon);
+	DECLARE_FUNCTION(execOnRep_OverlappingWeapon); \
+	DECLARE_FUNCTION(execMulticastHit);
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void ServerEquipButtonPressed_Implementation(); \
+	virtual void MulticastHit_Implementation(); \
  \
 	DECLARE_FUNCTION(execServerEquipButtonPressed); \
-	DECLARE_FUNCTION(execOnRep_OverlappingWeapon);
+	DECLARE_FUNCTION(execOnRep_OverlappingWeapon); \
+	DECLARE_FUNCTION(execMulticastHit);
 
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_ACCESSORS

@@ -48,7 +48,7 @@ void UBlasterAnimInstance::NativeUpdateAnimation(float DeltaTime)
 
 	// 캐릭터 Turn
 	TurningInPlace = BlasterCharacter->GetTurningInPlace();
-
+	bRotateRootBone = BlasterCharacter->ShouldRotateRootBone();
 
 	// Offset Yaw 계산
 	FRotator AimRotation = BlasterCharacter->GetBaseAimRotation();
@@ -90,13 +90,13 @@ void UBlasterAnimInstance::NativeUpdateAnimation(float DeltaTime)
 		}
 
 
-		// 실제 무기 메쉬 조준점 조준
-		FTransform MuzzleTipTransform = EquippedWeapon->GetWeaponMesh()->GetSocketTransform(FName("MuzzleFlash"), ERelativeTransformSpace::RTS_World);
-		FVector MuzzleX(FRotationMatrix(MuzzleTipTransform.GetRotation().Rotator()).GetUnitAxis(EAxis::X));
-
-		// 캐릭터 Mesh 가 바라보는 조준점
-		DrawDebugLine(GetWorld(), MuzzleTipTransform.GetLocation(), MuzzleTipTransform.GetLocation() + MuzzleX * 1000.f, FColor::Red);
-		// 실제 조준점
-		DrawDebugLine(GetWorld(), MuzzleTipTransform.GetLocation(), BlasterCharacter->GetHitTarget(), FColor::Green);
+		//// 실제 무기 메쉬 조준점 조준
+		//FTransform MuzzleTipTransform = EquippedWeapon->GetWeaponMesh()->GetSocketTransform(FName("MuzzleFlash"), ERelativeTransformSpace::RTS_World);
+		//FVector MuzzleX(FRotationMatrix(MuzzleTipTransform.GetRotation().Rotator()).GetUnitAxis(EAxis::X));
+		//
+		//// 캐릭터 Mesh 가 바라보는 조준점
+		//DrawDebugLine(GetWorld(), MuzzleTipTransform.GetLocation(), MuzzleTipTransform.GetLocation() + MuzzleX * 1000.f, FColor::Red);
+		//// 실제 조준점
+		//DrawDebugLine(GetWorld(), MuzzleTipTransform.GetLocation(), BlasterCharacter->GetHitTarget(), FColor::Green);
 	}
 }

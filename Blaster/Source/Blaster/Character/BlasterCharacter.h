@@ -23,7 +23,9 @@ public:
 	virtual void PostInitializeComponents() override;
 	// 발사 애니메이션
 	void PlayFireMontage(bool bAiming);
-
+	
+	UFUNCTION(NetMulticast, Unreliable)
+	void MulticastHit();
 protected:
 	virtual void BeginPlay() override;
 
@@ -37,9 +39,17 @@ protected:
 	void AimButtonPressed();
 	void AimButtonReleased();
 	void AimOffset(float DeltaTime);
+
+	void CalculateAO_Pitch();
+
+	// Simulated Proxy Turn
+	void SimProxiesTurn();
 	virtual void Jump() override;
 	void FireButtonPressed();
 	void FireButtonReleased();
+
+	// 피격 애니메이션
+	void PlayHitReactMontage();
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = Camera)
@@ -75,6 +85,16 @@ private:
 	UPROPERTY(EditAnywhere, Category = CombatComponent)
 	class UAnimMontage* FireWeaponMontage;
 
+	UPROPERTY(EditAnywhere, Category = CombatComponent)
+	class UAnimMontage* HitReactMontage;
+
+	// 카메라 가까우면 플레이어 숨기는 함수
+	void HideCameraIfCharacterClose();
+
+	UPROPERTY(EditAnywhere)
+	float CameraTreshold = 200.f;
+
+	bool bRotateRootBone;
 public:	
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();
@@ -85,4 +105,5 @@ public:
 	FORCEINLINE ETurningInPlace GetTurningInPlace() const { return TurningInPlace; }
 	FVector GetHitTarget() const;
 	FORCEINLINE UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+	FORCEINLINE bool ShouldRotateRootBone() const { return bRotateRootBone; }
 };
