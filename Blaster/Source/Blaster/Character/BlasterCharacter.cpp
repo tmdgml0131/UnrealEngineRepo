@@ -78,13 +78,19 @@ void ABlasterCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (GetLocalRole() > ENetRole::ROLE_SimulatedProxy)
+	if (GetLocalRole() > ENetRole::ROLE_SimulatedProxy && IsLocallyControlled())
 	{
 		AimOffset(DeltaTime);
 	}
 	else
 	{
-		SimProxiesTurn();
+		// Movement가 Replicated된 시간이 특정 시간보다 크다면.. ( 하드코딩 수정 필요 )
+		TimeSinceLastMovementReplication += DeltaTime;
+		if (TimeSinceLastMovementReplication > 0.25f)
+		{
+			OnRep_ReplicatedMovement();
+		}
+		CalculateAO_Pitch();
 	}
 
 	HideCameraIfCharacterClose();
@@ -234,15 +240,21 @@ void ABlasterCharacter::AimButtonReleased()
 	}
 }
 
+float ABlasterCharacter::CalculateSpeed()
+{
+	FVector Velocity = GetVelocity();
+	Velocity.Z = 0.f;
+	return Velocity.Size();
+}
+
 void ABlasterCharacter::AimOffset(float DeltaTime)
 {
 	// 무기가 없다면 return
 	if (CombatComponent && CombatComponent->EquippedWeapon == nullptr) return;
 
 	// 캐릭터 속도
-	FVector Velocity = GetVelocity();
-	Velocity.Z = 0.f;
-	float Speed = Velocity.Size();
+	float Speed = CalculateSpeed();
+
 	bool bIsInAir = GetCharacterMovement()->IsFalling();
 
 	// 플레이어가 Idle 상태
@@ -259,7 +271,6 @@ void ABlasterCharacter::AimOffset(float DeltaTime)
 		{
 			InterpAO_Yaw = AO_Yaw;
 		}
-
 		bUseControllerRotationYaw = true;
 		TurnInPlace(DeltaTime);
 	}
@@ -296,9 +307,37 @@ void ABlasterCharacter::CalculateAO_Pitch()
 void ABlasterCharacter::SimProxiesTurn()
 {
 	if (CombatComponent == nullptr || CombatComponent->EquippedWeapon == nullptr) return;
-	
 	bRotateRootBone = false;
-	CalculateAO_Pitch();
+	
+	float Speed = CalculateSpeed();
+	if (Speed > 0.f)
+	{
+		TurningInPlace = ETurningInPlace::ETIP_NotTurning;
+		return;
+	}
+
+	ProxyRotationLastFrame = ProxyRotation;
+	ProxyRotation = GetActorRotation();
+	ProxyYaw = UKismetMathLibrary::NormalizedDeltaRotator(ProxyRotation, ProxyRotationLastFrame).Yaw;
+
+	if (FMath::Abs(ProxyYaw) > TurnThreshold)
+	{
+		if (ProxyYaw > TurnThreshold)
+		{
+			TurningInPlace = ETurningInPlace::ETIP_Right;
+		}
+		else if (ProxyYaw < -TurnThreshold)
+		{
+			TurningInPlace = ETurningInPlace::ETIP_Left;
+		}
+		else
+		{
+			TurningInPlace = ETurningInPlace::ETIP_NotTurning;
+		}
+		return;
+	}
+
+	TurningInPlace = ETurningInPlace::ETIP_NotTurning;
 }
 
 void ABlasterCharacter::Jump()
@@ -356,6 +395,14 @@ void ABlasterCharacter::TurnInPlace(float DeltaTime)
 void ABlasterCharacter::MulticastHit_Implementation()
 {
 	PlayHitReactMontage();
+}
+
+void ABlasterCharacter::OnRep_ReplicatedMovement()
+{
+	Super::OnRep_ReplicatedMovement();
+
+	SimProxiesTurn();
+	TimeSinceLastMovementReplication = 0.f;
 }
 
 void ABlasterCharacter::HideCameraIfCharacterClose()

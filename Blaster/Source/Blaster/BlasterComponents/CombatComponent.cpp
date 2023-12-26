@@ -12,6 +12,7 @@
 #include "DrawDebugHelpers.h"
 #include "Blaster/PlayerController/BlasterPlayerController.h"
 #include "Camera/CameraComponent.h"
+#include "TimerManager.h"
 
 UCombatComponent::UCombatComponent()
 {
@@ -32,6 +33,7 @@ void UCombatComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out
 void UCombatComponent::BeginPlay()
 {
 	Super::BeginPlay();
+
 	if (Character)
 	{
 		Character->GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
@@ -44,51 +46,65 @@ void UCombatComponent::BeginPlay()
 	}
 }
 
-void UCombatComponent::SetAiming(bool bIsAiming)
+void UCombatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
-	bAiming = bIsAiming;
-	ServerSetAiming(bIsAiming);
-	if (Character)
-	{
-		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming? AimWalkSpeed : BaseWalkSpeed;
-	}
-}
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-void UCombatComponent::ServerSetAiming_Implementation(bool bIsAiming)
-{
-	bAiming = bIsAiming;
-	if (Character)
+	if (Character && Character->IsLocallyControlled())
 	{
-		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming ? AimWalkSpeed : BaseWalkSpeed;
-	}
-}
+		FHitResult HitResult;
+		TraceUnderCrosshairs(HitResult);
+		HitTarget = HitResult.ImpactPoint;
 
-void UCombatComponent::OnRep_EquippedWeapon()
-{
-	if (EquippedWeapon && Character)
-	{
-		Character->GetCharacterMovement()->bOrientRotationToMovement = false;
-		Character->bUseControllerRotationYaw = true;
+		SetHUDCrosshairs(DeltaTime);
+		InterpFOV(DeltaTime);
 	}
 }
 
 // Server || Client 에서 Locally 호출된다
 void UCombatComponent::FireButtonPressed(bool bPressed)
 {
-	if (EquippedWeapon == nullptr) return;
 	bFireButtonPressed = bPressed;
 
 	if (bFireButtonPressed)
 	{
-		FHitResult HitResult;
-		TraceUnderCrosshairs(HitResult);
+		Fire();
+	}
+}
 
-		ServerFire(HitResult.ImpactPoint);
+void UCombatComponent::Fire()
+{
+	if (bCanFire)
+	{
+		ServerFire(HitTarget);
 
 		if (EquippedWeapon)
 		{
 			CrosshairShootingFactor = 2.f;
 		}
+		StartFireTimer();
+	}
+
+}
+
+void UCombatComponent::StartFireTimer()
+{
+	if (EquippedWeapon == nullptr || Character == nullptr) return;
+
+	bCanFire = false;
+
+	Character->GetWorldTimerManager().SetTimer(FireTimer, this, &ThisClass::FireTimerFinished, EquippedWeapon->FireDelay);
+}
+
+void UCombatComponent::FireTimerFinished()
+{
+	if (EquippedWeapon == nullptr) return;
+
+	bCanFire = true;
+
+	if (bFireButtonPressed && EquippedWeapon->bAutomatic)
+	{
+		Fire();
 	}
 }
 
@@ -107,6 +123,36 @@ void UCombatComponent::MulticastFire_Implementation(const FVector_NetQuantize& T
 	{
 		Character->PlayFireMontage(bAiming);
 		EquippedWeapon->Fire(TraceHitTarget);
+	}
+}
+
+// Server 에서만 작동
+void UCombatComponent::EquipWeapon(class AWeapon* WeaponToEquip)
+{
+	if (Character == nullptr || WeaponToEquip == nullptr) return;
+
+	EquippedWeapon = WeaponToEquip;
+	EquippedWeapon->SetWeaponState(EWeaponState::EWS_Equipped);
+	
+	// 무기 장착
+	const USkeletalMeshSocket* HandSocket = Character->GetMesh()->GetSocketByName(FName("RightHandSocket"));
+	if (HandSocket)
+	{
+		HandSocket->AttachActor(EquippedWeapon, Character->GetMesh());
+	}
+
+	EquippedWeapon->SetOwner(Character);
+
+	Character->GetCharacterMovement()->bOrientRotationToMovement = false;
+	Character->bUseControllerRotationYaw = true;
+}
+
+void UCombatComponent::OnRep_EquippedWeapon()
+{
+	if (EquippedWeapon && Character)
+	{
+		Character->GetCharacterMovement()->bOrientRotationToMovement = false;
+		Character->bUseControllerRotationYaw = true;
 	}
 }
 
@@ -236,40 +282,24 @@ void UCombatComponent::InterpFOV(float DeltaTime)
 	}
 }
 
-void UCombatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+void UCombatComponent::SetAiming(bool bIsAiming)
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	if (Character && Character->IsLocallyControlled())
+	bAiming = bIsAiming;
+	ServerSetAiming(bIsAiming);
+	if (Character)
 	{
-		SetHUDCrosshairs(DeltaTime);
-
-		FHitResult HitResult;
-		TraceUnderCrosshairs(HitResult);
-		HitTarget = HitResult.ImpactPoint;
-
-		InterpFOV(DeltaTime);
+		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming? AimWalkSpeed : BaseWalkSpeed;
 	}
 }
 
-// Server 에서만 작동
-void UCombatComponent::EquipWeapon(class AWeapon* WeaponToEquip)
+void UCombatComponent::ServerSetAiming_Implementation(bool bIsAiming)
 {
-	if (Character == nullptr || WeaponToEquip == nullptr) return;
-
-	EquippedWeapon = WeaponToEquip;
-	EquippedWeapon->SetWeaponState(EWeaponState::EWS_Equipped);
-	
-	// 무기 장착
-	const USkeletalMeshSocket* HandSocket = Character->GetMesh()->GetSocketByName(FName("RightHandSocket"));
-	if (HandSocket)
+	bAiming = bIsAiming;
+	if (Character)
 	{
-		HandSocket->AttachActor(EquippedWeapon, Character->GetMesh());
+		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming ? AimWalkSpeed : BaseWalkSpeed;
 	}
-
-	EquippedWeapon->SetOwner(Character);
-
-	Character->GetCharacterMovement()->bOrientRotationToMovement = false;
-	Character->bUseControllerRotationYaw = true;
 }
+
+
 

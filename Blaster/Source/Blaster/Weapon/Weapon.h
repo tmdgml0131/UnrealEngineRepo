@@ -49,6 +49,23 @@ public:
 	UTexture2D* CrosshairsBottom;
 	// 조준자를 위한 Textures
 	
+#pragma region FOV ( Field of View ) Control while Aiming
+	
+	UPROPERTY(EditAnywhere)
+	float ZoomedFOV = 30.f;
+
+	UPROPERTY(EditAnywhere)
+	float ZoomInterpSpeed = 20.f;
+
+#pragma endregion
+
+	UPROPERTY(EditAnywhere, Category = Combat)
+	float FireDelay = 0.15f;
+
+	UPROPERTY(EditAnywhere, Category = Combat)
+	bool bAutomatic = true;
+
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -82,14 +99,6 @@ private:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<class ACasing> CasingClass;
 
-#pragma region FOV ( Field of View ) Control while Aiming
-	
-	UPROPERTY(EditAnywhere)
-	float ZoomedFOV = 30.f;
-
-	UPROPERTY(EditAnywhere)
-	float ZoomInterpSpeed = 20.f;
-#pragma endregion
 public:	
 	void SetWeaponState(EWeaponState State);
 	FORCEINLINE USphereComponent* GetAreaSphere() const { return AreaSphere; }

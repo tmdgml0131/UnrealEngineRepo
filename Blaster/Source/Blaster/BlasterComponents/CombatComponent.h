@@ -43,6 +43,8 @@ protected:
 
 	void FireButtonPressed(bool bPressed);
 
+	void Fire();
+
 	// 멀티캐스트 함수
 	UFUNCTION(NetMulticast, Reliable)
 	void MulticastFire(const FVector_NetQuantize& TraceHitTarget);
@@ -95,6 +97,15 @@ private:
 	float ZoomInterpSpeed = 20.f;
 
 	void InterpFOV(float DeltaTime);
+#pragma endregion
+
+#pragma region Automatic Fire
+	FTimerHandle FireTimer;
+
+	bool bCanFire = true;
+
+	void StartFireTimer();
+	void FireTimerFinished();
 #pragma endregion
 public:	
 	

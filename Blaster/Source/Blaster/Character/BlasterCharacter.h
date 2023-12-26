@@ -26,6 +26,8 @@ public:
 	
 	UFUNCTION(NetMulticast, Unreliable)
 	void MulticastHit();
+
+	virtual void OnRep_ReplicatedMovement() override;
 protected:
 	virtual void BeginPlay() override;
 
@@ -95,6 +97,14 @@ private:
 	float CameraTreshold = 200.f;
 
 	bool bRotateRootBone;
+
+	float TurnThreshold = 0.5f;
+	float ProxyYaw;
+	float TimeSinceLastMovementReplication;
+	FRotator ProxyRotationLastFrame;
+	FRotator ProxyRotation;
+	float CalculateSpeed();
+
 public:	
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();
