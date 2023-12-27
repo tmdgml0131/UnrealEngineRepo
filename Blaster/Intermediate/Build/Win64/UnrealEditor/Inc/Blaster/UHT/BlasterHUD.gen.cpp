@@ -12,7 +12,9 @@ void EmptyLinkFunctionForGeneratedCodeBlasterHUD() {}
 	BLASTER_API UClass* Z_Construct_UClass_ABlasterHUD();
 	BLASTER_API UClass* Z_Construct_UClass_ABlasterHUD_NoRegister();
 	BLASTER_API UScriptStruct* Z_Construct_UScriptStruct_FHUDPackage();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Blaster();
 // End Cross Module References
 	static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_HUDPackage;
@@ -82,6 +84,10 @@ template<> BLASTER_API UScriptStruct* StaticStruct<FHUDPackage>()
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CharacterOverlayClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_CharacterOverlayClass;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CrosshairSpreadMax_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_CrosshairSpreadMax;
@@ -103,6 +109,13 @@ template<> BLASTER_API UScriptStruct* StaticStruct<FHUDPackage>()
 	};
 #endif
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CharacterOverlayClass_MetaData[] = {
+		{ "Category", "Player Stats" },
+		{ "ModuleRelativePath", "HUD/BlasterHUD.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CharacterOverlayClass = { "CharacterOverlayClass", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ABlasterHUD, CharacterOverlayClass), Z_Construct_UClass_UClass, Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CharacterOverlayClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CharacterOverlayClass_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CrosshairSpreadMax_MetaData[] = {
 		{ "Category", "BlasterHUD" },
 		{ "ModuleRelativePath", "HUD/BlasterHUD.h" },
@@ -110,6 +123,7 @@ template<> BLASTER_API UScriptStruct* StaticStruct<FHUDPackage>()
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CrosshairSpreadMax = { "CrosshairSpreadMax", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ABlasterHUD, CrosshairSpreadMax), METADATA_PARAMS(Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CrosshairSpreadMax_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CrosshairSpreadMax_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABlasterHUD_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CharacterOverlayClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlasterHUD_Statics::NewProp_CrosshairSpreadMax,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABlasterHUD_Statics::StaticCppClassTypeInfo = {
@@ -154,9 +168,9 @@ template<> BLASTER_API UScriptStruct* StaticStruct<FHUDPackage>()
 		{ FHUDPackage::StaticStruct, Z_Construct_UScriptStruct_FHUDPackage_Statics::NewStructOps, TEXT("HUDPackage"), &Z_Registration_Info_UScriptStruct_HUDPackage, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FHUDPackage), 562739864U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABlasterHUD, ABlasterHUD::StaticClass, TEXT("ABlasterHUD"), &Z_Registration_Info_UClass_ABlasterHUD, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABlasterHUD), 4230102996U) },
+		{ Z_Construct_UClass_ABlasterHUD, ABlasterHUD::StaticClass, TEXT("ABlasterHUD"), &Z_Registration_Info_UClass_ABlasterHUD, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABlasterHUD), 1435058159U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_3763530175(TEXT("/Script/Blaster"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_497058380(TEXT("/Script/Blaster"),
 		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_Statics::ScriptStructInfo),
 		nullptr, 0);

@@ -47,17 +47,13 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = Crosshairs)
 	UTexture2D* CrosshairsBottom;
-	// 조준자를 위한 Textures
 	
-#pragma region FOV ( Field of View ) Control while Aiming
-	
+	// FOV ( Field of View ) Control while Aiming
 	UPROPERTY(EditAnywhere)
 	float ZoomedFOV = 30.f;
 
 	UPROPERTY(EditAnywhere)
 	float ZoomInterpSpeed = 20.f;
-
-#pragma endregion
 
 	UPROPERTY(EditAnywhere, Category = Combat)
 	float FireDelay = 0.15f;
@@ -69,13 +65,12 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
-#pragma region PickupWidget RangeCheck
+	// PickupWidget RangeCheck
 	UFUNCTION()
 	virtual void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	UFUNCTION()
 	void OnSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-#pragma endregion
 	
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Weapon Properties")

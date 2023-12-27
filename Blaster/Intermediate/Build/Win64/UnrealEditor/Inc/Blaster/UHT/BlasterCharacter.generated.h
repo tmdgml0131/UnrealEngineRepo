@@ -20,6 +20,7 @@ class AWeapon;
 	virtual void ServerEquipButtonPressed_Implementation(); \
 	virtual void MulticastHit_Implementation(); \
  \
+	DECLARE_FUNCTION(execOnRep_Health); \
 	DECLARE_FUNCTION(execServerEquipButtonPressed); \
 	DECLARE_FUNCTION(execOnRep_OverlappingWeapon); \
 	DECLARE_FUNCTION(execMulticastHit);
@@ -29,6 +30,7 @@ class AWeapon;
 	virtual void ServerEquipButtonPressed_Implementation(); \
 	virtual void MulticastHit_Implementation(); \
  \
+	DECLARE_FUNCTION(execOnRep_Health); \
 	DECLARE_FUNCTION(execServerEquipButtonPressed); \
 	DECLARE_FUNCTION(execOnRep_OverlappingWeapon); \
 	DECLARE_FUNCTION(execMulticastHit);
@@ -48,7 +50,8 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		OverlappingWeapon=NETFIELD_REP_START, \
-		NETFIELD_REP_END=OverlappingWeapon	}; \
+		Health, \
+		NETFIELD_REP_END=Health	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -64,7 +67,8 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		OverlappingWeapon=NETFIELD_REP_START, \
-		NETFIELD_REP_END=OverlappingWeapon	}; \
+		Health, \
+		NETFIELD_REP_END=Health	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 

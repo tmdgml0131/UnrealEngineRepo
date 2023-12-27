@@ -153,6 +153,12 @@
     <ClInclude Include="..\..\Source\Blaster\HUD\BlasterHUD.h">
       <Filter>Source\Blaster\HUD</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Blaster\HUD\CharacterOverlay.cpp">
+      <Filter>Source\Blaster\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\HUD\CharacterOverlay.h">
+      <Filter>Source\Blaster\HUD</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Blaster\HUD\OverheadWidget.cpp">
       <Filter>Source\Blaster\HUD</Filter>
     </ClCompile>
