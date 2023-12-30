@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/Projectiles/BP_ProjectileBullet.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Maps/testmap.umap",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/BP_AssualtRifle.uasset"
+			]
+		}
+	]
+}

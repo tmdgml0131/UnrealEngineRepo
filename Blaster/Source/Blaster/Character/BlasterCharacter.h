@@ -23,9 +23,6 @@ public:
 	virtual void PostInitializeComponents() override;
 	// 발사 애니메이션
 	void PlayFireMontage(bool bAiming);
-	
-	UFUNCTION(NetMulticast, Unreliable)
-	void MulticastHit();
 
 	virtual void OnRep_ReplicatedMovement() override;
 protected:
@@ -53,6 +50,11 @@ protected:
 	// 피격 애니메이션
 	void PlayHitReactMontage();
 
+	// 데미지 처리 함수
+	UFUNCTION()
+	void ReceiveDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* InstigatorController, AActor* DamageCauser);
+
+	void UpdateHUDHealth();
 private:
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	class USpringArmComponent* CameraBoom;
