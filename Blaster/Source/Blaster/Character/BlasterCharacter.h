@@ -23,8 +23,16 @@ public:
 	virtual void PostInitializeComponents() override;
 	// 발사 애니메이션
 	void PlayFireMontage(bool bAiming);
+	
+	// 죽음 애니메이션
+	void PlayElimMontage();
 
 	virtual void OnRep_ReplicatedMovement() override;
+
+	// 플레이어 죽음
+	UFUNCTION(NetMulticast, Reliable)
+	void Elim();
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -90,7 +98,10 @@ private:
 	class UAnimMontage* FireWeaponMontage;
 
 	UPROPERTY(EditAnywhere, Category = CombatComponent)
-	class UAnimMontage* HitReactMontage;
+	UAnimMontage* HitReactMontage;
+
+	UPROPERTY(EditAnywhere, Category = CombatComponent)
+	UAnimMontage* ElimMontage;
 
 	// 카메라 가까우면 플레이어 숨기는 함수
 	void HideCameraIfCharacterClose();
@@ -118,6 +129,8 @@ private:
 	void OnRep_Health();
 
 	class ABlasterPlayerController* BlasterPlayerController;
+
+	bool bElimmed = false;
 public:	
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();
@@ -129,4 +142,5 @@ public:
 	FVector GetHitTarget() const;
 	FORCEINLINE UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 	FORCEINLINE bool ShouldRotateRootBone() const { return bRotateRootBone; }
+	FORCEINLINE bool IsElimmed() const { return bElimmed; }
 };
