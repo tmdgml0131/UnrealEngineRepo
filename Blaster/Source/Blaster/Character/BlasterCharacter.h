@@ -29,9 +29,12 @@ public:
 
 	virtual void OnRep_ReplicatedMovement() override;
 
+	// GameMode에서 호출하는 Elim
+	void Elim();
+
 	// 플레이어 죽음
 	UFUNCTION(NetMulticast, Reliable)
-	void Elim();
+	void MultiCastElim();
 
 protected:
 	virtual void BeginPlay() override;
@@ -131,6 +134,13 @@ private:
 	class ABlasterPlayerController* BlasterPlayerController;
 
 	bool bElimmed = false;
+
+	FTimerHandle ElimTimer;
+
+	void ElimTimerFinished();
+
+	UPROPERTY(EditDefaultsOnly)
+	float ElimDealy = 3.f;
 public:	
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();
