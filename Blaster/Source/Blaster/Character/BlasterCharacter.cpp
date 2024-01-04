@@ -65,6 +65,9 @@ ABlasterCharacter::ABlasterCharacter()
 	// FPS 게임 같은 빠른 페이스의 게임은 DefaultEngine.ini 에 NetServerMaxTickRate 설정 또한 해야함
 	NetUpdateFrequency = 66.f;
 	MinNetUpdateFrequency = 33.f;
+
+	// Dissolve Effect
+	DissolveTimeline = CreateDefaultSubobject<UTimelineComponent>(TEXT("DissolveTimelineComponent"));
 }
 
 void ABlasterCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
@@ -468,6 +471,16 @@ void ABlasterCharacter::MultiCastElim_Implementation()
 {
 	bElimmed = true;
 	PlayElimMontage();
+
+	if (DissolveMaterialInstance)
+	{
+		DynamicDissolveMaterialInstance = UMaterialInstanceDynamic::Create(DissolveMaterialInstance, this);
+		GetMesh()->SetMaterial(0, DynamicDissolveMaterialInstance);
+		DynamicDissolveMaterialInstance->SetScalarParameterValue(TEXT("Dissolve"), 0.55f);
+		DynamicDissolveMaterialInstance->SetScalarParameterValue(TEXT("Glow"), 200.f);
+	}
+
+	StartDissolve();
 }
 
 void ABlasterCharacter::ElimTimerFinished()
@@ -476,6 +489,25 @@ void ABlasterCharacter::ElimTimerFinished()
 	if (BlasterGameMode)
 	{
 		BlasterGameMode->RequestRespawn(this, Controller);
+	}
+}
+
+void ABlasterCharacter::UpdateDissolveMaterial(float DissolveValue)
+{
+	if (DynamicDissolveMaterialInstance)
+	{
+		DynamicDissolveMaterialInstance->SetScalarParameterValue(TEXT("Dissolve"), DissolveValue);
+	}
+}
+
+void ABlasterCharacter::StartDissolve()
+{
+	DissolveTrack.BindDynamic(this, &ThisClass::UpdateDissolveMaterial);
+
+	if (DissolveCurve && DissolveTimeline)
+	{
+		DissolveTimeline->AddInterpFloat(DissolveCurve, DissolveTrack);
+		DissolveTimeline->Play();
 	}
 }
 

@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Blaster/BlasterTypes/TurningInPlace.h"
 #include "Blaster/Interfaces/InteractWithCrosshairsInterface.h"
+#include "Components/TimelineComponent.h"
 
 //////////////////////////////////////////////////
 #include "BlasterCharacter.generated.h"
@@ -141,6 +142,30 @@ private:
 
 	UPROPERTY(EditDefaultsOnly)
 	float ElimDealy = 3.f;
+
+	// Dissolve Effect
+	// Timeline 추가 시 Call-back Func. 필요
+	UPROPERTY(VisibleAnywhere)
+	UTimelineComponent* DissolveTimeline;
+
+	FOnTimelineFloat DissolveTrack;
+
+	UPROPERTY(EditAnywhere)
+	UCurveFloat* DissolveCurve;
+
+	UFUNCTION()
+	void UpdateDissolveMaterial(float DissolveValue);
+	
+	void StartDissolve();
+
+	// Dynamic Instance, Runtime에 변경 가능
+	UPROPERTY(VisibleAnywhere, Category = Elim)
+	UMaterialInstanceDynamic* DynamicDissolveMaterialInstance;
+
+	// Blueprint에서 변경 가능한 Material Instance로 Dynamic Material에 쓰임
+	UPROPERTY(EditAnywhere, Category = Elim)
+	UMaterialInstance* DissolveMaterialInstance;
+
 public:	
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();

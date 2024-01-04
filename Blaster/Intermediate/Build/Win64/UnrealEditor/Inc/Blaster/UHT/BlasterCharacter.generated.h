@@ -18,11 +18,12 @@ class UDamageType;
 #endif
 #define BLASTER_BlasterCharacter_generated_h
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_SPARSE_DATA
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_RPC_WRAPPERS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_SPARSE_DATA
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_RPC_WRAPPERS \
 	virtual void ServerEquipButtonPressed_Implementation(); \
 	virtual void MultiCastElim_Implementation(); \
  \
+	DECLARE_FUNCTION(execUpdateDissolveMaterial); \
 	DECLARE_FUNCTION(execOnRep_Health); \
 	DECLARE_FUNCTION(execServerEquipButtonPressed); \
 	DECLARE_FUNCTION(execOnRep_OverlappingWeapon); \
@@ -30,10 +31,11 @@ class UDamageType;
 	DECLARE_FUNCTION(execMultiCastElim);
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void ServerEquipButtonPressed_Implementation(); \
 	virtual void MultiCastElim_Implementation(); \
  \
+	DECLARE_FUNCTION(execUpdateDissolveMaterial); \
 	DECLARE_FUNCTION(execOnRep_Health); \
 	DECLARE_FUNCTION(execServerEquipButtonPressed); \
 	DECLARE_FUNCTION(execOnRep_OverlappingWeapon); \
@@ -41,9 +43,9 @@ class UDamageType;
 	DECLARE_FUNCTION(execMultiCastElim);
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_ACCESSORS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_CALLBACK_WRAPPERS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_ACCESSORS
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_CALLBACK_WRAPPERS
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABlasterCharacter(); \
 	friend struct Z_Construct_UClass_ABlasterCharacter_Statics; \
@@ -60,7 +62,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_INCLASS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesABlasterCharacter(); \
 	friend struct Z_Construct_UClass_ABlasterCharacter_Statics; \
@@ -77,7 +79,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_STANDARD_CONSTRUCTORS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABlasterCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABlasterCharacter) \
@@ -91,7 +93,7 @@ public: \
 	NO_API virtual ~ABlasterCharacter();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABlasterCharacter(ABlasterCharacter&&); \
@@ -103,29 +105,29 @@ public: \
 	NO_API virtual ~ABlasterCharacter();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_13_PROLOG
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_GENERATED_BODY_LEGACY \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_14_PROLOG
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_RPC_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_CALLBACK_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_INCLASS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_STANDARD_CONSTRUCTORS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_SPARSE_DATA \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_RPC_WRAPPERS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_ACCESSORS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_CALLBACK_WRAPPERS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_INCLASS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_GENERATED_BODY \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_CALLBACK_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_SPARSE_DATA \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_ACCESSORS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_CALLBACK_WRAPPERS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
