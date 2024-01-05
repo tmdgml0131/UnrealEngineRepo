@@ -32,6 +32,9 @@ public:
 	// 발사
 	virtual void Fire(const FVector& HitTarget);
 
+	// 무기 드롭
+	void Dropped();
+
 	// 조준자를 위한 Textures
 	UPROPERTY(EditAnywhere, Category = Crosshairs)
 	class UTexture2D* CrosshairsCenter;

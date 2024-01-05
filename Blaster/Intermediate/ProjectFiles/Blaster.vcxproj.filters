@@ -183,6 +183,15 @@
     <ClInclude Include="..\..\Source\Blaster\PlayerController\BlasterPlayerController.h">
       <Filter>Source\Blaster\PlayerController</Filter>
     </ClInclude>
+    <Filter Include="Source\Blaster\PlayerState">
+      <UniqueIdentifier>{36DA2CE2-FD78-334E-BB19-1138BC13899E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blaster\PlayerState\BlasterPlayerState.cpp">
+      <Filter>Source\Blaster\PlayerState</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\PlayerState\BlasterPlayerState.h">
+      <Filter>Source\Blaster\PlayerState</Filter>
+    </ClInclude>
     <Filter Include="Source\Blaster\Weapon">
       <UniqueIdentifier>{816D2633-5BC4-3359-ADC4-F063AA87E942}</UniqueIdentifier>
     </Filter>

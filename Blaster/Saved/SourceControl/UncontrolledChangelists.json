@@ -5,21 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Maps/testmap.umap",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Elim.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/Animation/Elim.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Skeleton.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/BP_BlasterCharacter.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/Animation/BlasterAnimBP.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/GameMode/BP_BlasterGameMode.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/Materials/M_DissolveEffect.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/Materials/MI_DissolveEffect.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/LearningKit_Games/Assets/Characters/Character/Material/M_EpicCharacter_Dissolve.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/LearningKit_Games/Assets/Characters/Character/Material/MI_CharacterElimDissolve.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/Curves/DissolveCurve.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Optimized.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/LearningKit_Games/Assets/Characters/Character/Animations/ElimAnimation.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/ElimAnimation.uasset"
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/HUD/WBP_CharacterOverlay.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/PlayerState/BP_BlasterPlayerState.uasset",
+				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/GameMode/BP_BlasterGameMode.uasset"
 			]
 		}
 	]
