@@ -20,6 +20,7 @@ struct FHitResult;
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_22_SPARSE_DATA
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_22_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnRep_Ammo); \
 	DECLARE_FUNCTION(execOnRep_WeaponState); \
 	DECLARE_FUNCTION(execOnSphereEndOverlap); \
 	DECLARE_FUNCTION(execOnSphereOverlap);
@@ -27,6 +28,7 @@ struct FHitResult;
 
 #define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnRep_Ammo); \
 	DECLARE_FUNCTION(execOnRep_WeaponState); \
 	DECLARE_FUNCTION(execOnSphereEndOverlap); \
 	DECLARE_FUNCTION(execOnSphereOverlap);
@@ -44,7 +46,8 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		WeaponState=NETFIELD_REP_START, \
-		NETFIELD_REP_END=WeaponState	}; \
+		Ammo, \
+		NETFIELD_REP_END=Ammo	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -59,7 +62,8 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		WeaponState=NETFIELD_REP_START, \
-		NETFIELD_REP_END=WeaponState	}; \
+		Ammo, \
+		NETFIELD_REP_END=Ammo	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
