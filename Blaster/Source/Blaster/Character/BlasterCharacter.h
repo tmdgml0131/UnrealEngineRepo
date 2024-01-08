@@ -7,7 +7,7 @@
 #include "Blaster/BlasterTypes/TurningInPlace.h"
 #include "Blaster/Interfaces/InteractWithCrosshairsInterface.h"
 #include "Components/TimelineComponent.h"
-
+#include "Blaster/BlasterTypes/CombatState.h"
 //////////////////////////////////////////////////
 #include "BlasterCharacter.generated.h"
 
@@ -24,6 +24,8 @@ public:
 	virtual void PostInitializeComponents() override;
 	// 발사 애니메이션
 	void PlayFireMontage(bool bAiming);
+	// 장전 애니메이션
+	void PlayReloadMontage();
 	
 	// 죽음 애니메이션
 	void PlayElimMontage();
@@ -52,6 +54,7 @@ protected:
 	void AimButtonPressed();
 	void AimButtonReleased();
 	void AimOffset(float DeltaTime);
+	void ReloadButtonPressed();
 
 	void CalculateAO_Pitch();
 
@@ -88,7 +91,7 @@ private:
 	UFUNCTION()
 	void OnRep_OverlappingWeapon(AWeapon* LastWeapon);
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UCombatComponent* CombatComponent;
 
 	// RPC 함수
@@ -105,6 +108,9 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = CombatComponent)
 	class UAnimMontage* FireWeaponMontage;
+
+	UPROPERTY(EditAnywhere, Category = CombatComponent)
+	UAnimMontage* ReloadMontage;
 
 	UPROPERTY(EditAnywhere, Category = CombatComponent)
 	UAnimMontage* HitReactMontage;
@@ -197,4 +203,5 @@ public:
 	FORCEINLINE bool IsElimmed() const { return bElimmed; }
 	FORCEINLINE float GetHealth() const { return Health; }
 	FORCEINLINE float GetMaxHealth() const { return MaxHealth; }
+	ECombatState GetCombatState() const;
 };

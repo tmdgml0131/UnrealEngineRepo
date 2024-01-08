@@ -15,32 +15,42 @@ struct FVector_NetQuantize;
 #endif
 #define BLASTER_CombatComponent_generated_h
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_SPARSE_DATA
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_RPC_WRAPPERS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_SPARSE_DATA
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_RPC_WRAPPERS \
 	virtual void MulticastFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
+	virtual void ServerReload_Implementation(); \
 	virtual void ServerFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerSetAiming_Implementation(bool bIsAiming); \
  \
+	DECLARE_FUNCTION(execOnRep_CombatState); \
+	DECLARE_FUNCTION(execOnRep_CarriedAmmo); \
 	DECLARE_FUNCTION(execMulticastFire); \
 	DECLARE_FUNCTION(execOnRep_EquippedWeapon); \
+	DECLARE_FUNCTION(execServerReload); \
 	DECLARE_FUNCTION(execServerFire); \
-	DECLARE_FUNCTION(execServerSetAiming);
+	DECLARE_FUNCTION(execServerSetAiming); \
+	DECLARE_FUNCTION(execFinishReloading);
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void MulticastFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
+	virtual void ServerReload_Implementation(); \
 	virtual void ServerFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerSetAiming_Implementation(bool bIsAiming); \
  \
+	DECLARE_FUNCTION(execOnRep_CombatState); \
+	DECLARE_FUNCTION(execOnRep_CarriedAmmo); \
 	DECLARE_FUNCTION(execMulticastFire); \
 	DECLARE_FUNCTION(execOnRep_EquippedWeapon); \
+	DECLARE_FUNCTION(execServerReload); \
 	DECLARE_FUNCTION(execServerFire); \
-	DECLARE_FUNCTION(execServerSetAiming);
+	DECLARE_FUNCTION(execServerSetAiming); \
+	DECLARE_FUNCTION(execFinishReloading);
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_ACCESSORS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_CALLBACK_WRAPPERS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_ACCESSORS
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_CALLBACK_WRAPPERS
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCombatComponent(); \
 	friend struct Z_Construct_UClass_UCombatComponent_Statics; \
@@ -52,11 +62,13 @@ public: \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		EquippedWeapon=NETFIELD_REP_START, \
 		bAiming, \
-		NETFIELD_REP_END=bAiming	}; \
+		CarriedAmmo, \
+		CombatState, \
+		NETFIELD_REP_END=CombatState	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_INCLASS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesUCombatComponent(); \
 	friend struct Z_Construct_UClass_UCombatComponent_Statics; \
@@ -68,11 +80,13 @@ public: \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		EquippedWeapon=NETFIELD_REP_START, \
 		bAiming, \
-		NETFIELD_REP_END=bAiming	}; \
+		CarriedAmmo, \
+		CombatState, \
+		NETFIELD_REP_END=CombatState	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_STANDARD_CONSTRUCTORS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCombatComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCombatComponent) \
@@ -86,7 +100,7 @@ public: \
 	NO_API virtual ~UCombatComponent();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCombatComponent(UCombatComponent&&); \
@@ -98,29 +112,29 @@ public: \
 	NO_API virtual ~UCombatComponent();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_15_PROLOG
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_GENERATED_BODY_LEGACY \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_16_PROLOG
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_RPC_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_CALLBACK_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_INCLASS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_STANDARD_CONSTRUCTORS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_SPARSE_DATA \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_RPC_WRAPPERS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_ACCESSORS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_CALLBACK_WRAPPERS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_INCLASS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_GENERATED_BODY \
+#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_CALLBACK_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_18_ENHANCED_CONSTRUCTORS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_SPARSE_DATA \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_ACCESSORS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_CALLBACK_WRAPPERS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

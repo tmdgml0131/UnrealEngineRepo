@@ -225,5 +225,13 @@
     <ClInclude Include="..\..\Source\Blaster\Weapon\Weapon.h">
       <Filter>Source\Blaster\Weapon</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Blaster\Weapon\WeaponTypes.h">
+      <Filter>Source\Blaster\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Blaster\BlasterTypes\CombatState.h">
+      <Filter>Source\Blaster\BlasterTypes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
