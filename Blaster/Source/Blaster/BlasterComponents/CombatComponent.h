@@ -46,6 +46,8 @@ protected:
 
 	void HandleReload();
 
+	int32 AmountToReload();
+
 	UFUNCTION()
 	void OnRep_EquippedWeapon();
 
@@ -139,6 +141,8 @@ private:
 
 	UFUNCTION()
 	void OnRep_CombatState();
+
+	void UpdateAmmoValue();
 public:	
 	
 
