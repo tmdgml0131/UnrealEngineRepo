@@ -111,6 +111,9 @@
     <Filter Include="Source\Blaster\BlasterTypes">
       <UniqueIdentifier>{69A66E39-133C-39E2-987D-EBC64A18AEF7}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Blaster\BlasterTypes\CombatState.h">
+      <Filter>Source\Blaster\BlasterTypes</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Blaster\BlasterTypes\TurningInPlace.h">
       <Filter>Source\Blaster\BlasterTypes</Filter>
     </ClInclude>
@@ -227,11 +230,6 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\Blaster\Weapon\WeaponTypes.h">
       <Filter>Source\Blaster\Weapon</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Blaster\BlasterTypes\CombatState.h">
-      <Filter>Source\Blaster\BlasterTypes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

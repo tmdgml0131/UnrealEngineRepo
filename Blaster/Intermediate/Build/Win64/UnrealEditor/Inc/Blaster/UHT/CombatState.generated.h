@@ -15,7 +15,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BLASTER_CombatState_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterTypes_CombatState_h
+#define CURRENT_FILE_ID FID_git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterTypes_CombatState_h
 
 
 #define FOREACH_ENUM_ECOMBATSTATE(op) \

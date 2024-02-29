@@ -14,18 +14,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BLASTER_BlasterHUD_generated_h
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_12_GENERATED_BODY \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_12_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FHUDPackage_Statics; \
 	BLASTER_API static class UScriptStruct* StaticStruct();
 
 
 template<> BLASTER_API UScriptStruct* StaticStruct<struct FHUDPackage>();
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_SPARSE_DATA
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_RPC_WRAPPERS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ACCESSORS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_INCLASS_NO_PURE_DECLS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_SPARSE_DATA
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_RPC_WRAPPERS
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ACCESSORS
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABlasterHUD(); \
 	friend struct Z_Construct_UClass_ABlasterHUD_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ABlasterHUD)
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_INCLASS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_INCLASS \
 private: \
 	static void StaticRegisterNativesABlasterHUD(); \
 	friend struct Z_Construct_UClass_ABlasterHUD_Statics; \
@@ -43,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(ABlasterHUD)
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_STANDARD_CONSTRUCTORS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABlasterHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABlasterHUD) \
@@ -57,7 +57,7 @@ public: \
 	NO_API virtual ~ABlasterHUD();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ENHANCED_CONSTRUCTORS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABlasterHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -71,27 +71,27 @@ public: \
 	NO_API virtual ~ABlasterHUD();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_30_PROLOG
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_GENERATED_BODY_LEGACY \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_30_PROLOG
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_RPC_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_INCLASS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_STANDARD_CONSTRUCTORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_SPARSE_DATA \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_RPC_WRAPPERS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ACCESSORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_INCLASS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_GENERATED_BODY \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_INCLASS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ENHANCED_CONSTRUCTORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_SPARSE_DATA \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ACCESSORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_INCLASS_NO_PURE_DECLS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h_33_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -99,7 +99,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BLASTER_API UClass* StaticClass<class ABlasterHUD>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h
+#define CURRENT_FILE_ID FID_git_UnrealEngineRepo_Blaster_Source_Blaster_HUD_BlasterHUD_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

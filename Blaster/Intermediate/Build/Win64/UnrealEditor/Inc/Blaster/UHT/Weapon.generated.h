@@ -17,8 +17,8 @@ struct FHitResult;
 #endif
 #define BLASTER_Weapon_generated_h
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_SPARSE_DATA
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_RPC_WRAPPERS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_SPARSE_DATA
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnRep_Ammo); \
 	DECLARE_FUNCTION(execOnRep_WeaponState); \
@@ -26,7 +26,7 @@ struct FHitResult;
 	DECLARE_FUNCTION(execOnSphereOverlap);
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnRep_Ammo); \
 	DECLARE_FUNCTION(execOnRep_WeaponState); \
@@ -34,8 +34,8 @@ struct FHitResult;
 	DECLARE_FUNCTION(execOnSphereOverlap);
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ACCESSORS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_INCLASS_NO_PURE_DECLS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ACCESSORS
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWeapon(); \
 	friend struct Z_Construct_UClass_AWeapon_Statics; \
@@ -51,7 +51,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_INCLASS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_INCLASS \
 private: \
 	static void StaticRegisterNativesAWeapon(); \
 	friend struct Z_Construct_UClass_AWeapon_Statics; \
@@ -67,7 +67,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_STANDARD_CONSTRUCTORS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWeapon) \
@@ -81,7 +81,7 @@ public: \
 	NO_API virtual ~AWeapon();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ENHANCED_CONSTRUCTORS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AWeapon(AWeapon&&); \
@@ -93,27 +93,27 @@ public: \
 	NO_API virtual ~AWeapon();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_21_PROLOG
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_GENERATED_BODY_LEGACY \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_21_PROLOG
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_RPC_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_INCLASS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_STANDARD_CONSTRUCTORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_SPARSE_DATA \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_RPC_WRAPPERS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ACCESSORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_INCLASS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_GENERATED_BODY \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_INCLASS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ENHANCED_CONSTRUCTORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_SPARSE_DATA \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ACCESSORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_INCLASS_NO_PURE_DECLS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -121,7 +121,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BLASTER_API UClass* StaticClass<class AWeapon>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h
+#define CURRENT_FILE_ID FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Weapon_h
 
 
 #define FOREACH_ENUM_EWEAPONSTATE(op) \

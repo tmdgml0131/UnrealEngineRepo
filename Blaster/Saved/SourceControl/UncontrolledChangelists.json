@@ -5,15 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/HUD/WBP_CharacterOverlay.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/LearningKit_Games/Assets/Characters/Character/Mesh/SK_EpicCharacter_Skeleton.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/ReloadRifle.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/Animation/Reload.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/BP_BlasterCharacter.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Maps/testmap.umap",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Character/Animation/BlasterAnimBP.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/BP_AssualtRifle.uasset",
-				"F:/Git/UnrealEngineRepo/Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/ReloadRifle_Dup.uasset"
+				"D:/git/UnrealEngineRepo/Blaster/Content/Blueprints/HUD/WBP_CharacterOverlay.uasset"
 			]
 		}
 	]

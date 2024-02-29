@@ -15,7 +15,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BLASTER_TurningInPlace_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterTypes_TurningInPlace_h
+#define CURRENT_FILE_ID FID_git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterTypes_TurningInPlace_h
 
 
 #define FOREACH_ENUM_ETURNINGINPLACE(op) \

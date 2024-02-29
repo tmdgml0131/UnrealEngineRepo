@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Blaster",
-			"Path": "F:\\Git\\UnrealEngineRepo\\Blaster\\Source\\Blaster.Target.cs",
+			"Path": "D:\\git\\UnrealEngineRepo\\Blaster\\Source\\Blaster.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "BlasterEditor",
-			"Path": "F:\\Git\\UnrealEngineRepo\\Blaster\\Source\\BlasterEditor.Target.cs",
+			"Path": "D:\\git\\UnrealEngineRepo\\Blaster\\Source\\BlasterEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

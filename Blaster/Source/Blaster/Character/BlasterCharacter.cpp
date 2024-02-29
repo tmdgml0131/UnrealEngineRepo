@@ -88,7 +88,7 @@ void ABlasterCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	UpdateHUDHealth();
-
+	
 	if (HasAuthority())
 	{
 		OnTakeAnyDamage.AddDynamic(this, &ThisClass::ReceiveDamage);
@@ -362,6 +362,7 @@ void ABlasterCharacter::AimOffset(float DeltaTime)
 	// 플레이어가 Idle 상태
 	if (Speed == 0.f && !bIsInAir)
 	{
+
 		bRotateRootBone = true;
 
 		FRotator CurrentAimRotation = FRotator(0.f, GetBaseAimRotation().Yaw, 0.f);

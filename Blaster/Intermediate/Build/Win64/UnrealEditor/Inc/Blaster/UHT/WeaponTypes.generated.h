@@ -15,7 +15,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BLASTER_WeaponTypes_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h
+#define CURRENT_FILE_ID FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h
 
 
 #define FOREACH_ENUM_EWEAPONTYPE(op) \

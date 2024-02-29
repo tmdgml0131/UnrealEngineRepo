@@ -17,19 +17,19 @@ struct FHitResult;
 #endif
 #define BLASTER_Casing_generated_h
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_SPARSE_DATA
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_RPC_WRAPPERS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_SPARSE_DATA
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHit);
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnHit);
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ACCESSORS
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ACCESSORS
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACasing(); \
 	friend struct Z_Construct_UClass_ACasing_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(ACasing)
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_INCLASS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesACasing(); \
 	friend struct Z_Construct_UClass_ACasing_Statics; \
@@ -47,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(ACasing)
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_STANDARD_CONSTRUCTORS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACasing(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACasing) \
@@ -61,7 +61,7 @@ public: \
 	NO_API virtual ~ACasing();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACasing(ACasing&&); \
@@ -73,27 +73,27 @@ public: \
 	NO_API virtual ~ACasing();
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_10_PROLOG
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_GENERATED_BODY_LEGACY \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_10_PROLOG
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_RPC_WRAPPERS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_INCLASS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_STANDARD_CONSTRUCTORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_SPARSE_DATA \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_RPC_WRAPPERS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ACCESSORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_INCLASS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_GENERATED_BODY \
+#define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_SPARSE_DATA \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ACCESSORS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_INCLASS_NO_PURE_DECLS \
-	FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ENHANCED_CONSTRUCTORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_SPARSE_DATA \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ACCESSORS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_INCLASS_NO_PURE_DECLS \
+	FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -101,7 +101,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BLASTER_API UClass* StaticClass<class ACasing>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h
+#define CURRENT_FILE_ID FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_Casing_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
