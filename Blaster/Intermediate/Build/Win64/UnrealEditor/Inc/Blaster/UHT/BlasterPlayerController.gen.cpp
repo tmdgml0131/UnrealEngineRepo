@@ -15,8 +15,118 @@ void EmptyLinkFunctionForGeneratedCodeBlasterPlayerController() {}
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_Blaster();
 // End Cross Module References
+	DEFINE_FUNCTION(ABlasterPlayerController::execClientReportServerTime)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_TimeOfClientRequest);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_TimeServerReceivedClientRequest);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ClientReportServerTime_Implementation(Z_Param_TimeOfClientRequest,Z_Param_TimeServerReceivedClientRequest);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABlasterPlayerController::execServerRequestServerTime)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_TimeOfClientRequest);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ServerRequestServerTime_Implementation(Z_Param_TimeOfClientRequest);
+		P_NATIVE_END;
+	}
+	struct BlasterPlayerController_eventClientReportServerTime_Parms
+	{
+		float TimeOfClientRequest;
+		float TimeServerReceivedClientRequest;
+	};
+	struct BlasterPlayerController_eventServerRequestServerTime_Parms
+	{
+		float TimeOfClientRequest;
+	};
+	static FName NAME_ABlasterPlayerController_ClientReportServerTime = FName(TEXT("ClientReportServerTime"));
+	void ABlasterPlayerController::ClientReportServerTime(float TimeOfClientRequest, float TimeServerReceivedClientRequest)
+	{
+		BlasterPlayerController_eventClientReportServerTime_Parms Parms;
+		Parms.TimeOfClientRequest=TimeOfClientRequest;
+		Parms.TimeServerReceivedClientRequest=TimeServerReceivedClientRequest;
+		ProcessEvent(FindFunctionChecked(NAME_ABlasterPlayerController_ClientReportServerTime),&Parms);
+	}
+	static FName NAME_ABlasterPlayerController_ServerRequestServerTime = FName(TEXT("ServerRequestServerTime"));
+	void ABlasterPlayerController::ServerRequestServerTime(float TimeOfClientRequest)
+	{
+		BlasterPlayerController_eventServerRequestServerTime_Parms Parms;
+		Parms.TimeOfClientRequest=TimeOfClientRequest;
+		ProcessEvent(FindFunctionChecked(NAME_ABlasterPlayerController_ServerRequestServerTime),&Parms);
+	}
 	void ABlasterPlayerController::StaticRegisterNativesABlasterPlayerController()
 	{
+		UClass* Class = ABlasterPlayerController::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "ClientReportServerTime", &ABlasterPlayerController::execClientReportServerTime },
+			{ "ServerRequestServerTime", &ABlasterPlayerController::execServerRequestServerTime },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics
+	{
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeOfClientRequest;
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeServerReceivedClientRequest;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::NewProp_TimeOfClientRequest = { "TimeOfClientRequest", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(BlasterPlayerController_eventClientReportServerTime_Parms, TimeOfClientRequest), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::NewProp_TimeServerReceivedClientRequest = { "TimeServerReceivedClientRequest", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(BlasterPlayerController_eventClientReportServerTime_Parms, TimeServerReceivedClientRequest), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::NewProp_TimeOfClientRequest,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::NewProp_TimeServerReceivedClientRequest,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// \xc5\xac\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xcc\xbe\xef\xbf\xbd\xc6\xae\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xc3\xb0\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\n" },
+		{ "ModuleRelativePath", "PlayerController/BlasterPlayerController.h" },
+		{ "ToolTip", "\xc5\xac\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xcc\xbe\xef\xbf\xbd\xc6\xae\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xc3\xb0\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABlasterPlayerController, nullptr, "ClientReportServerTime", nullptr, nullptr, sizeof(BlasterPlayerController_eventClientReportServerTime_Parms), Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x01080CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics
+	{
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeOfClientRequest;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::NewProp_TimeOfClientRequest = { "TimeOfClientRequest", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(BlasterPlayerController_eventServerRequestServerTime_Parms, TimeOfClientRequest), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::NewProp_TimeOfClientRequest,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xc3\xb0\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xd4\xbc\xef\xbf\xbd\n" },
+		{ "ModuleRelativePath", "PlayerController/BlasterPlayerController.h" },
+		{ "ToolTip", "\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xc3\xb0\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xd4\xbc\xef\xbf\xbd" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABlasterPlayerController, nullptr, "ServerRequestServerTime", nullptr, nullptr, sizeof(BlasterPlayerController_eventServerRequestServerTime_Parms), Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00280CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ABlasterPlayerController);
 	UClass* Z_Construct_UClass_ABlasterPlayerController_NoRegister()
@@ -26,9 +136,14 @@ void EmptyLinkFunctionForGeneratedCodeBlasterPlayerController() {}
 	struct Z_Construct_UClass_ABlasterPlayerController_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TimeSyncFrequency_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_TimeSyncFrequency;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_BlasterHUD_MetaData[];
 #endif
@@ -41,6 +156,10 @@ void EmptyLinkFunctionForGeneratedCodeBlasterPlayerController() {}
 		(UObject* (*)())Z_Construct_UClass_APlayerController,
 		(UObject* (*)())Z_Construct_UPackage__Script_Blaster,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ABlasterPlayerController_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABlasterPlayerController_ClientReportServerTime, "ClientReportServerTime" }, // 1669443672
+		{ &Z_Construct_UFunction_ABlasterPlayerController_ServerRequestServerTime, "ServerRequestServerTime" }, // 2930670532
+	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlasterPlayerController_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * \n */" },
@@ -50,12 +169,20 @@ void EmptyLinkFunctionForGeneratedCodeBlasterPlayerController() {}
 	};
 #endif
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_TimeSyncFrequency_MetaData[] = {
+		{ "Category", "Time" },
+		{ "ModuleRelativePath", "PlayerController/BlasterPlayerController.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_TimeSyncFrequency = { "TimeSyncFrequency", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ABlasterPlayerController, TimeSyncFrequency), METADATA_PARAMS(Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_TimeSyncFrequency_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_TimeSyncFrequency_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_BlasterHUD_MetaData[] = {
 		{ "ModuleRelativePath", "PlayerController/BlasterPlayerController.h" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_BlasterHUD = { "BlasterHUD", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ABlasterPlayerController, BlasterHUD), Z_Construct_UClass_ABlasterHUD_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_BlasterHUD_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_BlasterHUD_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABlasterPlayerController_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_TimeSyncFrequency,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABlasterPlayerController_Statics::NewProp_BlasterHUD,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABlasterPlayerController_Statics::StaticCppClassTypeInfo = {
@@ -66,11 +193,11 @@ void EmptyLinkFunctionForGeneratedCodeBlasterPlayerController() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ABlasterPlayerController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ABlasterPlayerController_Statics::PropPointers),
 		0,
 		0x009002A4u,
@@ -96,9 +223,9 @@ void EmptyLinkFunctionForGeneratedCodeBlasterPlayerController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABlasterPlayerController, ABlasterPlayerController::StaticClass, TEXT("ABlasterPlayerController"), &Z_Registration_Info_UClass_ABlasterPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABlasterPlayerController), 412960918U) },
+		{ Z_Construct_UClass_ABlasterPlayerController, ABlasterPlayerController::StaticClass, TEXT("ABlasterPlayerController"), &Z_Registration_Info_UClass_ABlasterPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABlasterPlayerController), 1691784486U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_967634211(TEXT("/Script/Blaster"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_3413139390(TEXT("/Script/Blaster"),
 		Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
