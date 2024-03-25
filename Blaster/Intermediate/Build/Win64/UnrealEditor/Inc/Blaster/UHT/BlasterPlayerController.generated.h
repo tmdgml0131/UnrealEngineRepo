@@ -16,17 +16,27 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_15_SPARSE_DATA
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_15_RPC_WRAPPERS \
+	virtual void ClientJoinMidGame_Implementation(FName StateOfMatch, float WarmUp, float Match, float StartingTime); \
+	virtual void ServerCheckMatchState_Implementation(); \
 	virtual void ClientReportServerTime_Implementation(float TimeOfClientRequest, float TimeServerReceivedClientRequest); \
 	virtual void ServerRequestServerTime_Implementation(float TimeOfClientRequest); \
  \
+	DECLARE_FUNCTION(execOnRep_MatchState); \
+	DECLARE_FUNCTION(execClientJoinMidGame); \
+	DECLARE_FUNCTION(execServerCheckMatchState); \
 	DECLARE_FUNCTION(execClientReportServerTime); \
 	DECLARE_FUNCTION(execServerRequestServerTime);
 
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ClientJoinMidGame_Implementation(FName StateOfMatch, float WarmUp, float Match, float StartingTime); \
+	virtual void ServerCheckMatchState_Implementation(); \
 	virtual void ClientReportServerTime_Implementation(float TimeOfClientRequest, float TimeServerReceivedClientRequest); \
 	virtual void ServerRequestServerTime_Implementation(float TimeOfClientRequest); \
  \
+	DECLARE_FUNCTION(execOnRep_MatchState); \
+	DECLARE_FUNCTION(execClientJoinMidGame); \
+	DECLARE_FUNCTION(execServerCheckMatchState); \
 	DECLARE_FUNCTION(execClientReportServerTime); \
 	DECLARE_FUNCTION(execServerRequestServerTime);
 
@@ -39,7 +49,13 @@ private: \
 	friend struct Z_Construct_UClass_ABlasterPlayerController_Statics; \
 public: \
 	DECLARE_CLASS(ABlasterPlayerController, APlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Blaster"), NO_API) \
-	DECLARE_SERIALIZER(ABlasterPlayerController)
+	DECLARE_SERIALIZER(ABlasterPlayerController) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		MatchState=NETFIELD_REP_START, \
+		NETFIELD_REP_END=MatchState	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_15_INCLASS \
@@ -48,7 +64,13 @@ private: \
 	friend struct Z_Construct_UClass_ABlasterPlayerController_Statics; \
 public: \
 	DECLARE_CLASS(ABlasterPlayerController, APlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Blaster"), NO_API) \
-	DECLARE_SERIALIZER(ABlasterPlayerController)
+	DECLARE_SERIALIZER(ABlasterPlayerController) \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		MatchState=NETFIELD_REP_START, \
+		NETFIELD_REP_END=MatchState	}; \
+	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_15_STANDARD_CONSTRUCTORS \

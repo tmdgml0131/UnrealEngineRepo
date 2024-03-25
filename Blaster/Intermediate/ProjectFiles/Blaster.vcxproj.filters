@@ -150,6 +150,12 @@
     <Filter Include="Source\Blaster\HUD">
       <UniqueIdentifier>{B4AACAF6-499E-3F03-B768-0F749DE5B65B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Blaster\HUD\Announcement.cpp">
+      <Filter>Source\Blaster\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\HUD\Announcement.h">
+      <Filter>Source\Blaster\HUD</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Blaster\HUD\BlasterHUD.cpp">
       <Filter>Source\Blaster\HUD</Filter>
     </ClCompile>

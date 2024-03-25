@@ -38,7 +38,7 @@ public: \
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_GameMode_BlasterGameMode_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABlasterGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ABlasterGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABlasterGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABlasterGameMode); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABlasterGameMode); \
@@ -51,8 +51,6 @@ public: \
 
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_GameMode_BlasterGameMode_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABlasterGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABlasterGameMode(ABlasterGameMode&&); \
@@ -60,7 +58,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABlasterGameMode); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABlasterGameMode); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABlasterGameMode) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABlasterGameMode) \
 	NO_API virtual ~ABlasterGameMode();
 
 
