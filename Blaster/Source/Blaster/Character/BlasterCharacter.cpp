@@ -1,5 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+// BlasterCharacter: 캐릭터 관련 기능을 관리하는 컴포넌트입니다.
 
 #include "BlasterCharacter.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -24,28 +24,28 @@
 
 ABlasterCharacter::ABlasterCharacter()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ 	// 매 프레임마다 Tick() 함수 호출
 	PrimaryActorTick.bCanEverTick = true;
 
 	// Spawn 시 충돌 스폰 관련 설정
 	SpawnCollisionHandlingMethod = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
 
-	// 카메라
+	// 스프링 암 컴포넌트 설정: 카메라 붐
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(GetMesh());
 	CameraBoom->TargetArmLength = 500.f;
 	CameraBoom->bUsePawnControlRotation = true;
 
-	// 카메라
+	// 카메라 컴포넌트 설정
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	FollowCamera->bUsePawnControlRotation = false;
 
-	// 플레이어 따라서 카메라 회전 값
+	// 플레이어 입력에 따라 캐릭터 회전 설정
 	bUseControllerRotationYaw = false;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
-	// HUD
+	// HUD 설정
 	OverheadWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("OverheadWidget"));
 	OverheadWidget->SetupAttachment(RootComponent);
 
@@ -53,9 +53,10 @@ ABlasterCharacter::ABlasterCharacter()
 	CombatComponent = CreateDefaultSubobject<UCombatComponent>(TEXT("CombatComponent"));
 	CombatComponent->SetIsReplicated(true);
 
-	// Character 의 기본 설정 CanCrouch 활성화
+	// 캐릭터 이동 설정: Crouch 가능하게 설정
 	GetCharacterMovement()->NavAgentProps.bCanCrouch = true;
 
+	// 카메라와 충돌 설정
 	GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
 	GetMesh()->SetCollisionObjectType(ECC_SkeletalMesh);
 	GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
@@ -71,10 +72,11 @@ ABlasterCharacter::ABlasterCharacter()
 	NetUpdateFrequency = 66.f;
 	MinNetUpdateFrequency = 33.f;
 
-	// Dissolve Effect
+	// Dissolve 효과를 위한 타임라인 컴포넌트 설정
 	DissolveTimeline = CreateDefaultSubobject<UTimelineComponent>(TEXT("DissolveTimelineComponent"));
 }
 
+// Replicated 설정한 변수들을 등록합니다
 void ABlasterCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
@@ -90,6 +92,7 @@ void ABlasterCharacter::BeginPlay()
 
 	UpdateHUDHealth();
 	
+	// 서버에서 데미지를 받을 때 호출될 함수를 바인드
 	if (HasAuthority())
 	{
 		OnTakeAnyDamage.AddDynamic(this, &ThisClass::ReceiveDamage);

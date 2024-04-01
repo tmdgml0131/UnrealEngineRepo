@@ -1,4 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
+// BlasterAnimInstance: 캐릭터의 애니메이션을 관리하는 컴포넌트입니다.
 
 
 #include "BlasterAnimInstance.h"

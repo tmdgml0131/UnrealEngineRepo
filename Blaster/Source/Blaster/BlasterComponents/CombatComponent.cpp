@@ -1,5 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+// UCombatComponent: 캐릭터의 전투 관련 기능을 관리하는 컴포넌트입니다.
 
 #include "CombatComponent.h"
 #include "Blaster/Weapon/Weapon.h"
@@ -23,6 +23,7 @@ UCombatComponent::UCombatComponent()
 	AimWalkSpeed = 450.f;
 }
 
+// Replicated 설정한 변수들을 등록합니다.
 void UCombatComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
@@ -37,10 +38,16 @@ void UCombatComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
+	InitializeComponentSettings();
+}
+
+// 기본 설정 초기화
+void UCombatComponent::InitializeComponentSettings()
+{
 	if (Character)
 	{
 		Character->GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
-		
+
 		if (Character->GetFollowCamera())
 		{
 			DefaultFOV = Character->GetFollowCamera()->FieldOfView;
@@ -58,6 +65,12 @@ void UCombatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	UpdateHUDCrosshairs(DeltaTime);
+}
+
+// 매 프레임마다 Crosshairs 를 설정합니다.
+void UCombatComponent::UpdateHUDCrosshairs(float DeltaTime)
+{
 	if (Character && Character->IsLocallyControlled())
 	{
 		FHitResult HitResult;
@@ -69,7 +82,7 @@ void UCombatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 	}
 }
 
-// Server || Client 에서 Locally 호출된다
+// 발사 버튼 입력 처리: 발사 버튼의 상태에 따라 발사 또는 중지
 void UCombatComponent::FireButtonPressed(bool bPressed)
 {
 	bFireButtonPressed = bPressed;
@@ -80,6 +93,7 @@ void UCombatComponent::FireButtonPressed(bool bPressed)
 	}
 }
 
+// 발사 로직: 발사 가능할 때, 발사 수행
 void UCombatComponent::Fire()
 {
 	if (CanFire())
@@ -94,6 +108,7 @@ void UCombatComponent::Fire()
 
 }
 
+// 발사 타이머 시작: 일정 간격으로 발사
 void UCombatComponent::StartFireTimer()
 {
 	if (EquippedWeapon == nullptr || Character == nullptr) return;
@@ -103,6 +118,7 @@ void UCombatComponent::StartFireTimer()
 	Character->GetWorldTimerManager().SetTimer(FireTimer, this, &ThisClass::FireTimerFinished, EquippedWeapon->FireDelay);
 }
 
+// 발사 타이머 완료 콜백: 발사 타이머가 완료되면 호출됩니다.
 void UCombatComponent::FireTimerFinished()
 {
 	if (EquippedWeapon == nullptr) return;
@@ -120,6 +136,7 @@ void UCombatComponent::FireTimerFinished()
 	}
 }
 
+// 발사 가능 여부 검사: 현재 발사가 가능한 상태인지 검사합니다.
 bool UCombatComponent::CanFire()
 {
 	if (EquippedWeapon == nullptr) return false;
@@ -127,6 +144,7 @@ bool UCombatComponent::CanFire()
 	return !EquippedWeapon->IsEmpty() && bCanFire && CombatState == ECombatState::ECS_Unoccupied;
 }
 
+// Ammo 수량이 변경될 때마다 실행: 서버 탄약 수량 변화를 동기화
 void UCombatComponent::OnRep_CarriedAmmo()
 {
 	Controller = Controller == nullptr ? Cast<ABlasterPlayerController>(Character->Controller) : Controller;
@@ -136,18 +154,19 @@ void UCombatComponent::OnRep_CarriedAmmo()
 	}
 }
 
+// Ammo 초기 수량 설정: Ammo 개수 초기 설정
 void UCombatComponent::InitializeCarriedAmmo()
 {
 	CarriedAmmoMap.Emplace(EWeaponType::EWT_AssaultRifle, StartingARAmmo);
 }
 
-// Server 에서 Multi-cast 호출 시,
-// 서버와 모든 클라이언트에 보이게 된다. 
+// 서버에서 발사 처리: 서버에서 발사 로직을 수행하고 결과를 클라이언트에게 전달합니다. 
 void UCombatComponent::ServerFire_Implementation(const FVector_NetQuantize& TraceHitTarget)
 {
 	MulticastFire(TraceHitTarget);
 }
 
+// 모든 클라이언트에서 발사 처리: 발사 이펙트 등을 클라이언트에게 동기화합니다.
 void UCombatComponent::MulticastFire_Implementation(const FVector_NetQuantize& TraceHitTarget)
 {
 	if (EquippedWeapon == nullptr) return;
@@ -159,7 +178,7 @@ void UCombatComponent::MulticastFire_Implementation(const FVector_NetQuantize& T
 	}
 }
 
-// Server 에서만 작동
+// 무기 장착 로직: 지정된 무기를 캐릭터에게 장착합니다.
 void UCombatComponent::EquipWeapon(class AWeapon* WeaponToEquip)
 {
 	if (Character == nullptr || WeaponToEquip == nullptr) return;
@@ -208,6 +227,7 @@ void UCombatComponent::EquipWeapon(class AWeapon* WeaponToEquip)
 	Character->bUseControllerRotationYaw = true;
 }
 
+// 장전 로직: 무기를 장전합니다.
 void UCombatComponent::Reload()
 {
 	if (CarriedAmmo > 0 && CombatState != ECombatState::ECS_Reloading)
@@ -216,6 +236,7 @@ void UCombatComponent::Reload()
 	}
 }
 
+// 장전 완료 후 처리: 장전이 완료되면 호출되어, 장전 관련 후처리를 합니다.
 void UCombatComponent::FinishReloading()
 {
 	if (Character == nullptr) return;
@@ -232,6 +253,7 @@ void UCombatComponent::FinishReloading()
 	}
 }
 
+// 서버에서 장전 처리: 서버에서 장전 로직을 수행합니다.
 void UCombatComponent::ServerReload_Implementation()
 {
 	if (Character == nullptr || EquippedWeapon == nullptr) return;
@@ -240,11 +262,13 @@ void UCombatComponent::ServerReload_Implementation()
 	HandleReload();
 }
 
+// 장전 처리 로직: 실제 장전 처리를 담당합니다.
 void UCombatComponent::HandleReload()
 {
 	Character->PlayReloadMontage();
 }
 
+// 실제 장전될 탄약 계산: 현재 장전할 수 있는 최대 탄약량을 계산합니다.
 int32 UCombatComponent::AmountToReload()
 {
 	if (EquippedWeapon == nullptr) return 0;
@@ -263,6 +287,7 @@ int32 UCombatComponent::AmountToReload()
 	return 0;
 }
 
+// 전투 상태 변경 시 처리: 전투 상태가 변경될 때마다 호출되어 관련 처리를 합니다.
 void UCombatComponent::OnRep_CombatState()
 {
 	switch (CombatState)
@@ -283,6 +308,7 @@ void UCombatComponent::OnRep_CombatState()
 	}
 }
 
+// 탄약 값 업데이트: 서버에서 탄약 값을 업데이트합니다.
 void UCombatComponent::UpdateAmmoValue()
 {
 	if (Character == nullptr || EquippedWeapon == nullptr) return;
@@ -305,6 +331,7 @@ void UCombatComponent::UpdateAmmoValue()
 	EquippedWeapon->AddAmmo(-ReloadAmount);
 }
 
+// 무기 변경 시 처리: 무기가 변경될 때마다 호출되어 관련 처리를 합니다.
 void UCombatComponent::OnRep_EquippedWeapon()
 {
 	if (EquippedWeapon && Character)
@@ -328,6 +355,7 @@ void UCombatComponent::OnRep_EquippedWeapon()
 	}
 }
 
+// 크로스헤어 추적: 크로스헤어 위치에 있는 대상을 추적합니다.
 void UCombatComponent::TraceUnderCrosshairs(FHitResult& TraceHitResult)
 {
 	// 뷰포트 가져오기
@@ -369,6 +397,7 @@ void UCombatComponent::TraceUnderCrosshairs(FHitResult& TraceHitResult)
 	}
 }
 
+// HUD 크로스헤어 업데이트: 크로스헤어 상태에 따라 HUD를 업데이트합니다.
 void UCombatComponent::SetHUDCrosshairs(float DeltaTime)
 {
 	if (Character == nullptr || Character->Controller == nullptr) return;
@@ -435,6 +464,7 @@ void UCombatComponent::SetHUDCrosshairs(float DeltaTime)
 	HUD->SetHUDPackage(HUDPackage);
 }
 
+// 조준 시 시야(Field of View, FOV) 보간: 조준 시 FOV를 부드럽게 변경합니다.
 void UCombatComponent::InterpFOV(float DeltaTime)
 {
 	if (EquippedWeapon == nullptr) return;
@@ -454,6 +484,7 @@ void UCombatComponent::InterpFOV(float DeltaTime)
 	}
 }
 
+// 조준 상태 설정: 캐릭터가 조준하는지 여부를 설정합니다.
 void UCombatComponent::SetAiming(bool bIsAiming)
 {
 	bAiming = bIsAiming;
@@ -464,6 +495,7 @@ void UCombatComponent::SetAiming(bool bIsAiming)
 	}
 }
 
+// 서버에서 조준 상태 설정: 서버에서 조준 상태를 동기화합니다.
 void UCombatComponent::ServerSetAiming_Implementation(bool bIsAiming)
 {
 	bAiming = bIsAiming;

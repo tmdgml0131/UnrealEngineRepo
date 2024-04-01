@@ -97,8 +97,6 @@ private:
 
 	FHUDPackage HUDPackage;
 	
-
-
 	// Aiming and FOV
 	// Beginplay FOV
 	float DefaultFOV;
@@ -144,6 +142,9 @@ private:
 	void OnRep_CombatState();
 
 	void UpdateAmmoValue();
+
+	void InitializeComponentSettings();
+	void UpdateHUDCrosshairs(float DeltaTime);
 public:	
 	
 
