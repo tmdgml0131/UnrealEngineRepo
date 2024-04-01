@@ -147,6 +147,15 @@
     <ClInclude Include="..\..\Source\Blaster\GameMode\LobbyGameMode.h">
       <Filter>Source\Blaster\GameMode</Filter>
     </ClInclude>
+    <Filter Include="Source\Blaster\GameState">
+      <UniqueIdentifier>{1DC7CE2D-028B-3C7E-8618-A108C4F60A3F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blaster\GameState\BlasterGameState.cpp">
+      <Filter>Source\Blaster\GameState</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\GameState\BlasterGameState.h">
+      <Filter>Source\Blaster\GameState</Filter>
+    </ClInclude>
     <Filter Include="Source\Blaster\HUD">
       <UniqueIdentifier>{B4AACAF6-499E-3F03-B768-0F749DE5B65B}</UniqueIdentifier>
     </Filter>

@@ -75,7 +75,7 @@ private:
 
 	float LevelStartingTime = 0.f;
 	float MatchTime = 0.f;
-	float WarmUpTime = 0.f;
+	float WarmupTime = 0.f;
 	float CooldownTime = 0.f;
 	uint32 CountdownInt = 0;
 
