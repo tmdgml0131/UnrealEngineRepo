@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_15_SPARSE_DATA
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_15_RPC_WRAPPERS \
-	virtual void ClientJoinMidGame_Implementation(FName StateOfMatch, float WarmUp, float Match, float StartingTime); \
+	virtual void ClientJoinMidGame_Implementation(FName StateOfMatch, float WarmUp, float Match, float Cooldown, float StartingTime); \
 	virtual void ServerCheckMatchState_Implementation(); \
 	virtual void ClientReportServerTime_Implementation(float TimeOfClientRequest, float TimeServerReceivedClientRequest); \
 	virtual void ServerRequestServerTime_Implementation(float TimeOfClientRequest); \
@@ -29,7 +29,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_PlayerController_BlasterPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void ClientJoinMidGame_Implementation(FName StateOfMatch, float WarmUp, float Match, float StartingTime); \
+	virtual void ClientJoinMidGame_Implementation(FName StateOfMatch, float WarmUp, float Match, float Cooldown, float StartingTime); \
 	virtual void ServerCheckMatchState_Implementation(); \
 	virtual void ClientReportServerTime_Implementation(float TimeOfClientRequest, float TimeServerReceivedClientRequest); \
 	virtual void ServerRequestServerTime_Implementation(float TimeOfClientRequest); \
