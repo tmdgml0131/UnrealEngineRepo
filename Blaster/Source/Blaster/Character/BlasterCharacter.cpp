@@ -584,6 +584,8 @@ void ABlasterCharacter::MultiCastElim_Implementation()
 
 	// 입력 제한
 	bDisableGameplay = true;
+	GetCharacterMovement()->DisableMovement();
+
 	if (CombatComponent)
 	{
 		CombatComponent->FireButtonPressed(false);

@@ -154,12 +154,6 @@ void UCombatComponent::OnRep_CarriedAmmo()
 	}
 }
 
-// Ammo 초기 수량 설정: Ammo 개수 초기 설정
-void UCombatComponent::InitializeCarriedAmmo()
-{
-	CarriedAmmoMap.Emplace(EWeaponType::EWT_AssaultRifle, StartingARAmmo);
-}
-
 // 서버에서 발사 처리: 서버에서 발사 로직을 수행하고 결과를 클라이언트에게 전달합니다. 
 void UCombatComponent::ServerFire_Implementation(const FVector_NetQuantize& TraceHitTarget)
 {
@@ -503,6 +497,13 @@ void UCombatComponent::ServerSetAiming_Implementation(bool bIsAiming)
 	{
 		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming ? AimWalkSpeed : BaseWalkSpeed;
 	}
+}
+
+// Ammo 초기 수량 설정: Ammo 개수 초기 설정
+void UCombatComponent::InitializeCarriedAmmo()
+{
+	CarriedAmmoMap.Emplace(EWeaponType::EWT_AssaultRifle, StartingARAmmo);
+	CarriedAmmoMap.Emplace(EWeaponType::EWT_RocketLauncher, StartingRocketAmmo);
 }
 
 

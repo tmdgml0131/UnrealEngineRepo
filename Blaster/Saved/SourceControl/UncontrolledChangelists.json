@@ -10,7 +10,12 @@
 				"D:/git/UnrealEngineRepo/Blaster/Content/Blueprints/HUD/WBP_Announcement.uasset",
 				"D:/git/UnrealEngineRepo/Blaster/Content/Blueprints/HUD/BP_BlasterHUD.uasset",
 				"D:/git/UnrealEngineRepo/Blaster/Content/Blueprints/GameState/BP_BlasterGameState.uasset",
-				"D:/git/UnrealEngineRepo/Blaster/Content/Maps/GameStartupMap.umap"
+				"D:/git/UnrealEngineRepo/Blaster/Content/Maps/GameStartupMap.umap",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/Projectiles/BP_Rocket.uasset",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/BP_RocketLauncher.uasset",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Maps/testmap.umap",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/Rocket_Launcher_A_Skeleton.uasset",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/Rocket_Launcher_A.uasset"
 			]
 		}
 	]
