@@ -25,7 +25,9 @@ public:
 
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
 	void EquipWeapon(class AWeapon* WeaponToEquip);
+
 	void Reload();
 
 	UFUNCTION(BlueprintCallable)
@@ -34,14 +36,21 @@ public:
 	void FireButtonPressed(bool bPressed);
 protected:
 	virtual void BeginPlay() override;
+
 	void SetAiming(bool bIsAiming);
 	
 	// RPC 함수
 	UFUNCTION(Server, Reliable)
 	void ServerSetAiming(bool bIsAiming);
 
+	void Fire();
+
 	UFUNCTION(Server, Reliable)
 	void ServerFire(const FVector_NetQuantize& TraceHitTarget);
+
+	// 멀티캐스트 함수
+	UFUNCTION(NetMulticast, Reliable)
+	void MulticastFire(const FVector_NetQuantize& TraceHitTarget);
 
 	UFUNCTION(Server, Reliable)
 	void ServerReload();
@@ -52,13 +61,6 @@ protected:
 
 	UFUNCTION()
 	void OnRep_EquippedWeapon();
-
-
-	void Fire();
-
-	// 멀티캐스트 함수
-	UFUNCTION(NetMulticast, Reliable)
-	void MulticastFire(const FVector_NetQuantize& TraceHitTarget);
 
 	void TraceUnderCrosshairs(FHitResult& TraceHitResult);
 
@@ -98,7 +100,7 @@ private:
 	FHUDPackage HUDPackage;
 	
 	// Aiming and FOV
-	// Beginplay FOV
+	// Begin play FOV
 	float DefaultFOV;
 
 	UPROPERTY(EditAnywhere, Category = Combat)

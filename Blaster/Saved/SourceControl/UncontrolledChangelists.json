@@ -15,7 +15,11 @@
 				"D:/git/UnrealEngineRepo/Blaster/Content/Blueprints/Weapon/BP_RocketLauncher.uasset",
 				"D:/git/UnrealEngineRepo/Blaster/Content/Maps/testmap.umap",
 				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/Rocket_Launcher_A_Skeleton.uasset",
-				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/Rocket_Launcher_A.uasset"
+				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Weapons/Rocket_Launcher_A.uasset",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/FX/RocketTrail/M_TrailSmoke.uasset",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/FX/RocketTrail/MI_TrailSmoke.uasset",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/FX/RocketTrail/NE_TrailSmokeEmitter.uasset",
+				"D:/git/UnrealEngineRepo/Blaster/Content/Assets/FX/RocketTrail/NS_TrailSmoke.uasset"
 			]
 		}
 	]
