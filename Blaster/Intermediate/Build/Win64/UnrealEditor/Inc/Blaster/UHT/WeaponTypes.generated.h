@@ -20,7 +20,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FOREACH_ENUM_EWEAPONTYPE(op) \
 	op(EWeaponType::EWT_AssaultRifle) \
-	op(EWeaponType::EWT_RocketLauncher) 
+	op(EWeaponType::EWT_RocketLauncher) \
+	op(EWeaponType::EWT_Pistol) \
+	op(EWeaponType::EWT_SubmachineGun) \
+	op(EWeaponType::EWT_Shotgun) 
 
 enum class EWeaponType : uint8;
 template<> struct TIsUEnumClass<EWeaponType> { enum { Value = true }; };
