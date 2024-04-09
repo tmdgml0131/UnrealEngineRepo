@@ -39,6 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeWeaponTypes() {}
 		{ "EWeaponType::EWT_Pistol", (int64)EWeaponType::EWT_Pistol },
 		{ "EWeaponType::EWT_SubmachineGun", (int64)EWeaponType::EWT_SubmachineGun },
 		{ "EWeaponType::EWT_Shotgun", (int64)EWeaponType::EWT_Shotgun },
+		{ "EWeaponType::EWT_SniperRifle", (int64)EWeaponType::EWT_SniperRifle },
 		{ "EWeaponType::EWT_MAX", (int64)EWeaponType::EWT_MAX },
 	};
 #if WITH_METADATA
@@ -54,6 +55,8 @@ void EmptyLinkFunctionForGeneratedCodeWeaponTypes() {}
 		{ "EWT_RocketLauncher.Name", "EWeaponType::EWT_RocketLauncher" },
 		{ "EWT_Shotgun.DisplayName", "Shotgun" },
 		{ "EWT_Shotgun.Name", "EWeaponType::EWT_Shotgun" },
+		{ "EWT_SniperRifle.DisplayName", "SniperRifle" },
+		{ "EWT_SniperRifle.Name", "EWeaponType::EWT_SniperRifle" },
 		{ "EWT_SubmachineGun.DisplayName", "SubmachineGun" },
 		{ "EWT_SubmachineGun.Name", "EWeaponType::EWT_SubmachineGun" },
 		{ "ModuleRelativePath", "Weapon/WeaponTypes.h" },
@@ -84,9 +87,9 @@ void EmptyLinkFunctionForGeneratedCodeWeaponTypes() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_Statics::EnumInfo[] = {
-		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 658132921U) },
+		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3541382300U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_2803840419(TEXT("/Script/Blaster"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_4137151560(TEXT("/Script/Blaster"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_Statics::EnumInfo));
