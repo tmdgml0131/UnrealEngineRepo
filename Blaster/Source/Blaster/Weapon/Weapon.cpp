@@ -86,8 +86,6 @@ void AWeapon::OnSphereEndOverlap(UPrimitiveComponent* OverlappedComponent, AActo
 	}
 }
 
-
-
 void AWeapon::SetWeaponState(EWeaponState State)
 {
 	WeaponState = State;

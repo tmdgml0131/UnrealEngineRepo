@@ -24,7 +24,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(EWeaponType::EWT_Pistol) \
 	op(EWeaponType::EWT_SubmachineGun) \
 	op(EWeaponType::EWT_Shotgun) \
-	op(EWeaponType::EWT_SniperRifle) 
+	op(EWeaponType::EWT_SniperRifle) \
+	op(EWeaponType::EWT_GrenadeLauncher) 
 
 enum class EWeaponType : uint8;
 template<> struct TIsUEnumClass<EWeaponType> { enum { Value = true }; };

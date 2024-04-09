@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeWeaponTypes() {}
 		{ "EWeaponType::EWT_SubmachineGun", (int64)EWeaponType::EWT_SubmachineGun },
 		{ "EWeaponType::EWT_Shotgun", (int64)EWeaponType::EWT_Shotgun },
 		{ "EWeaponType::EWT_SniperRifle", (int64)EWeaponType::EWT_SniperRifle },
+		{ "EWeaponType::EWT_GrenadeLauncher", (int64)EWeaponType::EWT_GrenadeLauncher },
 		{ "EWeaponType::EWT_MAX", (int64)EWeaponType::EWT_MAX },
 	};
 #if WITH_METADATA
@@ -47,6 +48,8 @@ void EmptyLinkFunctionForGeneratedCodeWeaponTypes() {}
 		{ "BlueprintType", "true" },
 		{ "EWT_AssaultRifle.DisplayName", "Assualt Rifle" },
 		{ "EWT_AssaultRifle.Name", "EWeaponType::EWT_AssaultRifle" },
+		{ "EWT_GrenadeLauncher.DisplayName", "GrenadeLauncher" },
+		{ "EWT_GrenadeLauncher.Name", "EWeaponType::EWT_GrenadeLauncher" },
 		{ "EWT_MAX.DisplayName", "DefaultMAX" },
 		{ "EWT_MAX.Name", "EWeaponType::EWT_MAX" },
 		{ "EWT_Pistol.DisplayName", "Pistol" },
@@ -87,9 +90,9 @@ void EmptyLinkFunctionForGeneratedCodeWeaponTypes() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_Statics::EnumInfo[] = {
-		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3541382300U) },
+		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 535767409U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_4137151560(TEXT("/Script/Blaster"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_3974059606(TEXT("/Script/Blaster"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Weapon_WeaponTypes_h_Statics::EnumInfo));
