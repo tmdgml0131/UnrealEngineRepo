@@ -24,6 +24,9 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	float Damage = 10.f;
+
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* ProjectMesh;
 	
 	UPROPERTY(EditAnywhere)
 	class UParticleSystem* ImpactParticles;
@@ -33,13 +36,39 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	class UBoxComponent* CollisionBox;
+	
+	UPROPERTY(EditAnywhere)
+	class UNiagaraSystem* TrailSystem;
+
+	UPROPERTY()
+	class UNiagaraComponent* TrailSystemComponent;
 
 	UPROPERTY(VisibleAnywhere)
 	class UProjectileMovementComponent* ProjectileMovementComponent;
+	
+	UPROPERTY(EditAnywhere)
+	float DamageInnerRadius = 200.f;
+	
+	UPROPERTY(EditAnywhere)
+	float DamageOuterRadius = 500.f;
+
+	void SpawnTrailSystem();
+
+	void StartDestroyTimer();
+
+	void DestroyTimerFinished();
+
+	void ExplodeDamage();
+
 private:
 	UPROPERTY(EditAnywhere)
 	UParticleSystem* Tracer;
 
 	UPROPERTY()
 	class UParticleSystemComponent* TracerComponent;
+
+	FTimerHandle DestroyTimer;
+
+	UPROPERTY(EditAnywhere)
+	float DestroyTime = 3.f;
 };

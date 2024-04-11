@@ -237,6 +237,12 @@
     <ClInclude Include="..\..\Source\Blaster\Weapon\ProjectileBullet.h">
       <Filter>Source\Blaster\Weapon</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Blaster\Weapon\ProjectileGrenade.cpp">
+      <Filter>Source\Blaster\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\Weapon\ProjectileGrenade.h">
+      <Filter>Source\Blaster\Weapon</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Blaster\Weapon\ProjectileRocket.cpp">
       <Filter>Source\Blaster\Weapon</Filter>
     </ClCompile>
