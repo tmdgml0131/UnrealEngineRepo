@@ -19,8 +19,42 @@ void EmptyLinkFunctionForGeneratedCodeBlasterAnimInstance() {}
 	ENGINE_API UClass* Z_Construct_UClass_UAnimInstance();
 	UPackage* Z_Construct_UPackage__Script_Blaster();
 // End Cross Module References
+	DEFINE_FUNCTION(UBlasterAnimInstance::execAnimNotify_CanJump)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->AnimNotify_CanJump();
+		P_NATIVE_END;
+	}
 	void UBlasterAnimInstance::StaticRegisterNativesUBlasterAnimInstance()
 	{
+		UClass* Class = UBlasterAnimInstance::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "AnimNotify_CanJump", &UBlasterAnimInstance::execAnimNotify_CanJump },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UBlasterAnimInstance_AnimNotify_CanJump_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UBlasterAnimInstance_AnimNotify_CanJump_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Character/BlasterAnimInstance.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UBlasterAnimInstance_AnimNotify_CanJump_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UBlasterAnimInstance, nullptr, "AnimNotify_CanJump", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UBlasterAnimInstance_AnimNotify_CanJump_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UBlasterAnimInstance_AnimNotify_CanJump_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UBlasterAnimInstance_AnimNotify_CanJump()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UBlasterAnimInstance_AnimNotify_CanJump_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UBlasterAnimInstance);
 	UClass* Z_Construct_UClass_UBlasterAnimInstance_NoRegister()
@@ -30,6 +64,7 @@ void EmptyLinkFunctionForGeneratedCodeBlasterAnimInstance() {}
 	struct Z_Construct_UClass_UBlasterAnimInstance_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -132,6 +167,9 @@ void EmptyLinkFunctionForGeneratedCodeBlasterAnimInstance() {}
 	UObject* (*const Z_Construct_UClass_UBlasterAnimInstance_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UAnimInstance,
 		(UObject* (*)())Z_Construct_UPackage__Script_Blaster,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UBlasterAnimInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UBlasterAnimInstance_AnimNotify_CanJump, "AnimNotify_CanJump" }, // 3141349103
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBlasterAnimInstance_Statics::Class_MetaDataParams[] = {
@@ -377,11 +415,11 @@ void EmptyLinkFunctionForGeneratedCodeBlasterAnimInstance() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_UBlasterAnimInstance_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_UBlasterAnimInstance_Statics::PropPointers),
 		0,
 		0x009000A8u,
@@ -407,9 +445,9 @@ void EmptyLinkFunctionForGeneratedCodeBlasterAnimInstance() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterAnimInstance_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UBlasterAnimInstance, UBlasterAnimInstance::StaticClass, TEXT("UBlasterAnimInstance"), &Z_Registration_Info_UClass_UBlasterAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBlasterAnimInstance), 2350862030U) },
+		{ Z_Construct_UClass_UBlasterAnimInstance, UBlasterAnimInstance::StaticClass, TEXT("UBlasterAnimInstance"), &Z_Registration_Info_UClass_UBlasterAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBlasterAnimInstance), 1224025466U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterAnimInstance_h_4039625392(TEXT("/Script/Blaster"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterAnimInstance_h_1846100514(TEXT("/Script/Blaster"),
 		Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterAnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterAnimInstance_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

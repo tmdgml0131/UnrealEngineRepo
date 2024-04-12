@@ -157,6 +157,7 @@ void ABlasterCharacter::RotateInPlace(float DeltaTime)
 	}
 }
 
+
 void ABlasterCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
@@ -504,7 +505,7 @@ void ABlasterCharacter::SimProxiesTurn()
 
 void ABlasterCharacter::Jump()
 {
-	if (bDisableGameplay) return;
+	if (bDisableGameplay || (!bCanJump && CombatComponent->EquippedWeapon == nullptr)) return;
 
 	if (bIsCrouched)
 	{
@@ -512,6 +513,7 @@ void ABlasterCharacter::Jump()
 	}
 	else 
 	{
+		bCanJump = false;
 		Super::Jump();
 	}
 }

@@ -109,3 +109,8 @@ void UBlasterAnimInstance::NativeUpdateAnimation(float DeltaTime)
 	bUseAimOffsets = BlasterCharacter->GetCombatState() != ECombatState::ECS_Reloading && !BlasterCharacter->GetDisableGameplay();
 	bTransformRightHand = BlasterCharacter->GetCombatState() != ECombatState::ECS_Reloading && !BlasterCharacter->GetDisableGameplay();
 }
+
+void UBlasterAnimInstance::AnimNotify_CanJump()
+{
+	BlasterCharacter->bCanJump = true;
+}

@@ -46,6 +46,8 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void ShowSniperScopeWidget(bool bShowScope);
+
+	bool bCanJump = true;
 protected:
 	virtual void BeginPlay() override;
 
