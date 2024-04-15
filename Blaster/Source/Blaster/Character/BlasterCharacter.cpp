@@ -326,6 +326,7 @@ void ABlasterCharacter::OnRep_OverlappingWeapon(AWeapon* LastWeapon)
 	{
 		OverlappingWeapon->ShowPickupWidget(true);
 	}
+
 	if (LastWeapon)
 	{
 		LastWeapon->ShowPickupWidget(false);
@@ -722,6 +723,7 @@ void ABlasterCharacter::SetOverlappingWeapon(AWeapon* Weapon)
 	}
 
 	OverlappingWeapon = Weapon;
+
 	if (IsLocallyControlled())
 	{
 		if (OverlappingWeapon)

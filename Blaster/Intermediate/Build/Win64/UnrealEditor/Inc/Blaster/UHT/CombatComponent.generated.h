@@ -29,6 +29,7 @@ struct FVector_NetQuantize;
 	DECLARE_FUNCTION(execMulticastFire); \
 	DECLARE_FUNCTION(execServerFire); \
 	DECLARE_FUNCTION(execServerSetAiming); \
+	DECLARE_FUNCTION(execShotgunShellReload); \
 	DECLARE_FUNCTION(execFinishReloading);
 
 
@@ -45,6 +46,7 @@ struct FVector_NetQuantize;
 	DECLARE_FUNCTION(execMulticastFire); \
 	DECLARE_FUNCTION(execServerFire); \
 	DECLARE_FUNCTION(execServerSetAiming); \
+	DECLARE_FUNCTION(execShotgunShellReload); \
 	DECLARE_FUNCTION(execFinishReloading);
 
 

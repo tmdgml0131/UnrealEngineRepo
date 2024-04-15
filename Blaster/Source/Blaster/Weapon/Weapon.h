@@ -106,6 +106,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<class ACasing> CasingClass;
 
+	// ÇöÀç ÅºÃ¢·®
 	UPROPERTY(EditAnywhere, ReplicatedUsing = OnRep_Ammo)
 	int32 Ammo;
 
@@ -114,6 +115,7 @@ private:
 
 	void SpendRound();
 
+	// ÃÖ´ë ÅºÃ¢·®
 	UPROPERTY(EditAnywhere)
 	int32 MagCapacity;
 
@@ -128,6 +130,7 @@ private:
 public:	
 	void SetWeaponState(EWeaponState State);
 	bool IsEmpty();
+	bool IsFull();
 	FORCEINLINE USphereComponent* GetAreaSphere() const { return AreaSphere; }
 	FORCEINLINE USkeletalMeshComponent* GetWeaponMesh() const { return WeaponMesh; }
 	FORCEINLINE float GetZoomedFOV() const { return ZoomedFOV; }
