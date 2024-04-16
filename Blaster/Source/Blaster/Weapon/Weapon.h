@@ -74,6 +74,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	class USoundCue* EquipSound;
 
+	// 무기 테두리 Custom Depth ( 무기 Hollow Effect )
+	void EnableCustomDepth(bool bEnable);
 protected:
 	virtual void BeginPlay() override;
 

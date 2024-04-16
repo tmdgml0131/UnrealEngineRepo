@@ -17,6 +17,7 @@ struct FVector_NetQuantize;
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_16_SPARSE_DATA
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_16_RPC_WRAPPERS \
+	virtual void ServerThrowGrenade_Implementation(); \
 	virtual void ServerReload_Implementation(); \
 	virtual void MulticastFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
@@ -24,16 +25,19 @@ struct FVector_NetQuantize;
  \
 	DECLARE_FUNCTION(execOnRep_CombatState); \
 	DECLARE_FUNCTION(execOnRep_CarriedAmmo); \
+	DECLARE_FUNCTION(execServerThrowGrenade); \
 	DECLARE_FUNCTION(execOnRep_EquippedWeapon); \
 	DECLARE_FUNCTION(execServerReload); \
 	DECLARE_FUNCTION(execMulticastFire); \
 	DECLARE_FUNCTION(execServerFire); \
 	DECLARE_FUNCTION(execServerSetAiming); \
+	DECLARE_FUNCTION(execThrowGrenadeFinished); \
 	DECLARE_FUNCTION(execShotgunShellReload); \
 	DECLARE_FUNCTION(execFinishReloading);
 
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_BlasterComponents_CombatComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ServerThrowGrenade_Implementation(); \
 	virtual void ServerReload_Implementation(); \
 	virtual void MulticastFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
@@ -41,11 +45,13 @@ struct FVector_NetQuantize;
  \
 	DECLARE_FUNCTION(execOnRep_CombatState); \
 	DECLARE_FUNCTION(execOnRep_CarriedAmmo); \
+	DECLARE_FUNCTION(execServerThrowGrenade); \
 	DECLARE_FUNCTION(execOnRep_EquippedWeapon); \
 	DECLARE_FUNCTION(execServerReload); \
 	DECLARE_FUNCTION(execMulticastFire); \
 	DECLARE_FUNCTION(execServerFire); \
 	DECLARE_FUNCTION(execServerSetAiming); \
+	DECLARE_FUNCTION(execThrowGrenadeFinished); \
 	DECLARE_FUNCTION(execShotgunShellReload); \
 	DECLARE_FUNCTION(execFinishReloading);
 

@@ -112,6 +112,11 @@ void UCombatComponent::JumpToShotgunEnd()
 	}
 }
 
+void UCombatComponent::ThrowGrenadeFinished()
+{
+	CombatState = ECombatState::ECS_Unoccupied;
+}
+
 // 발사 로직: 발사 가능할 때, 발사 수행
 void UCombatComponent::Fire()
 {
@@ -160,6 +165,7 @@ bool UCombatComponent::CanFire()
 {
 	if (EquippedWeapon == nullptr) return false;
 
+	// 샷건 예외 처리
 	if (!EquippedWeapon->IsEmpty() && bCanFire && CombatState == ECombatState::ECS_Reloading && EquippedWeapon->GetWeaponType() == EWeaponType::EWT_Shotgun) return true;
 
 	return !EquippedWeapon->IsEmpty() && bCanFire && CombatState == ECombatState::ECS_Unoccupied;
@@ -218,6 +224,8 @@ void UCombatComponent::EquipWeapon(class AWeapon* WeaponToEquip)
 {
 	if (Character == nullptr || WeaponToEquip == nullptr) return;
 
+	if (CombatState != ECombatState::ECS_Unoccupied) return;
+
 	if (EquippedWeapon)
 	{
 		EquippedWeapon->Dropped();
@@ -265,9 +273,9 @@ void UCombatComponent::EquipWeapon(class AWeapon* WeaponToEquip)
 // 장전 로직: 무기를 장전합니다.
 void UCombatComponent::Reload()
 {
-	if (EquippedWeapon->IsFull()) return;
+	if (EquippedWeapon && EquippedWeapon->IsFull()) return;
 
-	if (CarriedAmmo > 0 && CombatState != ECombatState::ECS_Reloading)
+	if (CarriedAmmo > 0 && CombatState == ECombatState::ECS_Unoccupied)
 	{
 		ServerReload();
 	}
@@ -337,6 +345,12 @@ void UCombatComponent::OnRep_CombatState()
 		break;
 	case ECombatState::ECS_Reloading:
 		HandleReload();
+		break;
+	case ECombatState::ECS_ThrowingGrenade:
+		if (Character && !Character->IsLocallyControlled())
+		{
+			Character->PlayThrowGrenadeMontage();
+		}
 		break;
 	case ECombatState::ECS_MAX:
 		break;
@@ -526,6 +540,32 @@ void UCombatComponent::SetHUDCrosshairs(float DeltaTime)
 	
 
 	HUD->SetHUDPackage(HUDPackage);
+}
+
+void UCombatComponent::ThrowGrenade()
+{
+	if (!Character) return;
+
+	if (CombatState != ECombatState::ECS_Unoccupied) return;
+
+	CombatState = ECombatState::ECS_ThrowingGrenade;
+
+	Character->PlayThrowGrenadeMontage();
+	
+	if (!Character->HasAuthority())
+	{
+		ServerThrowGrenade();
+	}
+}
+
+void UCombatComponent::ServerThrowGrenade_Implementation()
+{
+	CombatState = ECombatState::ECS_ThrowingGrenade;
+
+	if (Character)
+	{
+		Character->PlayThrowGrenadeMontage();
+	}
 }
 
 // 조준 시 시야(Field of View, FOV) 보간: 조준 시 FOV를 부드럽게 변경합니다.

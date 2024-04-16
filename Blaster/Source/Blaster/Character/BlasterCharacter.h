@@ -29,6 +29,8 @@ public:
 	void PlayReloadMontage();
 	// 죽음 애니메이션
 	void PlayElimMontage();
+	// 수류탄 애니메이션
+	void PlayThrowGrenadeMontage();
 
 	virtual void OnRep_ReplicatedMovement() override;
 
@@ -60,6 +62,7 @@ protected:
 	void CrouchButtonPressed();
 	void AimButtonPressed();
 	void AimButtonReleased();
+	void ThrowGrenadeButtonPressed();
 	void AimOffset(float DeltaTime);
 	void ReloadButtonPressed();
 
@@ -126,6 +129,9 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = CombatComponent)
 	UAnimMontage* ElimMontage;
+
+	UPROPERTY(EditAnywhere, Category = CombatComponent)
+	UAnimMontage* ThrowGrenadeMontage;
 
 	// 카메라 가까우면 플레이어 숨기는 함수
 	void HideCameraIfCharacterClose();

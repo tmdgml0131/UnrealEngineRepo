@@ -20,7 +20,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FOREACH_ENUM_ECOMBATSTATE(op) \
 	op(ECombatState::ECS_Unoccupied) \
-	op(ECombatState::ECS_Reloading) 
+	op(ECombatState::ECS_Reloading) \
+	op(ECombatState::ECS_ThrowingGrenade) 
 
 enum class ECombatState : uint8;
 template<> struct TIsUEnumClass<ECombatState> { enum { Value = true }; };

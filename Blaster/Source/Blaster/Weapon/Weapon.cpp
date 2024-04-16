@@ -27,6 +27,10 @@ AWeapon::AWeapon()
 	WeaponMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 	WeaponMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
+	WeaponMesh->SetCustomDepthStencilValue(CUSTOM_DEPTH_PURPLE);
+	WeaponMesh->MarkRenderStateDirty();		// Refresh WeaponMesh
+	EnableCustomDepth(true);
+
 	AreaSphere = CreateDefaultSubobject<USphereComponent>(TEXT("AreaSphere"));
 	AreaSphere->SetupAttachment(RootComponent);
 	AreaSphere->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
@@ -100,6 +104,9 @@ void AWeapon::SetWeaponState(EWeaponState State)
 		WeaponMesh->SetEnableGravity(false);
 		WeaponMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
+		// Weapon Lighting
+		EnableCustomDepth(false);
+
 		if (WeaponType == EWeaponType::EWT_SubmachineGun)
 		{
 			WeaponMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
@@ -115,6 +122,10 @@ void AWeapon::SetWeaponState(EWeaponState State)
 		WeaponMesh->SetSimulatePhysics(true);
 		WeaponMesh->SetEnableGravity(true);
 		WeaponMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+		WeaponMesh->SetCustomDepthStencilValue(CUSTOM_DEPTH_PURPLE);
+		WeaponMesh->MarkRenderStateDirty();		// Refresh WeaponMesh
+		EnableCustomDepth(true);
 
 		WeaponMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Block);
 		WeaponMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
@@ -144,6 +155,8 @@ void AWeapon::OnRep_WeaponState()
 		WeaponMesh->SetEnableGravity(false);
 		WeaponMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
+		EnableCustomDepth(false);
+
 		if (WeaponType == EWeaponType::EWT_SubmachineGun)
 		{
 			WeaponMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
@@ -155,6 +168,10 @@ void AWeapon::OnRep_WeaponState()
 		WeaponMesh->SetSimulatePhysics(true);
 		WeaponMesh->SetEnableGravity(true);
 		WeaponMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+		WeaponMesh->SetCustomDepthStencilValue(CUSTOM_DEPTH_PURPLE);
+		WeaponMesh->MarkRenderStateDirty();		// Refresh WeaponMesh
+		EnableCustomDepth(true);
 
 		WeaponMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Block);
 		WeaponMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
@@ -257,5 +274,13 @@ void AWeapon::AddAmmo(int32 AmmoToAdd)
 {
 	Ammo = FMath::Clamp(Ammo - AmmoToAdd, 0, MagCapacity);
 	SetHUDAmmo();
+}
+
+void AWeapon::EnableCustomDepth(bool bEnable)
+{
+	if (WeaponMesh)
+	{
+		WeaponMesh->SetRenderCustomDepth(bEnable);
+	}
 }
 
