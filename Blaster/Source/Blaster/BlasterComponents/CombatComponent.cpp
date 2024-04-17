@@ -15,6 +15,7 @@
 #include "TimerManager.h"
 #include "Sound/SoundCue.h"
 #include "Blaster/Character/BlasterAnimInstance.h"
+#include "Blaster/Weapon/Projectile.h"
 
 UCombatComponent::UCombatComponent()
 {
@@ -32,6 +33,7 @@ void UCombatComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out
 	DOREPLIFETIME(UCombatComponent, EquippedWeapon);
 	DOREPLIFETIME(UCombatComponent, bAiming);
 	DOREPLIFETIME(UCombatComponent, CombatState);
+	DOREPLIFETIME(UCombatComponent, Grenades);
 	DOREPLIFETIME_CONDITION(UCombatComponent, CarriedAmmo, COND_OwnerOnly);
 }
 
@@ -83,6 +85,22 @@ void UCombatComponent::UpdateHUDCrosshairs(float DeltaTime)
 	}
 }
 
+void UCombatComponent::OnRep_Grenades()
+{
+	UpdateHUDGrenades();
+}
+
+void UCombatComponent::UpdateHUDGrenades()
+{
+	if (!Character) return;
+
+	Controller = Controller == nullptr ? Cast<ABlasterPlayerController>(Character->Controller) : Controller;
+	if (Controller)
+	{
+		Controller->SetHUDGrenades(Grenades);
+	}
+}
+
 // 발사 버튼 입력 처리: 발사 버튼의 상태에 따라 발사 또는 중지
 void UCombatComponent::FireButtonPressed(bool bPressed)
 {
@@ -115,6 +133,35 @@ void UCombatComponent::JumpToShotgunEnd()
 void UCombatComponent::ThrowGrenadeFinished()
 {
 	CombatState = ECombatState::ECS_Unoccupied;
+	AttachActorToRightHand(EquippedWeapon);
+}
+
+void UCombatComponent::LaunchGrenade()
+{
+	ShowAttachedGrenade(false); 
+
+	if (Character && Character->IsLocallyControlled())
+	{
+		ServerLaunchGrenade(HitTarget);
+	}
+}
+
+void UCombatComponent::ServerLaunchGrenade_Implementation(const FVector_NetQuantize& Target)
+{
+	if (Character && GrenadeClass && Character->GetAttachedGrenade())
+	{
+		const FVector StartingLocation = Character->GetAttachedGrenade()->GetComponentLocation();
+		FVector ToTarget = Target - StartingLocation;
+
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = Character;
+		SpawnParams.Instigator = Character;
+		UWorld* World = GetWorld();
+		if (World)
+		{
+			World->SpawnActor<AProjectile>(GrenadeClass, StartingLocation, ToTarget.Rotation(), SpawnParams);
+		}
+	}
 }
 
 // 발사 로직: 발사 가능할 때, 발사 수행
@@ -154,10 +201,7 @@ void UCombatComponent::FireTimerFinished()
 		Fire();
 	}
 
-	if (EquippedWeapon->IsEmpty())
-	{
-		Reload();
-	}
+	ReloadEmptyWeapon();
 }
 
 // 발사 가능 여부 검사: 현재 발사가 가능한 상태인지 검사합니다.
@@ -226,23 +270,66 @@ void UCombatComponent::EquipWeapon(class AWeapon* WeaponToEquip)
 
 	if (CombatState != ECombatState::ECS_Unoccupied) return;
 
-	if (EquippedWeapon)
-	{
-		EquippedWeapon->Dropped();
-	}
+	DropEquippedWeapon();
 
 	EquippedWeapon = WeaponToEquip;
 	EquippedWeapon->SetWeaponState(EWeaponState::EWS_Equipped);
 	
+	AttachActorToRightHand(EquippedWeapon);
+
+	EquippedWeapon->SetOwner(Character);
+	EquippedWeapon->SetHUDAmmo();
+
+	UpdateCarriedAmmo();
+
+	PlayEquipWeaponSound();
+
+	ReloadEmptyWeapon();
+
+	Character->GetCharacterMovement()->bOrientRotationToMovement = false;
+	Character->bUseControllerRotationYaw = true;
+}
+
+void UCombatComponent::DropEquippedWeapon()
+{
+	if (EquippedWeapon)
+	{
+		EquippedWeapon->Dropped();
+	}
+}
+
+void UCombatComponent::AttachActorToLeftHand(AActor* ActorToAttach)
+{
+	if (!Character || !Character->GetMesh() || !ActorToAttach || !EquippedWeapon) return;
+
+	// Pistol, SMG 는 일반 무기와 Mesh가 달라 소켓 구분으로 예외 처리(
+	bool bUsePistolSocket = (EquippedWeapon->GetWeaponType() == EWeaponType::EWT_Pistol || EquippedWeapon->GetWeaponType() == EWeaponType::EWT_SubmachineGun);
+
+	FName SocketName = bUsePistolSocket ? FName("PistolSocket") : FName("LeftHandSocket");
+
+	// 무기 장착
+	const USkeletalMeshSocket* HandSocket = Character->GetMesh()->GetSocketByName(SocketName);
+	if (HandSocket)
+	{
+		HandSocket->AttachActor(ActorToAttach, Character->GetMesh());
+	}
+}
+
+void UCombatComponent::AttachActorToRightHand(AActor* ActorToAttach)
+{
+	if (!Character || !Character->GetMesh() || !ActorToAttach) return;
+
 	// 무기 장착
 	const USkeletalMeshSocket* HandSocket = Character->GetMesh()->GetSocketByName(FName("RightHandSocket"));
 	if (HandSocket)
 	{
-		HandSocket->AttachActor(EquippedWeapon, Character->GetMesh());
+		HandSocket->AttachActor(ActorToAttach, Character->GetMesh());
 	}
+}
 
-	EquippedWeapon->SetOwner(Character);
-	EquippedWeapon->SetHUDAmmo();
+void UCombatComponent::UpdateCarriedAmmo()
+{
+	if (!EquippedWeapon) return;
 
 	if (CarriedAmmoMap.Contains(EquippedWeapon->GetWeaponType()))
 	{
@@ -255,19 +342,33 @@ void UCombatComponent::EquipWeapon(class AWeapon* WeaponToEquip)
 	{
 		Controller->SetHUDCarriedAmmo(CarriedAmmo);
 	}
+}
+
+void UCombatComponent::PlayEquipWeaponSound()
+{
+	if (!Character ||!EquippedWeapon || !EquippedWeapon->EquipSound) return;
 
 	if (EquippedWeapon->EquipSound)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, EquippedWeapon->EquipSound, Character->GetActorLocation());
 	}
+}
+
+void UCombatComponent::ReloadEmptyWeapon()
+{
+	if (!EquippedWeapon) return;
 
 	if (EquippedWeapon->IsEmpty())
 	{
 		Reload();
 	}
+}
 
-	Character->GetCharacterMovement()->bOrientRotationToMovement = false;
-	Character->bUseControllerRotationYaw = true;
+void UCombatComponent::ShowAttachedGrenade(bool bShow)
+{
+	if (!Character && Character->GetAttachedGrenade()) return;
+
+	Character->GetAttachedGrenade()->SetVisibility(bShow);
 }
 
 // 장전 로직: 무기를 장전합니다.
@@ -350,6 +451,8 @@ void UCombatComponent::OnRep_CombatState()
 		if (Character && !Character->IsLocallyControlled())
 		{
 			Character->PlayThrowGrenadeMontage();
+			AttachActorToLeftHand(EquippedWeapon);
+			ShowAttachedGrenade(true);
 		}
 		break;
 	case ECombatState::ECS_MAX:
@@ -416,20 +519,12 @@ void UCombatComponent::OnRep_EquippedWeapon()
 	{
 		EquippedWeapon->SetWeaponState(EWeaponState::EWS_Equipped);
 
-		// 무기 장착
-		const USkeletalMeshSocket* HandSocket = Character->GetMesh()->GetSocketByName(FName("RightHandSocket"));
-		if (HandSocket)
-		{
-			HandSocket->AttachActor(EquippedWeapon, Character->GetMesh());
-		}
+		AttachActorToRightHand(EquippedWeapon);
 
 		Character->GetCharacterMovement()->bOrientRotationToMovement = false;
 		Character->bUseControllerRotationYaw = true;
 
-		if (EquippedWeapon->EquipSound)
-		{
-			UGameplayStatics::PlaySoundAtLocation(this, EquippedWeapon->EquipSound, Character->GetActorLocation());
-		}
+		PlayEquipWeaponSound();
 	}
 }
 
@@ -544,29 +639,45 @@ void UCombatComponent::SetHUDCrosshairs(float DeltaTime)
 
 void UCombatComponent::ThrowGrenade()
 {
+	if (Grenades == 0) return;
+
 	if (!Character) return;
 
-	if (CombatState != ECombatState::ECS_Unoccupied) return;
+	if (CombatState != ECombatState::ECS_Unoccupied || !EquippedWeapon) return;
 
 	CombatState = ECombatState::ECS_ThrowingGrenade;
 
 	Character->PlayThrowGrenadeMontage();
+	AttachActorToLeftHand(EquippedWeapon);
+	ShowAttachedGrenade(true);
 	
 	if (!Character->HasAuthority())
 	{
 		ServerThrowGrenade();
 	}
+	if (Character && Character->HasAuthority())
+	{
+		Grenades = FMath::Clamp(Grenades - 1, 0, MaxGrenades);
+		UpdateHUDGrenades();
+	}
 }
 
 void UCombatComponent::ServerThrowGrenade_Implementation()
 {
+	if (Grenades == 0) return;
+
 	CombatState = ECombatState::ECS_ThrowingGrenade;
 
 	if (Character)
 	{
 		Character->PlayThrowGrenadeMontage();
+		AttachActorToLeftHand(EquippedWeapon);
+		ShowAttachedGrenade(true);
 	}
+	Grenades = FMath::Clamp(Grenades - 1, 0, MaxGrenades);
+	UpdateHUDGrenades();
 }
+
 
 // 조준 시 시야(Field of View, FOV) 보간: 조준 시 FOV를 부드럽게 변경합니다.
 void UCombatComponent::InterpFOV(float DeltaTime)

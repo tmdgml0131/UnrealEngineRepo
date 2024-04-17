@@ -39,6 +39,12 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void ThrowGrenadeFinished();
+
+	UFUNCTION(BlueprintCallable)
+	void LaunchGrenade();
+
+	UFUNCTION(Server, Reliable)
+	void ServerLaunchGrenade(const FVector_NetQuantize& Target);
 protected:
 	virtual void BeginPlay() override;
 
@@ -75,6 +81,22 @@ protected:
 
 	UFUNCTION(Server, Reliable)
 	void ServerThrowGrenade();
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AProjectile> GrenadeClass;
+
+	void DropEquippedWeapon();
+
+	void AttachActorToLeftHand(AActor* ActorToAttach);
+	void AttachActorToRightHand(AActor* ActorToAttach);
+
+	void UpdateCarriedAmmo();
+
+	void PlayEquipWeaponSound();
+
+	void ReloadEmptyWeapon();
+
+	void ShowAttachedGrenade(bool bShow);
 private:
 	UPROPERTY()
 	class ABlasterCharacter* Character;
@@ -176,4 +198,19 @@ private:
 
 	void InitializeComponentSettings();
 	void UpdateHUDCrosshairs(float DeltaTime); 
+
+	UPROPERTY(ReplicatedUsing = OnRep_Grenades)
+	int32 Grenades = 9;
+	
+	UFUNCTION()
+	void OnRep_Grenades();
+
+	UPROPERTY(EditAnywhere)
+	int32 MaxGrenades = 9;
+
+	void UpdateHUDGrenades();
+
+public:
+	FORCEINLINE int32 GetGrenades() const { return Grenades; }
+
 };

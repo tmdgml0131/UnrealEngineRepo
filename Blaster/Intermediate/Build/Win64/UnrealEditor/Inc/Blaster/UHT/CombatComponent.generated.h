@@ -22,7 +22,9 @@ struct FVector_NetQuantize;
 	virtual void MulticastFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerSetAiming_Implementation(bool bIsAiming); \
+	virtual void ServerLaunchGrenade_Implementation(FVector_NetQuantize const& Target); \
  \
+	DECLARE_FUNCTION(execOnRep_Grenades); \
 	DECLARE_FUNCTION(execOnRep_CombatState); \
 	DECLARE_FUNCTION(execOnRep_CarriedAmmo); \
 	DECLARE_FUNCTION(execServerThrowGrenade); \
@@ -31,6 +33,8 @@ struct FVector_NetQuantize;
 	DECLARE_FUNCTION(execMulticastFire); \
 	DECLARE_FUNCTION(execServerFire); \
 	DECLARE_FUNCTION(execServerSetAiming); \
+	DECLARE_FUNCTION(execServerLaunchGrenade); \
+	DECLARE_FUNCTION(execLaunchGrenade); \
 	DECLARE_FUNCTION(execThrowGrenadeFinished); \
 	DECLARE_FUNCTION(execShotgunShellReload); \
 	DECLARE_FUNCTION(execFinishReloading);
@@ -42,7 +46,9 @@ struct FVector_NetQuantize;
 	virtual void MulticastFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerFire_Implementation(FVector_NetQuantize const& TraceHitTarget); \
 	virtual void ServerSetAiming_Implementation(bool bIsAiming); \
+	virtual void ServerLaunchGrenade_Implementation(FVector_NetQuantize const& Target); \
  \
+	DECLARE_FUNCTION(execOnRep_Grenades); \
 	DECLARE_FUNCTION(execOnRep_CombatState); \
 	DECLARE_FUNCTION(execOnRep_CarriedAmmo); \
 	DECLARE_FUNCTION(execServerThrowGrenade); \
@@ -51,6 +57,8 @@ struct FVector_NetQuantize;
 	DECLARE_FUNCTION(execMulticastFire); \
 	DECLARE_FUNCTION(execServerFire); \
 	DECLARE_FUNCTION(execServerSetAiming); \
+	DECLARE_FUNCTION(execServerLaunchGrenade); \
+	DECLARE_FUNCTION(execLaunchGrenade); \
 	DECLARE_FUNCTION(execThrowGrenadeFinished); \
 	DECLARE_FUNCTION(execShotgunShellReload); \
 	DECLARE_FUNCTION(execFinishReloading);
@@ -72,7 +80,8 @@ public: \
 		bAiming, \
 		CarriedAmmo, \
 		CombatState, \
-		NETFIELD_REP_END=CombatState	}; \
+		Grenades, \
+		NETFIELD_REP_END=Grenades	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -90,7 +99,8 @@ public: \
 		bAiming, \
 		CarriedAmmo, \
 		CombatState, \
-		NETFIELD_REP_END=CombatState	}; \
+		Grenades, \
+		NETFIELD_REP_END=Grenades	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
