@@ -192,6 +192,15 @@
     <ClInclude Include="..\..\Source\Blaster\Interfaces\InteractWithCrosshairsInterface.h">
       <Filter>Source\Blaster\Interfaces</Filter>
     </ClInclude>
+    <Filter Include="Source\Blaster\Pickups">
+      <UniqueIdentifier>{BB70ABB9-CE0C-3B18-AFBB-ED8205144F73}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Blaster\Pickups\Pickup.cpp">
+      <Filter>Source\Blaster\Pickups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\Pickups\Pickup.h">
+      <Filter>Source\Blaster\Pickups</Filter>
+    </ClInclude>
     <Filter Include="Source\Blaster\PlayerController">
       <UniqueIdentifier>{057539C8-6A62-3CA5-A52A-91A9DC512EDA}</UniqueIdentifier>
     </Filter>
