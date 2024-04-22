@@ -203,9 +203,9 @@ void AWeapon::OnRep_Ammo()
 {
 	BlasterOwnerCharacter = BlasterOwnerCharacter == nullptr ? Cast<ABlasterCharacter>(GetOwner()) : BlasterOwnerCharacter;
 
-	if (BlasterOwnerCharacter && BlasterOwnerCharacter->GetCombat() && IsFull())
+	if (BlasterOwnerCharacter && BlasterOwnerCharacter->GetCombatComponent() && IsFull())
 	{
-		BlasterOwnerCharacter->GetCombat()->JumpToShotgunEnd();
+		BlasterOwnerCharacter->GetCombatComponent()->JumpToShotgunEnd();
 	}
 	SetHUDAmmo();
 }

@@ -279,9 +279,9 @@ void ABlasterPlayerController::PollInit()
 				SetHUDDefeats(HUDDeath);
 
 				ABlasterCharacter* BlasterCharacter = Cast<ABlasterCharacter>(GetPawn());
-				if (BlasterCharacter && BlasterCharacter->GetCombat())
+				if (BlasterCharacter && BlasterCharacter->GetCombatComponent())
 				{
-					SetHUDGrenades(BlasterCharacter->GetCombat()->GetGrenades());
+					SetHUDGrenades(BlasterCharacter->GetCombatComponent()->GetGrenades());
 				}
 
 			}
@@ -416,10 +416,10 @@ void ABlasterPlayerController::HandleCooldown()
 	}
 
 	ABlasterCharacter* BlasterCharacter = Cast<ABlasterCharacter>(GetPawn());
-	if (BlasterCharacter && BlasterCharacter->GetCombat())
+	if (BlasterCharacter && BlasterCharacter->GetCombatComponent())
 	{
 		BlasterCharacter->bDisableGameplay = true;
-		BlasterCharacter->GetCombat()->FireButtonPressed(false);
+		BlasterCharacter->GetCombatComponent()->FireButtonPressed(false);
 	}
 }
 

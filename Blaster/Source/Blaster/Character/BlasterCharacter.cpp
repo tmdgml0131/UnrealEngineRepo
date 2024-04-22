@@ -9,6 +9,7 @@
 #include "Net/UnrealNetwork.h"
 #include "Blaster/Weapon/Weapon.h"
 #include "Blaster/BlasterComponents/CombatComponent.h"
+#include "Blaster/BlasterComponents/BuffComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "BlasterAnimInstance.h"
@@ -52,6 +53,10 @@ ABlasterCharacter::ABlasterCharacter()
 	// 전투 설정
 	CombatComponent = CreateDefaultSubobject<UCombatComponent>(TEXT("CombatComponent"));
 	CombatComponent->SetIsReplicated(true);
+
+	// 버프 설정
+	BuffComponent = CreateDefaultSubobject<UBuffComponent>(TEXT("BuffComponent"));
+	BuffComponent->SetIsReplicated(true);
 
 	// 캐릭터 이동 설정: Crouch 가능하게 설정
 	GetCharacterMovement()->NavAgentProps.bCanCrouch = true;
@@ -156,7 +161,7 @@ void ABlasterCharacter::RotateInPlace(float DeltaTime)
 	}
 	else
 	{
-		// Movement가 Replicated된 시간이 특정 시간보다 크다면.. ( 하드코딩 수정 필요 )
+		// Movement 가 Replicated 된 시간이 특정 시간보다 크다면.. ( 하드코딩 수정 필요 )
 		TimeSinceLastMovementReplication += DeltaTime;
 		if (TimeSinceLastMovementReplication > 0.25f)
 		{
@@ -174,6 +179,11 @@ void ABlasterCharacter::PostInitializeComponents()
 	if (CombatComponent)
 	{
 		CombatComponent->Character = this;
+	}
+
+	if (BuffComponent)
+	{
+		BuffComponent->Character = this;
 	}
 }
 
@@ -297,6 +307,8 @@ void ABlasterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &ThisClass::AimButtonReleased);
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ThisClass::FireButtonPressed);
 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &ThisClass::FireButtonReleased);
+	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &ThisClass::RunButtonPressed);
+	PlayerInputComponent->BindAction("Run", IE_Released, this, &ThisClass::RunButtonReleased);
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ThisClass::ReloadButtonPressed);
 	PlayerInputComponent->BindAction("ThrowGrenade", IE_Pressed, this, &ThisClass::ThrowGrenadeButtonPressed);
 
@@ -328,6 +340,20 @@ void ABlasterCharacter::MoveRight(float Value)
 		const FVector Direction(FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y));
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void ABlasterCharacter::RunButtonPressed()
+{
+	if (bDisableGameplay) return;
+
+	GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
+}
+
+void ABlasterCharacter::RunButtonReleased()
+{
+	if (bDisableGameplay) return;
+
+	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 }
 
 void ABlasterCharacter::Turn(float Value)
@@ -425,10 +451,13 @@ float ABlasterCharacter::CalculateSpeed()
 	return Velocity.Size();
 }
 
-void ABlasterCharacter::OnRep_Health()
+void ABlasterCharacter::OnRep_Health(float LastHealth)
 {
 	UpdateHUDHealth();
-	PlayHitReactMontage();
+	if (Health < LastHealth)
+	{
+		PlayHitReactMontage();
+	}
 }
 
 void ABlasterCharacter::AimOffset(float DeltaTime)

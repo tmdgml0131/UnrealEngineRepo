@@ -50,12 +50,17 @@ public:
 	void ShowSniperScopeWidget(bool bShowScope);
 
 	bool bCanJump = true;
+
+	void UpdateHUDHealth();
+
 protected:
 	virtual void BeginPlay() override;
 
 	// Movement / Action
 	void MoveForward(float Value);
 	void MoveRight(float Value);
+	void RunButtonPressed();
+	void RunButtonReleased();
 	void Turn(float Value);
 	void LookUp(float Value);
 	void EquipButtonPressed();
@@ -81,7 +86,6 @@ protected:
 	UFUNCTION()
 	void ReceiveDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* InstigatorController, AActor* DamageCauser);
 
-	void UpdateHUDHealth();
 
 	// 관련 클래스 Poll 및 HUD Initialize 
 	void PollInit();
@@ -106,9 +110,15 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UCombatComponent* CombatComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	class UBuffComponent* BuffComponent;
+
 	// RPC 함수
 	UFUNCTION(Server, Reliable)
 	void ServerEquipButtonPressed();
+
+	float WalkSpeed = 600.f;
+	float RunSpeed = 1200.f;
 
 	float AO_Yaw;
 	float InterpAO_Yaw;
@@ -156,7 +166,7 @@ private:
 	float Health = 100.f;
 
 	UFUNCTION()
-	void OnRep_Health();
+	void OnRep_Health(float LastHealth);
 
 	class ABlasterPlayerController* BlasterPlayerController;
 
@@ -220,11 +230,13 @@ public:
 	FORCEINLINE bool ShouldRotateRootBone() const { return bRotateRootBone; }
 	FORCEINLINE bool IsElimmed() const { return bElimmed; }
 	FORCEINLINE float GetHealth() const { return Health; }
+	FORCEINLINE void SetHealth(float AmountToHeal) { Health = AmountToHeal; }
 	FORCEINLINE float GetMaxHealth() const { return MaxHealth; }
 	FORCEINLINE bool GetDisableGameplay() const { return bDisableGameplay; }
 	FORCEINLINE ETurningInPlace GetTurningInPlace() const { return TurningInPlace; }
 	FORCEINLINE UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-	FORCEINLINE UCombatComponent* GetCombat() const { return CombatComponent; }
+	FORCEINLINE UCombatComponent* GetCombatComponent() const { return CombatComponent; }
 	FORCEINLINE UAnimMontage* GetReloadMontage() const { return ReloadMontage; }
 	FORCEINLINE UStaticMeshComponent* GetAttachedGrenade() const { return AttachedGrenade; }
+	FORCEINLINE UBuffComponent* GetBuffComponent() const { return BuffComponent; }
 };

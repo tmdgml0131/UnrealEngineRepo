@@ -102,6 +102,12 @@
     <Filter Include="Source\Blaster\BlasterComponents">
       <UniqueIdentifier>{8F3737CC-73AB-372F-9807-2117AE8F86AA}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Blaster\BlasterComponents\BuffComponent.cpp">
+      <Filter>Source\Blaster\BlasterComponents</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\BlasterComponents\BuffComponent.h">
+      <Filter>Source\Blaster\BlasterComponents</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Blaster\BlasterComponents\CombatComponent.cpp">
       <Filter>Source\Blaster\BlasterComponents</Filter>
     </ClCompile>
@@ -195,6 +201,18 @@
     <Filter Include="Source\Blaster\Pickups">
       <UniqueIdentifier>{BB70ABB9-CE0C-3B18-AFBB-ED8205144F73}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Blaster\Pickups\AmmoPickup.cpp">
+      <Filter>Source\Blaster\Pickups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\Pickups\AmmoPickup.h">
+      <Filter>Source\Blaster\Pickups</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Blaster\Pickups\HealthPickup.cpp">
+      <Filter>Source\Blaster\Pickups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\Pickups\HealthPickup.h">
+      <Filter>Source\Blaster\Pickups</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Blaster\Pickups\Pickup.cpp">
       <Filter>Source\Blaster\Pickups</Filter>
     </ClCompile>
