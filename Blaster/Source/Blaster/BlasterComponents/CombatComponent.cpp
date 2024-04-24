@@ -21,7 +21,6 @@ UCombatComponent::UCombatComponent()
 {
 	PrimaryComponentTick.bCanEverTick = true;
 
-	BaseWalkSpeed = 600.f;
 	AimWalkSpeed = 450.f;
 }
 
@@ -49,7 +48,7 @@ void UCombatComponent::InitializeComponentSettings()
 {
 	if (Character)
 	{
-		Character->GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
+		Character->GetCharacterMovement()->MaxWalkSpeed = Character->GetCharacterWalkSpeed();
 
 		if (Character->GetFollowCamera())
 		{
@@ -722,7 +721,7 @@ void UCombatComponent::SetAiming(bool bIsAiming)
 	ServerSetAiming(bIsAiming);
 	if (Character)
 	{
-		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming? AimWalkSpeed : BaseWalkSpeed;
+		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming? AimWalkSpeed : Character->GetCharacterWalkSpeed();
 	}
 
 	// Sniper Widget은 Local한테만 보이면 되기 때문에 Local Controll 여부 체크
@@ -738,7 +737,7 @@ void UCombatComponent::ServerSetAiming_Implementation(bool bIsAiming)
 	bAiming = bIsAiming;
 	if (Character)
 	{
-		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming ? AimWalkSpeed : BaseWalkSpeed;
+		Character->GetCharacterMovement()->MaxWalkSpeed = bIsAiming ? AimWalkSpeed : Character->GetCharacterWalkSpeed();
 	}
 }
 

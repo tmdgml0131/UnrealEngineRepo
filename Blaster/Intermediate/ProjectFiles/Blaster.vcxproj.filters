@@ -219,6 +219,12 @@
     <ClInclude Include="..\..\Source\Blaster\Pickups\Pickup.h">
       <Filter>Source\Blaster\Pickups</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Blaster\Pickups\SpeedPickup.cpp">
+      <Filter>Source\Blaster\Pickups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Blaster\Pickups\SpeedPickup.h">
+      <Filter>Source\Blaster\Pickups</Filter>
+    </ClInclude>
     <Filter Include="Source\Blaster\PlayerController">
       <UniqueIdentifier>{057539C8-6A62-3CA5-A52A-91A9DC512EDA}</UniqueIdentifier>
     </Filter>

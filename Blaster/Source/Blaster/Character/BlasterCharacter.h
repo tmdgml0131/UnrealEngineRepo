@@ -39,7 +39,7 @@ public:
 
 	// 플레이어 죽음
 	UFUNCTION(NetMulticast, Reliable)
-	void MultiCastElim();
+	void MulticastElim();
 
 	virtual void Destroyed() override;
 	
@@ -50,6 +50,7 @@ public:
 	void ShowSniperScopeWidget(bool bShowScope);
 
 	bool bCanJump = true;
+	bool bIsRunning = false;
 
 	void UpdateHUDHealth();
 
@@ -117,8 +118,13 @@ private:
 	UFUNCTION(Server, Reliable)
 	void ServerEquipButtonPressed();
 
-	float WalkSpeed = 600.f;
-	float RunSpeed = 1200.f;
+	// RPC 함수
+	UFUNCTION(Server, Reliable)
+	void ServerRunButtonPressed();
+	
+	// RPC 함수
+	UFUNCTION(Server, Reliable)
+	void ServerRunButtonReleased();
 
 	float AO_Yaw;
 	float InterpAO_Yaw;
@@ -164,6 +170,19 @@ private:
 
 	UPROPERTY(ReplicatedUsing = OnRep_Health, VisibleAnywhere, Category = "Player Stats")
 	float Health = 100.f;
+	
+	// Player Speed
+	UPROPERTY(EditAnywhere, Category = "Player Stats")
+	float MaxSpeed = 1800.f;
+
+	float InitialWalkSpeed = 600.f;
+	float InitialRunSpeed = 1200.f;
+
+	UPROPERTY(Replicated)
+	float WalkSpeed = 600.f;
+
+	UPROPERTY(Replicated)
+	float RunSpeed = 1200.f;
 
 	UFUNCTION()
 	void OnRep_Health(float LastHealth);
@@ -194,11 +213,11 @@ private:
 	
 	void StartDissolve();
 
-	// Dynamic Instance, Runtime에 변경 가능
+	// Dynamic Instance, Runtime 에 변경 가능
 	UPROPERTY(VisibleAnywhere, Category = Elim)
 	UMaterialInstanceDynamic* DynamicDissolveMaterialInstance;
 
-	// Blueprint에서 변경 가능한 Material Instance로 Dynamic Material에 쓰임
+	// Blueprint 에서 변경 가능한 Material Instance 로 Dynamic Material 에 쓰임
 	UPROPERTY(EditAnywhere, Category = Elim)
 	UMaterialInstance* DissolveMaterialInstance;
 
@@ -233,6 +252,13 @@ public:
 	FORCEINLINE void SetHealth(float AmountToHeal) { Health = AmountToHeal; }
 	FORCEINLINE float GetMaxHealth() const { return MaxHealth; }
 	FORCEINLINE bool GetDisableGameplay() const { return bDisableGameplay; }
+	FORCEINLINE float GetCharacterWalkSpeed() const { return WalkSpeed; }
+	FORCEINLINE float GetCharacterRunSpeed() const { return RunSpeed; }
+	FORCEINLINE float GetCharacterMaxSpeed() const { return MaxSpeed; }
+	FORCEINLINE float GetCharacterInitialWalkSpeed() const { return InitialWalkSpeed; }
+	FORCEINLINE float GetCharacterInitialRunSpeed() const { return InitialRunSpeed; }
+	FORCEINLINE void SetCharacterWalkSpeed(float Value) { WalkSpeed = Value; }
+	FORCEINLINE void SetCharacterRunSpeed(float Value) { RunSpeed = Value; }
 	FORCEINLINE ETurningInPlace GetTurningInPlace() const { return TurningInPlace; }
 	FORCEINLINE UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 	FORCEINLINE UCombatComponent* GetCombatComponent() const { return CombatComponent; }

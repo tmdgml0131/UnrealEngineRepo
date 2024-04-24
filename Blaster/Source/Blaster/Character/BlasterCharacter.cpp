@@ -346,14 +346,46 @@ void ABlasterCharacter::RunButtonPressed()
 {
 	if (bDisableGameplay) return;
 
+	if (HasAuthority())
+	{
+		GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
+		bIsRunning = true;
+	}
+	else
+	{
+		ServerRunButtonPressed();
+	}
+}
+
+void ABlasterCharacter::ServerRunButtonPressed_Implementation()
+{
+	if (bDisableGameplay) return;
+
 	GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
+	bIsRunning = true;
 }
 
 void ABlasterCharacter::RunButtonReleased()
 {
 	if (bDisableGameplay) return;
 
+	if (HasAuthority())
+	{
+		GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
+		bIsRunning = false;
+	}
+	else
+	{
+		ServerRunButtonReleased();
+	}
+}
+
+void ABlasterCharacter::ServerRunButtonReleased_Implementation()
+{
+	if (bDisableGameplay) return;
+
 	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
+	bIsRunning = false;
 }
 
 void ABlasterCharacter::Turn(float Value)
@@ -637,11 +669,11 @@ void ABlasterCharacter::Elim()
 	{
 		CombatComponent->EquippedWeapon->Dropped(); 
 	}
-	MultiCastElim();
+	MulticastElim();
 	GetWorldTimerManager().SetTimer(ElimTimer, this, &ThisClass::ElimTimerFinished, ElimDealy);
 }
 
-void ABlasterCharacter::MultiCastElim_Implementation()
+void ABlasterCharacter::MulticastElim_Implementation()
 {
 	if (BlasterPlayerController)
 	{

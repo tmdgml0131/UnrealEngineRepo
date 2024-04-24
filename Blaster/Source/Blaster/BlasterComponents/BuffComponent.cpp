@@ -3,6 +3,7 @@
 
 #include "BuffComponent.h"
 #include "Blaster/Character/BlasterCharacter.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 UBuffComponent::UBuffComponent()
 {
@@ -26,6 +27,51 @@ void UBuffComponent::Heal(float HealAmount, float HealingTime)
 	AmountToHeal += HealAmount;
 }
 
+void UBuffComponent::BuffSpeed(float BuffSpeed, float BuffTime)
+{
+	// 현재 이동속도가 최대보다 크거나 같다면 함수 종료
+	if (!Character || Character->GetCharacterMovement()->MaxWalkSpeed >= Character->GetCharacterMaxSpeed()) return;
+
+	Character->GetWorldTimerManager().SetTimer(SpeedBuffTimer, this, &ThisClass::ResetSpeed, BuffTime);
+
+	float BuffedWalkSpeed = BuffSpeed * Character->GetCharacterInitialWalkSpeed();
+	float BuffedRunSpeed = BuffSpeed * Character->GetCharacterInitialRunSpeed();
+
+	Character->GetCharacterMovement()->MaxWalkSpeed = BuffedWalkSpeed;
+	Character->SetCharacterWalkSpeed(BuffedWalkSpeed);
+	Character->SetCharacterRunSpeed(BuffedRunSpeed);
+	if (Character->bIsRunning)
+	{
+		Character->GetCharacterMovement()->MaxWalkSpeed = BuffedRunSpeed;
+	}
+
+	MulticastSpeedBuff(BuffedWalkSpeed, BuffedRunSpeed);
+}
+
+void UBuffComponent::ResetSpeed()
+{
+	if (!Character) return;
+
+	Character->GetCharacterMovement()->MaxWalkSpeed = Character->GetCharacterInitialWalkSpeed();
+	Character->SetCharacterWalkSpeed(Character->GetCharacterInitialWalkSpeed());
+	Character->SetCharacterRunSpeed(Character->GetCharacterInitialRunSpeed());
+
+	MulticastSpeedBuff(Character->GetCharacterInitialWalkSpeed(), Character->GetCharacterInitialRunSpeed());
+}
+
+void UBuffComponent::MulticastSpeedBuff_Implementation(float WalkSpeed, float RunSpeed)
+{
+	if (!Character) return;
+
+	Character->GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
+	Character->SetCharacterWalkSpeed(WalkSpeed);
+	Character->SetCharacterRunSpeed(RunSpeed);
+	if (Character->bIsRunning)
+	{
+		Character->GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
+	}
+}
+
 void UBuffComponent::HealRampUp(float DeltaTime)
 {
 	if (!bHealing || !Character || Character->IsElimmed()) return;
@@ -42,6 +88,7 @@ void UBuffComponent::HealRampUp(float DeltaTime)
 		AmountToHeal = 0.f;
 	}
 }
+
 
 void UBuffComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {

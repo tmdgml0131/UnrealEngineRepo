@@ -20,27 +20,35 @@ class UDamageType;
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_SPARSE_DATA
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_RPC_WRAPPERS \
+	virtual void ServerRunButtonReleased_Implementation(); \
+	virtual void ServerRunButtonPressed_Implementation(); \
 	virtual void ServerEquipButtonPressed_Implementation(); \
-	virtual void MultiCastElim_Implementation(); \
+	virtual void MulticastElim_Implementation(); \
  \
 	DECLARE_FUNCTION(execUpdateDissolveMaterial); \
 	DECLARE_FUNCTION(execOnRep_Health); \
+	DECLARE_FUNCTION(execServerRunButtonReleased); \
+	DECLARE_FUNCTION(execServerRunButtonPressed); \
 	DECLARE_FUNCTION(execServerEquipButtonPressed); \
 	DECLARE_FUNCTION(execOnRep_OverlappingWeapon); \
 	DECLARE_FUNCTION(execReceiveDamage); \
-	DECLARE_FUNCTION(execMultiCastElim);
+	DECLARE_FUNCTION(execMulticastElim);
 
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ServerRunButtonReleased_Implementation(); \
+	virtual void ServerRunButtonPressed_Implementation(); \
 	virtual void ServerEquipButtonPressed_Implementation(); \
-	virtual void MultiCastElim_Implementation(); \
+	virtual void MulticastElim_Implementation(); \
  \
 	DECLARE_FUNCTION(execUpdateDissolveMaterial); \
 	DECLARE_FUNCTION(execOnRep_Health); \
+	DECLARE_FUNCTION(execServerRunButtonReleased); \
+	DECLARE_FUNCTION(execServerRunButtonPressed); \
 	DECLARE_FUNCTION(execServerEquipButtonPressed); \
 	DECLARE_FUNCTION(execOnRep_OverlappingWeapon); \
 	DECLARE_FUNCTION(execReceiveDamage); \
-	DECLARE_FUNCTION(execMultiCastElim);
+	DECLARE_FUNCTION(execMulticastElim);
 
 
 #define FID_git_UnrealEngineRepo_Blaster_Source_Blaster_Character_BlasterCharacter_h_17_ACCESSORS
@@ -59,7 +67,9 @@ public: \
 		bDisableGameplay=NETFIELD_REP_START, \
 		OverlappingWeapon, \
 		Health, \
-		NETFIELD_REP_END=Health	}; \
+		WalkSpeed, \
+		RunSpeed, \
+		NETFIELD_REP_END=RunSpeed	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -77,7 +87,9 @@ public: \
 		bDisableGameplay=NETFIELD_REP_START, \
 		OverlappingWeapon, \
 		Health, \
-		NETFIELD_REP_END=Health	}; \
+		WalkSpeed, \
+		RunSpeed, \
+		NETFIELD_REP_END=RunSpeed	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
