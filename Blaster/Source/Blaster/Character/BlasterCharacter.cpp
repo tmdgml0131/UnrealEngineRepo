@@ -344,8 +344,6 @@ void ABlasterCharacter::MoveRight(float Value)
 
 void ABlasterCharacter::RunButtonPressed()
 {
-	if (bDisableGameplay) return;
-
 	if (HasAuthority())
 	{
 		GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
@@ -359,11 +357,10 @@ void ABlasterCharacter::RunButtonPressed()
 
 void ABlasterCharacter::ServerRunButtonPressed_Implementation()
 {
-	if (bDisableGameplay) return;
-
 	GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
 	bIsRunning = true;
 }
+
 
 void ABlasterCharacter::RunButtonReleased()
 {
@@ -382,8 +379,6 @@ void ABlasterCharacter::RunButtonReleased()
 
 void ABlasterCharacter::ServerRunButtonReleased_Implementation()
 {
-	if (bDisableGameplay) return;
-
 	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 	bIsRunning = false;
 }

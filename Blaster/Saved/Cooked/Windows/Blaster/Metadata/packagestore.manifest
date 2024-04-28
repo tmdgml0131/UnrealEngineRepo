@@ -1,280 +1,284 @@
 {
 	"Files": [
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CC.uasset",
-			"ChunkId": "53b7b040d7f944b300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CC.uasset",
+			"ChunkId": "9b6f65b74085612500000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CD.uasset",
-			"ChunkId": "ce35ace6c12cc60c00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CD.uasset",
+			"ChunkId": "72de04877e9cf9fd00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CU.uasset",
-			"ChunkId": "0c85faab504dc35900000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CU.uasset",
+			"ChunkId": "7fd025f994f8850500000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LC.uasset",
-			"ChunkId": "05f0fb803f26b98d00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LC.uasset",
+			"ChunkId": "902175ad200cfcb700000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LD.uasset",
-			"ChunkId": "334c109d693ac4d300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LD.uasset",
+			"ChunkId": "7d1eea0ab235ef1400000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LU.uasset",
-			"ChunkId": "df3c91cefcdd79d200000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LU.uasset",
+			"ChunkId": "628cf8d2a180341d00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RC.uasset",
-			"ChunkId": "5b462964c2e9840500000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RC.uasset",
+			"ChunkId": "068681bf4b9a6acf00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RD.uasset",
-			"ChunkId": "b770cb1b0977772c00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RD.uasset",
+			"ChunkId": "d951a0822270323c00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RU.uasset",
-			"ChunkId": "fb0a9bb2bac3e84200000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RU.uasset",
+			"ChunkId": "22ae77adab4071bb00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_Zero_Pose.uasset",
-			"ChunkId": "ea5962d7d3ea55bb00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_Zero_Pose.uasset",
+			"ChunkId": "12c2da458f6bff7d00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CC.uasset",
-			"ChunkId": "624a223c790d3e9600000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CC.uasset",
+			"ChunkId": "9a7da7dad708f7b300000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CD.uasset",
-			"ChunkId": "27caca6b7af55fc300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CD.uasset",
+			"ChunkId": "b9371f3e0507920100000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CU.uasset",
-			"ChunkId": "97b730f69b8be64100000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CU.uasset",
+			"ChunkId": "02e91bb9a8129d5700000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LC.uasset",
-			"ChunkId": "31b6a485adcf1fa600000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LC.uasset",
+			"ChunkId": "161601b0785f231400000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LD.uasset",
-			"ChunkId": "5db654d9498069ab00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LD.uasset",
+			"ChunkId": "ea4c2b472272103f00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LU.uasset",
-			"ChunkId": "5da1bfe70a83d67400000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LU.uasset",
+			"ChunkId": "a35f063f66a5c87000000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RC.uasset",
-			"ChunkId": "b1406594ef6de13c00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RC.uasset",
+			"ChunkId": "59fcb4dd158b480400000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RD.uasset",
-			"ChunkId": "e146f113f6d8828b00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RD.uasset",
+			"ChunkId": "7b6b41ce9bd445ce00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RU.uasset",
-			"ChunkId": "92d14c66c023c6b300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RU.uasset",
+			"ChunkId": "19f97d6592419f0700000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_Zero_Pose.uasset",
-			"ChunkId": "f6479ef17b3bb21200000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_Zero_Pose.uasset",
+			"ChunkId": "b299a33bd22b781800000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset",
-			"ChunkId": "d37af6553be00ca800000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset",
+			"ChunkId": "ab227e3cc134191100000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset",
-			"ChunkId": "6c7b12f5b5fb822700000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset",
+			"ChunkId": "772e9ba674a8f6b500000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset",
-			"ChunkId": "aa4248a6a06b2d2e00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset",
+			"ChunkId": "0857259fc79352de00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset",
-			"ChunkId": "bf4f2a3fcfa6f40900000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset",
+			"ChunkId": "09c1e323af89b30d00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset",
-			"ChunkId": "87316e2d01858fef00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset",
+			"ChunkId": "462e9726a5e982a600000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset",
-			"ChunkId": "b302140399a2f2bc00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset",
+			"ChunkId": "3cee6849cc1fc63200000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset",
-			"ChunkId": "6354d95bfabbbb0300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset",
+			"ChunkId": "da184b36d553e75500000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset",
-			"ChunkId": "f8118a8c0d319e7500000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset",
+			"ChunkId": "8fc9e40c48a0abf900000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset",
-			"ChunkId": "0625537968c78ec100000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset",
+			"ChunkId": "2c65b39516bcca6b00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset",
-			"ChunkId": "f5a6f2903be8ec1a00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset",
+			"ChunkId": "e85a8e9bdc4bb73b00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Elim.uasset",
-			"ChunkId": "6972be483615c21100000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Elim.uasset",
+			"ChunkId": "4d130b6423f70e9500000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Fire_Rifle_Hip.uasset",
-			"ChunkId": "951186cf5433376a00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Fire_Rifle_Hip.uasset",
+			"ChunkId": "bf9e1accbe7cc57300000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Fire_Rifle_Ironsights.uasset",
-			"ChunkId": "0ad6e948a6b1f65100000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Fire_Rifle_Ironsights.uasset",
+			"ChunkId": "3cda776571b03f0100000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Hit_React_1_ADD.uasset",
-			"ChunkId": "543216f2cde8cd5700000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Hit_React_1_ADD.uasset",
+			"ChunkId": "3271965a1aaac15f00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Hit_React_2_ADD.uasset",
-			"ChunkId": "b39f0a1bedc3eaaf00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Hit_React_2_ADD.uasset",
+			"ChunkId": "c9cba112733d9f2100000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Hit_React_3_ADD.uasset",
-			"ChunkId": "2f9c838f2501a15700000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Hit_React_3_ADD.uasset",
+			"ChunkId": "a211c35d6dcd778a00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Hit_React_4_ADD.uasset",
-			"ChunkId": "b38d392be141676a00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Hit_React_4_ADD.uasset",
+			"ChunkId": "24e84dc743150a0300000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Idle_Rifle_Hip.uasset",
-			"ChunkId": "8166f84c75689c7600000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Idle_Rifle_Hip.uasset",
+			"ChunkId": "64e0817f7640233b00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Idle_Rifle_Ironsights.uasset",
-			"ChunkId": "6a52d9d2d56b367800000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Idle_Rifle_Ironsights.uasset",
+			"ChunkId": "47038426ed289aaa00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_45_Right.uasset",
-			"ChunkId": "0cddcfc45200d54800000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Bwd_45_Right.uasset",
+			"ChunkId": "9ca4204298cd15f100000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Lean_L.uasset",
-			"ChunkId": "96cf58fbcb0fed9100000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Bwd_Lean_L.uasset",
+			"ChunkId": "9145495f7830635000000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Lean_R.uasset",
-			"ChunkId": "c67780ba6a5cfe6600000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Bwd_Lean_R.uasset",
+			"ChunkId": "ab313d547fdf08c800000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Rifle.uasset",
-			"ChunkId": "acfc01ac9b96d6c200000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Bwd_Rifle.uasset",
+			"ChunkId": "4392292d6b1c8b6900000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_45_Left.uasset",
-			"ChunkId": "b7b00e684af9bcd100000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Fwd_45_Left.uasset",
+			"ChunkId": "8daaa533771d5c1c00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Lean_L.uasset",
-			"ChunkId": "d6cccfed37d6805e00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Fwd_Lean_L.uasset",
+			"ChunkId": "8e77359220ab3b7400000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Lean_R.uasset",
-			"ChunkId": "03ec6b14c3d1d4af00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Fwd_Lean_R.uasset",
+			"ChunkId": "3e78e4300b112f0b00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Rifle.uasset",
-			"ChunkId": "e052430f333b029500000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Fwd_Rifle.uasset",
+			"ChunkId": "a366c0cb5ad476e100000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Lean_L.uasset",
-			"ChunkId": "c674ce8a13fbc9aa00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Lt_Lean_L.uasset",
+			"ChunkId": "5980eb5b57eca76000000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Lean_R.uasset",
-			"ChunkId": "f9d3f303cb49c47300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Lt_Lean_R.uasset",
+			"ChunkId": "2fe6d7396a7e1fda00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Rifle.uasset",
-			"ChunkId": "a7059c792962a9ed00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Lt_Rifle.uasset",
+			"ChunkId": "712388ae6191b34f00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Lean_L.uasset",
-			"ChunkId": "c77dc7291e278be300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Rt_Lean_L.uasset",
+			"ChunkId": "73f399fca297dfc800000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Lean_R.uasset",
-			"ChunkId": "3eae8e835f8b7ca300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Rt_Lean_R.uasset",
+			"ChunkId": "dc66d4b472671f0900000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Rifle.uasset",
-			"ChunkId": "5c8dc44fa3072fb400000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Jog_Rt_Rifle.uasset",
+			"ChunkId": "fe42dcb5e01adf8e00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/JumpLoop_Rot.uasset",
-			"ChunkId": "5695ed9793ff68d300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/JumpLoop_Rot.uasset",
+			"ChunkId": "22d181219aa79d9500000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/JumpUp_Rot.uasset",
-			"ChunkId": "77d4be97066da5dc00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/JumpUp_Rot.uasset",
+			"ChunkId": "5d673fe6f6a1f5cb00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Reload_Shotgun_Hip.uasset",
-			"ChunkId": "de669f6ba3f5864900000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Reload_Shotgun_Hip.uasset",
+			"ChunkId": "8acd18efb756a8dc00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/ReloadPistol.uasset",
-			"ChunkId": "b4d273ad83fb91de00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/ReloadPistol.uasset",
+			"ChunkId": "000f0158367367b200000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/ReloadRifle.uasset",
-			"ChunkId": "afc94e9c7f1c3c1b00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/ReloadRifle.uasset",
+			"ChunkId": "8ba4d8fd8bc8501600000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset",
-			"ChunkId": "0b3376f6b98503e500000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset",
+			"ChunkId": "a07fc57730f4d10300000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset",
-			"ChunkId": "55e0f06dc77dbfbe00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset",
+			"ChunkId": "354746c31b1f59a700000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset",
-			"ChunkId": "c8c7ddf87266ee3800000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset",
+			"ChunkId": "803363e4b521733b00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset",
-			"ChunkId": "49f0eaaa618ea1cf00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset",
+			"ChunkId": "a25ceedee91189b100000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/Mixamo/CrouchTurnLeft.uasset",
-			"ChunkId": "3ea458d4969573a800000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/Mixamo/CrouchTurnLeft.uasset",
+			"ChunkId": "49f9d760d0030ae500000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/Mixamo/CrouchTurnRight.uasset",
-			"ChunkId": "fa53817d06579d6e00000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/Mixamo/CrouchTurnRight.uasset",
+			"ChunkId": "7ced34d730fba24400000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/Mixamo/Jump_Down_Trim.uasset",
-			"ChunkId": "d086521c9af0f28800000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/Mixamo/GrenadeToss.uasset",
+			"ChunkId": "adb937601733212d00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/Mixamo/Reloading.uasset",
-			"ChunkId": "3dfd84271d53301300000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/Mixamo/Jump_Down_Trim.uasset",
+			"ChunkId": "aaab6d14af0e982800000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/Mixamo/ReloadRocket.uasset",
-			"ChunkId": "a29fda7b8e32cfc200000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/Mixamo/Reloading.uasset",
+			"ChunkId": "540f2ce30ecbfb3c00000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/Mixamo/Turn_Left.uasset",
-			"ChunkId": "ea7cfc11f9e68ad800000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/Mixamo/ReloadRocket.uasset",
+			"ChunkId": "b3d3b1de41ab486000000001"
 		},
 		{
-			"Path": "Blaster/Content/Assets/AnimStarterPack/Retargeted/Mixamo/Turn_Right.uasset",
-			"ChunkId": "70eca70b2e40c56700000001"
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/Mixamo/Turn_Left.uasset",
+			"ChunkId": "e102cbbd47fbe3b300000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Animation/Retargeted/Mixamo/Turn_Right.uasset",
+			"ChunkId": "702854a2714af48500000001"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Asian_Village/blueprints/BP_bridge_spline.uasset",
@@ -3373,6 +3377,10 @@
 			"ChunkId": "95ecc43db7e541d000000002"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Materials/PP_Highlight.uasset",
+			"ChunkId": "a96856dfe0b89b8900000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/ParagonDekker/FX/Materials/Flares/M_Lensflare_TB_Soft.uasset",
 			"ChunkId": "8917c5a70d4b4aed00000001"
 		},
@@ -3685,6 +3693,442 @@
 			"ChunkId": "d2a26c01cc7df23800000002"
 		},
 		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Functions/FX_EmissiveModulate.uasset",
+			"ChunkId": "512c2f240ab2522000000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Functions/MF_DitheredRefraction.uasset",
+			"ChunkId": "aa5fe926bb7f966300000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/FX/M_Wraith_Drone_ElectroField.uasset",
+			"ChunkId": "560c96ddb35e496a00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/FX/M_Wraith_Upperbody_Drone_Inst.uasset",
+			"ChunkId": "a2b89a8ddaf3a67600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/M_Wraith_Upperbody.uasset",
+			"ChunkId": "8f5d086658edc6c000000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/MLayer/MF_Wraithlatex.uasset",
+			"ChunkId": "6e9cb0ebb32eed5200000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/MLayer/T_TireRubber_R.uasset",
+			"ChunkId": "810ad5c0bbfe3e7600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/MLayer/T_TireRubber_R.ubulk",
+			"ChunkId": "810ad5c0bbfe3e7600000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/HitFlash.uasset",
+			"ChunkId": "7f2ad2669ff90e1c00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/M_Tri_Test.uasset",
+			"ChunkId": "a1c69e43ba0425ca00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast.uasset",
+			"ChunkId": "e2cd136bebfe968200000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment.uasset",
+			"ChunkId": "5e12d6a81f1d4e8600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime.uasset",
+			"ChunkId": "8a12ef3b71ab885100000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MaterialLayerConstructors/MLC_Standard.uasset",
+			"ChunkId": "80672e18ff6843fa00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_BrightnessAdjust.uasset",
+			"ChunkId": "af17367c034c97aa00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_Character_MaterialLayerQuality.uasset",
+			"ChunkId": "28489b481e79baf400000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_CharacterEffects.uasset",
+			"ChunkId": "511be705d037181200000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_DeathFade.uasset",
+			"ChunkId": "b94920e8b1a96c5d00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_OrionCharacterAO.uasset",
+			"ChunkId": "1a11ccdae3ebe91300000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_OrionRimlight.uasset",
+			"ChunkId": "78e9af94fabadb7500000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/ParameterCollections/OrionGlobalGameplayCollection.uasset",
+			"ChunkId": "e8c423088ae5887300000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise01.uasset",
+			"ChunkId": "c37ca498dfa1d25100000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise01.ubulk",
+			"ChunkId": "c37ca498dfa1d25100000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise01_N.uasset",
+			"ChunkId": "0ff6d8c531a967c700000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise01_N.ubulk",
+			"ChunkId": "0ff6d8c531a967c700000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise03.uasset",
+			"ChunkId": "1f284120bbb2b36800000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise03.ubulk",
+			"ChunkId": "1f284120bbb2b36800000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/T_Black_Linear.uasset",
+			"ChunkId": "ed8a4cff538d2d3700000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/ML_blue_Metal.uasset",
+			"ChunkId": "67ddc4f05128481500000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/ML_Metal_Scratched_Circular.uasset",
+			"ChunkId": "1310793ff6dd517200000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/ML_SoftMetal01.uasset",
+			"ChunkId": "f683b0d62c7ed30b00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Blue_Metal02.uasset",
+			"ChunkId": "0584a3413485351700000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Blue_Metal02.ubulk",
+			"ChunkId": "0584a3413485351700000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Metal_Scratched_Circular_01_COLOR.uasset",
+			"ChunkId": "0043a217a48aba3f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Metal_Scratched_Circular_01_COLOR.ubulk",
+			"ChunkId": "0043a217a48aba3f00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Metal_Scratched_Circular_01_N.uasset",
+			"ChunkId": "a689a143ecf479a200000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Metal_Scratched_Circular_01_N.ubulk",
+			"ChunkId": "a689a143ecf479a200000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ML_Aluminum01.uasset",
+			"ChunkId": "d86cd23bcda902b600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ML_Aluminum01.ubulk",
+			"ChunkId": "d86cd23bcda902b600000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ML_Aluminum01_N.uasset",
+			"ChunkId": "d84bcb7df4f399b000000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ML_Aluminum01_N.ubulk",
+			"ChunkId": "d84bcb7df4f399b000000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ScratchMask.uasset",
+			"ChunkId": "f3fe1598b2d7483b00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ScratchMask.ubulk",
+			"ChunkId": "f3fe1598b2d7483b00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/ML__Blank.uasset",
+			"ChunkId": "dae1a36f93f5fdeb00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Painted/ML_MetallicClearCoat.uasset",
+			"ChunkId": "d59a379e1668876600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Painted/T_PaintScratches.uasset",
+			"ChunkId": "4c4a9e9ea04d011b00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Painted/T_PaintScratches.ubulk",
+			"ChunkId": "4c4a9e9ea04d011b00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Rubber/T_Blank_N.uasset",
+			"ChunkId": "1027b004ca2bf41b00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Rubber/T_ML_FineRubber_N.uasset",
+			"ChunkId": "ed557accc55b8e4800000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Rubber/T_ML_FineRubber_N.ubulk",
+			"ChunkId": "ed557accc55b8e4800000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/Synthetics/ML_SimpleEmissive_underGlass.uasset",
+			"ChunkId": "ff27ffba972caa8500000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/T_TestML_Mask.uasset",
+			"ChunkId": "77f0c8c2cb91c62f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/MaterialLayers/T_TestML_Mask.ubulk",
+			"ChunkId": "77f0c8c2cb91c62f00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Materials/Trails/M_Bullet_Trail.uasset",
+			"ChunkId": "c5be888d08237bae00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/FX/SM_Wraith_Drone_ElectroField.uasset",
+			"ChunkId": "40ff87da6901d17200000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/FX/SM_Wraith_Drone_ElectroField.ubulk",
+			"ChunkId": "40ff87da6901d17200000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/SM_Wraith_Drone.uasset",
+			"ChunkId": "b5015b3a06af728f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/SM_Wraith_Drone.ubulk",
+			"ChunkId": "b5015b3a06af728f00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/SM_Wraith_Drone_open.uasset",
+			"ChunkId": "fd514344a4721d9a00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/SM_Wraith_Drone_open.ubulk",
+			"ChunkId": "fd514344a4721d9a00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Particles/Abilities/Drone/FX/P_Wraith_Drone_Attached_TeamColored.uasset",
+			"ChunkId": "c35c0894d18ae4fe00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/FluidPatterns/T_FluidTile01_DA.uasset",
+			"ChunkId": "cac689988bf659b400000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/FluidPatterns/T_FluidTile01_DA.ubulk",
+			"ChunkId": "cac689988bf659b400000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_ElectroHex_Tile.uasset",
+			"ChunkId": "f33bc02558d915c600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_ElectroHex_Tile.ubulk",
+			"ChunkId": "f33bc02558d915c600000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_BackPackbody_RGBA.uasset",
+			"ChunkId": "9d9af25ac520e29f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_BackPackbody_RGBA.ubulk",
+			"ChunkId": "9d9af25ac520e29f00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_UpperBody_Mask.uasset",
+			"ChunkId": "54b727d195cffebb00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_UpperBody_Mask.ubulk",
+			"ChunkId": "54b727d195cffebb00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_UpperBody_Mask2.uasset",
+			"ChunkId": "1e91ad7ffd4d5a0900000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_UpperBody_Mask2.ubulk",
+			"ChunkId": "1e91ad7ffd4d5a0900000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_upperbody_N_DEMO.uasset",
+			"ChunkId": "590c1b7cd7b252d300000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_upperbody_N_DEMO.ubulk",
+			"ChunkId": "590c1b7cd7b252d300000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_Upperbody_RGBA.uasset",
+			"ChunkId": "7407becd57770f0300000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_Upperbody_RGBA.ubulk",
+			"ChunkId": "7407becd57770f0300000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Masks/T_Beam_Gradient_02.uasset",
+			"ChunkId": "a98cbda2fadc51c900000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Masks/T_Beam_Gradient_02.ubulk",
+			"ChunkId": "a98cbda2fadc51c900000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Masks/T_SmokeTrailCoord1_Mask.uasset",
+			"ChunkId": "beb6d6a44406e13c00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Masks/T_SmokeTrailCoord1_Mask.ubulk",
+			"ChunkId": "beb6d6a44406e13c00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Tile/Noise/T_Noise_Rough_Dark_Big.uasset",
+			"ChunkId": "40946d3cbb2e313600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/ParagonWraith/FX/Textures/Tile/Noise/T_Noise_Rough_Dark_Big.ubulk",
+			"ChunkId": "40946d3cbb2e313600000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Fx/NiagaraSystems/NS_Energy_2.uasset",
+			"ChunkId": "49b96cd5e26f6c9400000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Fx/NiagaraSystems/NS_Healing_1.uasset",
+			"ChunkId": "c6707a48f0f8cb9b00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Fx/NiagaraSystems/NS_Pickup_2.uasset",
+			"ChunkId": "301e7bbb5a4c6c2300000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Fx/NiagaraSystems/NS_Pickup_3.uasset",
+			"ChunkId": "1ad491412655313000000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/M_AdditiveScrollNiagara.uasset",
+			"ChunkId": "663f01a1892e1d7f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/M_Master_Fresnel.uasset",
+			"ChunkId": "0482826492006eee00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/M_sA_Aura.uasset",
+			"ChunkId": "4311b8f32ffa3a3f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/MI_Aura_1.uasset",
+			"ChunkId": "37b261248c4fd7ef00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/MI_Fresnel.uasset",
+			"ChunkId": "15e0e0bf2178fb9b00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/MI_Scroll_1.uasset",
+			"ChunkId": "32f1128dbb325b8600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_Beam_01.uasset",
+			"ChunkId": "08a86e093190d72800000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_Beam_01.ubulk",
+			"ChunkId": "08a86e093190d72800000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_Noise_DistortedCaustic.uasset",
+			"ChunkId": "f5efa75bed8cce2500000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_Noise_DistortedCaustic.ubulk",
+			"ChunkId": "f5efa75bed8cce2500000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseCloud_1.uasset",
+			"ChunkId": "0b52f06a407dee2500000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseCloud_1.ubulk",
+			"ChunkId": "0b52f06a407dee2500000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseCloud_2.uasset",
+			"ChunkId": "2f37f5058d9b067800000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseCloud_2.ubulk",
+			"ChunkId": "2f37f5058d9b067800000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseFurry.uasset",
+			"ChunkId": "1085158087d310a600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseFurry.ubulk",
+			"ChunkId": "1085158087d310a600000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_Ray_5.uasset",
+			"ChunkId": "c8940c3d148added00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Materials/Textures/T_Ray_5.ubulk",
+			"ChunkId": "c8940c3d148added00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Models/SM_Energy_1.uasset",
+			"ChunkId": "ca2d06ff1837cef200000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Models/SM_Energy_1.ubulk",
+			"ChunkId": "ca2d06ff1837cef200000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Models/SM_Pickup_Health.uasset",
+			"ChunkId": "608437d8d28b714300000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Models/SM_Pickup_Health.ubulk",
+			"ChunkId": "608437d8d28b714300000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Models/SM_Pickup_ss.uasset",
+			"ChunkId": "4324951a92251c6600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/sA_PickupSet_1/Models/SM_Pickup_ss.ubulk",
+			"ChunkId": "4324951a92251c6600000002"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Sounds/Attenuations/Footsteps_att.uasset",
 			"ChunkId": "cdf6c5045d0060d000000001"
 		},
@@ -3821,6 +4265,10 @@
 			"ChunkId": "6b8470d745065a0100000002"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Sounds/Grenades/ThrowGrenade_Cue.uasset",
+			"ChunkId": "60645988a19fe8d100000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Sounds/GunShots/SMG/SMG_Cue.uasset",
 			"ChunkId": "db6dc4cc6b71e00200000001"
 		},
@@ -3903,6 +4351,30 @@
 		{
 			"Path": "Blaster/Content/Assets/Sounds/GunShots/SMG/SMG_Shot_9.ubulk",
 			"ChunkId": "a502f45ad7df50b300000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Sounds/Pickup/HealthBuff_Pickup_Cue.uasset",
+			"ChunkId": "a5521243fdd2596500000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Sounds/Pickup/HelathBuff_Pickup.uasset",
+			"ChunkId": "cea1671b6799bf8f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Sounds/Pickup/HelathBuff_Pickup.ubulk",
+			"ChunkId": "cea1671b6799bf8f00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Sounds/Pickup/SpeedBuff_Pickup.uasset",
+			"ChunkId": "bd58e760533b7b1800000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Sounds/Pickup/SpeedBuff_Pickup.ubulk",
+			"ChunkId": "bd58e760533b7b1800000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Sounds/Pickup/SpeedBuff_Pickup_Cue.uasset",
+			"ChunkId": "4989be78916aa67700000001"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Sounds/Shells/shell_03_wav.uasset",
@@ -4113,6 +4585,10 @@
 			"ChunkId": "60817adb02d5f8bc00000001"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Textures/Grenades/GrenadeTextureOutlined12.uasset",
+			"ChunkId": "92610cb516b546c200000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Weapon/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_9mm.uasset",
 			"ChunkId": "a7356abb9dfa937400000001"
 		},
@@ -4135,6 +4611,14 @@
 		{
 			"Path": "Blaster/Content/Assets/Weapon/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SK_SMG11_Nostock_Y_Skeleton.uasset",
 			"ChunkId": "ac141a7fb3ae028100000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Mag_X.uasset",
+			"ChunkId": "9d00187dd1549a7f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Mag_X.ubulk",
+			"ChunkId": "9d00187dd1549a7f00000002"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SMG_PhyAt_Strap.uasset",
@@ -4335,6 +4819,10 @@
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/FX/P_Grenade_Explosion_01.uasset",
 			"ChunkId": "86668629923f4a5b00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/FX/P_Grenade_Explosion_sizeUP.uasset",
+			"ChunkId": "0278bc293d6599c300000001"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/FX/P_Impact_Metal_Large_01.uasset",
@@ -4573,12 +5061,24 @@
 			"ChunkId": "3bac3a8a89e1930000000002"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Pistol_AmmoPickup_Cue.uasset",
+			"ChunkId": "b24800b0c649028700000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Pistol_Lower_Cue.uasset",
 			"ChunkId": "ea5f37969f00a51f00000001"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue.uasset",
 			"ChunkId": "d5653040ceafc77f00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Wavs/Pistol_AmmoPickup.uasset",
+			"ChunkId": "7f6d3ab33a17e3b600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Wavs/Pistol_AmmoPickup.ubulk",
+			"ChunkId": "7f6d3ab33a17e3b600000002"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Wavs/Pistol_Lower.uasset",
@@ -4629,8 +5129,20 @@
 			"ChunkId": "0359fa501bed0e8500000002"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Rifle/Rifle_AmmoPickup_Cue.uasset",
+			"ChunkId": "aad69d6a9d5a6ff200000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Rifle/Rifle_ImpactSurface_Cue.uasset",
 			"ChunkId": "6a3706ea38f7cd8d00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_AmmoPickup.uasset",
+			"ChunkId": "e5eeaf738f3724f400000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_AmmoPickup.ubulk",
+			"ChunkId": "e5eeaf738f3724f400000002"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_ImpactSurface01.uasset",
@@ -5085,6 +5597,58 @@
 			"ChunkId": "2a4c74c60abf02d700000001"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/AssaultRifle_Pickup.uasset",
+			"ChunkId": "b6eddb210be68bb700000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/AssaultRifle_Pickup.ubulk",
+			"ChunkId": "b6eddb210be68bb700000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Materials/M_Pickups_Inst.uasset",
+			"ChunkId": "e85abb0d8089a19600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Pistol_Pickup.uasset",
+			"ChunkId": "963f5e76808f74c500000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Pistol_Pickup.ubulk",
+			"ChunkId": "963f5e76808f74c500000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Shotgun_Pickup.uasset",
+			"ChunkId": "a334d569038b5ece00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Shotgun_Pickup.ubulk",
+			"ChunkId": "a334d569038b5ece00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Diff.uasset",
+			"ChunkId": "094008872db9b1df00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Diff.ubulk",
+			"ChunkId": "094008872db9b1df00000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Masks.uasset",
+			"ChunkId": "bb56a36307ced63800000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Masks.ubulk",
+			"ChunkId": "bb56a36307ced63800000002"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Norm.uasset",
+			"ChunkId": "37e172ae16d8007d00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Norm.ubulk",
+			"ChunkId": "37e172ae16d8007d00000002"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Attenuation/Explosion_att.uasset",
 			"ChunkId": "6caf0f0e86dbb51d00000001"
 		},
@@ -5101,12 +5665,24 @@
 			"ChunkId": "ded33d84de6f111600000001"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_AmmoPickup_Cue.uasset",
+			"ChunkId": "6e3c2bcd6a119d6200000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.uasset",
 			"ChunkId": "713d0dae96b8dc3800000001"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.uasset",
 			"ChunkId": "2c9bd6d774f0f6dc00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup.uasset",
+			"ChunkId": "459be1b78c0da3f700000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup.ubulk",
+			"ChunkId": "459be1b78c0da3f700000002"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion01.uasset",
@@ -5213,12 +5789,24 @@
 			"ChunkId": "4eac7082a071913100000002"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Cues/Pistol_AmmoPickup_Cue.uasset",
+			"ChunkId": "19cc22d2df7e9f3100000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Cues/Pistol_ReloadInsert_Cue.uasset",
 			"ChunkId": "ea1a4410d40142ae00000001"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.uasset",
 			"ChunkId": "b71f656d3d55c59600000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Wavs/Pistol_AmmoPickup.uasset",
+			"ChunkId": "fb2826054e76156b00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Wavs/Pistol_AmmoPickup.ubulk",
+			"ChunkId": "fb2826054e76156b00000002"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Wavs/Pistol_ReloadMagInsert01.uasset",
@@ -5553,6 +6141,10 @@
 			"ChunkId": "4185008e560679f900000002"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Cues/RocketLauncher_AmmoPickup_Cue.uasset",
+			"ChunkId": "ab5aba6fca0e147d00000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Cues/RocketLauncher_Explosion_Cue.uasset",
 			"ChunkId": "81ee1f1ec0ff196600000001"
 		},
@@ -5563,6 +6155,14 @@
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Cues/RocketLauncherA_Fire_Cue.uasset",
 			"ChunkId": "cb02040ae822676000000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Wavs/RocketLauncher_AmmoPickup.uasset",
+			"ChunkId": "e3ce444c576df12e00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Wavs/RocketLauncher_AmmoPickup.ubulk",
+			"ChunkId": "e3ce444c576df12e00000002"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Wavs/RocketLauncher_Explosion01.uasset",
@@ -5685,6 +6285,10 @@
 			"ChunkId": "458d396ca238f59400000002"
 		},
 		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_AmmoPickup_Cue.uasset",
+			"ChunkId": "808b85e0b17b273600000001"
+		},
+		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.uasset",
 			"ChunkId": "3458f56d6743f54900000001"
 		},
@@ -5695,6 +6299,14 @@
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.uasset",
 			"ChunkId": "c51a389b36a50b8d00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Wavs/Shotgun_AmmoPickup.uasset",
+			"ChunkId": "dfe82e4e63894f4e00000001"
+		},
+		{
+			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Wavs/Shotgun_AmmoPickup.ubulk",
+			"ChunkId": "dfe82e4e63894f4e00000002"
 		},
 		{
 			"Path": "Blaster/Content/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Wavs/Shotgun_Reload01.uasset",
@@ -6217,6 +6829,10 @@
 			"ChunkId": "b9562f03a9fdeccd00000001"
 		},
 		{
+			"Path": "Blaster/Content/Blueprints/Character/Animation/ThrowGrenade.uasset",
+			"ChunkId": "a24d1c3fb8bd3a6f00000001"
+		},
+		{
 			"Path": "Blaster/Content/Blueprints/Character/Animation/UnequippedIdleWalkRun.uasset",
 			"ChunkId": "58f0be22713547e400000001"
 		},
@@ -6259,6 +6875,38 @@
 		{
 			"Path": "Blaster/Content/Blueprints/HUD/WBP_SniperScope.uasset",
 			"ChunkId": "10a955b4c527367700000001"
+		},
+		{
+			"Path": "Blaster/Content/Blueprints/Pickups/Ammo/BP_ARAmmo.uasset",
+			"ChunkId": "d96cccc34440512300000001"
+		},
+		{
+			"Path": "Blaster/Content/Blueprints/Pickups/Ammo/BP_GrenadeLauncherAmmo.uasset",
+			"ChunkId": "d2053e892aa1454e00000001"
+		},
+		{
+			"Path": "Blaster/Content/Blueprints/Pickups/Ammo/BP_PistolAmmo.uasset",
+			"ChunkId": "2699dd37804c477a00000001"
+		},
+		{
+			"Path": "Blaster/Content/Blueprints/Pickups/Ammo/BP_RocketAmmo.uasset",
+			"ChunkId": "e6838668ea65206c00000001"
+		},
+		{
+			"Path": "Blaster/Content/Blueprints/Pickups/Ammo/BP_ShotgunAmmo.uasset",
+			"ChunkId": "8173526ff6a293e100000001"
+		},
+		{
+			"Path": "Blaster/Content/Blueprints/Pickups/Ammo/BP_SMGAmmo.uasset",
+			"ChunkId": "c681b93591a1ceac00000001"
+		},
+		{
+			"Path": "Blaster/Content/Blueprints/Pickups/Buff/BP_HealthPickup.uasset",
+			"ChunkId": "52c3d0299afe25e000000001"
+		},
+		{
+			"Path": "Blaster/Content/Blueprints/Pickups/Buff/BP_SpeedPickup.uasset",
+			"ChunkId": "3e583be3fa2806f400000001"
 		},
 		{
 			"Path": "Blaster/Content/Blueprints/PlayerController/BP_BlasterPlayerController.uasset",
@@ -6321,6 +6969,10 @@
 			"ChunkId": "edca34a5575ff13000000001"
 		},
 		{
+			"Path": "Blaster/Content/Blueprints/Weapon/Projectiles/BP_ThrowGrenade.uasset",
+			"ChunkId": "787763ceeaa183f000000001"
+		},
+		{
 			"Path": "Blaster/Content/Maps/BlasterMap.ubulk",
 			"ChunkId": "4ffcb41a1eb3cd3900000002"
 		},
@@ -6351,6 +7003,14 @@
 		{
 			"Path": "Blaster/Content/Maps/TransitionMap.umap",
 			"ChunkId": "9f2528a03c8d204200000001"
+		},
+		{
+			"Path": "Blaster/Content/Sounds/Foley/wav/sw_Foley_Aim_01.uasset",
+			"ChunkId": "e55adc69035f3c7600000001"
+		},
+		{
+			"Path": "Blaster/Content/Sounds/Foley/wav/sw_Foley_Aim_01.ubulk",
+			"ChunkId": "e55adc69035f3c7600000002"
 		},
 		{
 			"Path": "Blaster/Content/Sounds/Foley/wav/sw_Foley_JumpLand_Tile_01.uasset",
@@ -7121,8 +7781,16 @@
 			"ChunkId": "8c7d8928b966374500000001"
 		},
 		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset",
+			"ChunkId": "8ecbf6c61162774100000001"
+		},
+		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset",
 			"ChunkId": "e43855b9d402d6d500000001"
+		},
+		{
+			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.uasset",
+			"ChunkId": "8e09f0ed48a33b1a00000001"
 		},
 		{
 			"Path": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.uasset",
@@ -7295,6 +7963,10 @@
 		{
 			"Path": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Emissive.uasset",
 			"ChunkId": "0b7ab2087ec6cd4800000001"
+		},
+		{
+			"Path": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_ModulateRoughness.uasset",
+			"ChunkId": "c0a507c7430fe32b00000001"
 		},
 		{
 			"Path": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_OverrideBaseColor.uasset",
@@ -7961,6 +8633,14 @@
 			"ChunkId": "7b967f8ff09764ce00000001"
 		},
 		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/Angles/ENiagara_AngleInput.uasset",
+			"ChunkId": "aaf0dcf34da6539400000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagara_AttributeSamplingApplyOutput.uasset",
+			"ChunkId": "6942f8168c428dc300000001"
+		},
+		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagara_ColorInitializationMode.uasset",
 			"ChunkId": "09cf4e8bdb239e3000000001"
 		},
@@ -7997,6 +8677,10 @@
 			"ChunkId": "e99da99cbd83642f00000001"
 		},
 		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraCalculateRadiusOptions.uasset",
+			"ChunkId": "8f18ada3e2a3cda100000001"
+		},
+		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraChannelCorrelation.uasset",
 			"ChunkId": "32a17abc290d048e00000001"
 		},
@@ -8013,8 +8697,16 @@
 			"ChunkId": "800e0011728b391200000001"
 		},
 		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraExpansionMode.uasset",
+			"ChunkId": "8fddd6387a2a9c2200000001"
+		},
+		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraInactiveMode.uasset",
 			"ChunkId": "c59e08e7b318df6f00000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraMeshTransforms.uasset",
+			"ChunkId": "2edf26bfc26203c000000001"
 		},
 		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraRandomnessEvaluation.uasset",
@@ -8033,6 +8725,10 @@
 			"ChunkId": "12214b5091d73a2100000001"
 		},
 		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/ENiagaraTorusDistributionMode.uasset",
+			"ChunkId": "db927cfb04c3181c00000001"
+		},
+		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/Ribbons/ENiagara_UnsetDirectSet.uasset",
 			"ChunkId": "4e5e9ee9165beaff00000001"
 		},
@@ -8045,8 +8741,28 @@
 			"ChunkId": "d544b77d346c2dc300000001"
 		},
 		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/Utility/ENiagara_OrientVectorCount.uasset",
+			"ChunkId": "d1c3ad689f083fb500000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Enums/Utility/ENiagara_UpdateMeshOrientationMode.uasset",
+			"ChunkId": "3fe6b01464aa5bfe00000001"
+		},
+		{
 			"Path": "Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Particle_InfiniteLife.uasset",
 			"ChunkId": "01ef8b8437d851f900000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Solver_LimitAccel.uasset",
+			"ChunkId": "5d9f9dba791360f700000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Solver_LimitSpeed.uasset",
+			"ChunkId": "6d0e17e6637a2b0600000001"
+		},
+		{
+			"Path": "Engine/Plugins/FX/Niagara/Content/Icons/Modules/T_Icon_Solver_RotationalSolve.uasset",
+			"ChunkId": "57b7a44e84f90b8100000001"
 		},
 		{
 			"Path": "Engine/Plugins/Interchange/Runtime/Content/Pipelines/DefaultAssetsPipeline.uasset",
@@ -9598,9 +10314,21 @@
 			]
 		},
 		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity",
+			"ExportBundleChunkIds": [
+				"8ecbf6c61162774100000001"
+			]
+		},
+		{
 			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
 			"ExportBundleChunkIds": [
 				"e43855b9d402d6d500000001"
+			]
+		},
+		{
+			"Name": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential",
+			"ExportBundleChunkIds": [
+				"8e09f0ed48a33b1a00000001"
 			]
 		},
 		{
@@ -9862,6 +10590,12 @@
 			]
 		},
 		{
+			"Name": "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_ModulateRoughness",
+			"ExportBundleChunkIds": [
+				"c0a507c7430fe32b00000001"
+			]
+		},
+		{
 			"Name": "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_OverrideBaseColor",
 			"ExportBundleChunkIds": [
 				"c257239ce0a3587300000001"
@@ -10039,417 +10773,423 @@
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CC",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CC",
 			"ExportBundleChunkIds": [
-				"53b7b040d7f944b300000001"
+				"9b6f65b74085612500000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CD",
 			"ExportBundleChunkIds": [
-				"ce35ace6c12cc60c00000001"
+				"72de04877e9cf9fd00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CU",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_CU",
 			"ExportBundleChunkIds": [
-				"0c85faab504dc35900000001"
+				"7fd025f994f8850500000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LC",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LC",
 			"ExportBundleChunkIds": [
-				"05f0fb803f26b98d00000001"
+				"902175ad200cfcb700000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LD",
 			"ExportBundleChunkIds": [
-				"334c109d693ac4d300000001"
+				"7d1eea0ab235ef1400000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LU",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_LU",
 			"ExportBundleChunkIds": [
-				"df3c91cefcdd79d200000001"
+				"628cf8d2a180341d00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RC",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RC",
 			"ExportBundleChunkIds": [
-				"5b462964c2e9840500000001"
+				"068681bf4b9a6acf00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RD",
 			"ExportBundleChunkIds": [
-				"b770cb1b0977772c00000001"
+				"d951a0822270323c00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RU",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_RU",
 			"ExportBundleChunkIds": [
-				"fb0a9bb2bac3e84200000001"
+				"22ae77adab4071bb00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_Zero_Pose",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/AimAO/Aim_AO_Zero_Pose",
 			"ExportBundleChunkIds": [
-				"ea5962d7d3ea55bb00000001"
+				"12c2da458f6bff7d00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CC",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CC",
 			"ExportBundleChunkIds": [
-				"624a223c790d3e9600000001"
+				"9a7da7dad708f7b300000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CD",
 			"ExportBundleChunkIds": [
-				"27caca6b7af55fc300000001"
+				"b9371f3e0507920100000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CU",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_CU",
 			"ExportBundleChunkIds": [
-				"97b730f69b8be64100000001"
+				"02e91bb9a8129d5700000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LC",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LC",
 			"ExportBundleChunkIds": [
-				"31b6a485adcf1fa600000001"
+				"161601b0785f231400000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LD",
 			"ExportBundleChunkIds": [
-				"5db654d9498069ab00000001"
+				"ea4c2b472272103f00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LU",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_LU",
 			"ExportBundleChunkIds": [
-				"5da1bfe70a83d67400000001"
+				"a35f063f66a5c87000000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RC",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RC",
 			"ExportBundleChunkIds": [
-				"b1406594ef6de13c00000001"
+				"59fcb4dd158b480400000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RD",
 			"ExportBundleChunkIds": [
-				"e146f113f6d8828b00000001"
+				"7b6b41ce9bd445ce00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RU",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_RU",
 			"ExportBundleChunkIds": [
-				"92d14c66c023c6b300000001"
+				"19f97d6592419f0700000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_Zero_Pose",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/AimOffsets/HipAO/AO_Zero_Pose",
 			"ExportBundleChunkIds": [
-				"f6479ef17b3bb21200000001"
+				"b299a33bd22b781800000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Hip",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Hip",
 			"ExportBundleChunkIds": [
-				"d37af6553be00ca800000001"
+				"ab227e3cc134191100000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Idle_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"6c7b12f5b5fb822700000001"
+				"772e9ba674a8f6b500000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip",
 			"ExportBundleChunkIds": [
-				"aa4248a6a06b2d2e00000001"
+				"0857259fc79352de00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"bf4f2a3fcfa6f40900000001"
+				"09c1e323af89b30d00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip",
 			"ExportBundleChunkIds": [
-				"87316e2d01858fef00000001"
+				"462e9726a5e982a600000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"b302140399a2f2bc00000001"
+				"3cee6849cc1fc63200000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip",
 			"ExportBundleChunkIds": [
-				"6354d95bfabbbb0300000001"
+				"da184b36d553e75500000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"f8118a8c0d319e7500000001"
+				"8fc9e40c48a0abf900000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip",
 			"ExportBundleChunkIds": [
-				"0625537968c78ec100000001"
+				"2c65b39516bcca6b00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"f5a6f2903be8ec1a00000001"
+				"e85a8e9bdc4bb73b00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Elim",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Elim",
 			"ExportBundleChunkIds": [
-				"6972be483615c21100000001"
+				"4d130b6423f70e9500000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Fire_Rifle_Hip",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Fire_Rifle_Hip",
 			"ExportBundleChunkIds": [
-				"951186cf5433376a00000001"
+				"bf9e1accbe7cc57300000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Fire_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Fire_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"0ad6e948a6b1f65100000001"
+				"3cda776571b03f0100000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Hit_React_1_ADD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Hit_React_1_ADD",
 			"ExportBundleChunkIds": [
-				"543216f2cde8cd5700000001"
+				"3271965a1aaac15f00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Hit_React_2_ADD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Hit_React_2_ADD",
 			"ExportBundleChunkIds": [
-				"b39f0a1bedc3eaaf00000001"
+				"c9cba112733d9f2100000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Hit_React_3_ADD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Hit_React_3_ADD",
 			"ExportBundleChunkIds": [
-				"2f9c838f2501a15700000001"
+				"a211c35d6dcd778a00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Hit_React_4_ADD",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Hit_React_4_ADD",
 			"ExportBundleChunkIds": [
-				"b38d392be141676a00000001"
+				"24e84dc743150a0300000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Idle_Rifle_Hip",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Idle_Rifle_Hip",
 			"ExportBundleChunkIds": [
-				"8166f84c75689c7600000001"
+				"64e0817f7640233b00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Idle_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Idle_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"6a52d9d2d56b367800000001"
+				"47038426ed289aaa00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_45_Right",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Bwd_45_Right",
 			"ExportBundleChunkIds": [
-				"0cddcfc45200d54800000001"
+				"9ca4204298cd15f100000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Lean_L",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Bwd_Lean_L",
 			"ExportBundleChunkIds": [
-				"96cf58fbcb0fed9100000001"
+				"9145495f7830635000000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Lean_R",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Bwd_Lean_R",
 			"ExportBundleChunkIds": [
-				"c67780ba6a5cfe6600000001"
+				"ab313d547fdf08c800000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Bwd_Rifle",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Bwd_Rifle",
 			"ExportBundleChunkIds": [
-				"acfc01ac9b96d6c200000001"
+				"4392292d6b1c8b6900000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_45_Left",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Fwd_45_Left",
 			"ExportBundleChunkIds": [
-				"b7b00e684af9bcd100000001"
+				"8daaa533771d5c1c00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Lean_L",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Fwd_Lean_L",
 			"ExportBundleChunkIds": [
-				"d6cccfed37d6805e00000001"
+				"8e77359220ab3b7400000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Lean_R",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Fwd_Lean_R",
 			"ExportBundleChunkIds": [
-				"03ec6b14c3d1d4af00000001"
+				"3e78e4300b112f0b00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Fwd_Rifle",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Fwd_Rifle",
 			"ExportBundleChunkIds": [
-				"e052430f333b029500000001"
+				"a366c0cb5ad476e100000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Lean_L",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Lt_Lean_L",
 			"ExportBundleChunkIds": [
-				"c674ce8a13fbc9aa00000001"
+				"5980eb5b57eca76000000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Lean_R",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Lt_Lean_R",
 			"ExportBundleChunkIds": [
-				"f9d3f303cb49c47300000001"
+				"2fe6d7396a7e1fda00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Lt_Rifle",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Lt_Rifle",
 			"ExportBundleChunkIds": [
-				"a7059c792962a9ed00000001"
+				"712388ae6191b34f00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Lean_L",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Rt_Lean_L",
 			"ExportBundleChunkIds": [
-				"c77dc7291e278be300000001"
+				"73f399fca297dfc800000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Lean_R",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Rt_Lean_R",
 			"ExportBundleChunkIds": [
-				"3eae8e835f8b7ca300000001"
+				"dc66d4b472671f0900000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Jog_Rt_Rifle",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Jog_Rt_Rifle",
 			"ExportBundleChunkIds": [
-				"5c8dc44fa3072fb400000001"
+				"fe42dcb5e01adf8e00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/JumpLoop_Rot",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/JumpLoop_Rot",
 			"ExportBundleChunkIds": [
-				"5695ed9793ff68d300000001"
+				"22d181219aa79d9500000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/JumpUp_Rot",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/JumpUp_Rot",
 			"ExportBundleChunkIds": [
-				"77d4be97066da5dc00000001"
+				"5d673fe6f6a1f5cb00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Reload_Shotgun_Hip",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Reload_Shotgun_Hip",
 			"ExportBundleChunkIds": [
-				"de669f6ba3f5864900000001"
+				"8acd18efb756a8dc00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/ReloadPistol",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/ReloadPistol",
 			"ExportBundleChunkIds": [
-				"b4d273ad83fb91de00000001"
+				"000f0158367367b200000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/ReloadRifle",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/ReloadRifle",
 			"ExportBundleChunkIds": [
-				"afc94e9c7f1c3c1b00000001"
+				"8ba4d8fd8bc8501600000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Walk_Bwd_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Walk_Bwd_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"0b3376f6b98503e500000001"
+				"a07fc57730f4d10300000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Walk_Fwd_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Walk_Fwd_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"55e0f06dc77dbfbe00000001"
+				"354746c31b1f59a700000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Walk_Lt_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Walk_Lt_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"c8c7ddf87266ee3800000001"
+				"803363e4b521733b00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/AnimStarterPack/Walk_Rt_Rifle_Ironsights",
+			"Name": "/Game/Assets/Animation/Retargeted/AnimStarterPack/Walk_Rt_Rifle_Ironsights",
 			"ExportBundleChunkIds": [
-				"49f0eaaa618ea1cf00000001"
+				"a25ceedee91189b100000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/Mixamo/CrouchTurnLeft",
+			"Name": "/Game/Assets/Animation/Retargeted/Mixamo/CrouchTurnLeft",
 			"ExportBundleChunkIds": [
-				"3ea458d4969573a800000001"
+				"49f9d760d0030ae500000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/Mixamo/CrouchTurnRight",
+			"Name": "/Game/Assets/Animation/Retargeted/Mixamo/CrouchTurnRight",
 			"ExportBundleChunkIds": [
-				"fa53817d06579d6e00000001"
+				"7ced34d730fba24400000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/Mixamo/Jump_Down_Trim",
+			"Name": "/Game/Assets/Animation/Retargeted/Mixamo/GrenadeToss",
 			"ExportBundleChunkIds": [
-				"d086521c9af0f28800000001"
+				"adb937601733212d00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/Mixamo/Reloading",
+			"Name": "/Game/Assets/Animation/Retargeted/Mixamo/Jump_Down_Trim",
 			"ExportBundleChunkIds": [
-				"3dfd84271d53301300000001"
+				"aaab6d14af0e982800000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/Mixamo/ReloadRocket",
+			"Name": "/Game/Assets/Animation/Retargeted/Mixamo/Reloading",
 			"ExportBundleChunkIds": [
-				"a29fda7b8e32cfc200000001"
+				"540f2ce30ecbfb3c00000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/Mixamo/Turn_Left",
+			"Name": "/Game/Assets/Animation/Retargeted/Mixamo/ReloadRocket",
 			"ExportBundleChunkIds": [
-				"ea7cfc11f9e68ad800000001"
+				"b3d3b1de41ab486000000001"
 			]
 		},
 		{
-			"Name": "/Game/Assets/AnimStarterPack/Retargeted/Mixamo/Turn_Right",
+			"Name": "/Game/Assets/Animation/Retargeted/Mixamo/Turn_Left",
 			"ExportBundleChunkIds": [
-				"70eca70b2e40c56700000001"
+				"e102cbbd47fbe3b300000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Animation/Retargeted/Mixamo/Turn_Right",
+			"ExportBundleChunkIds": [
+				"702854a2714af48500000001"
 			]
 		},
 		{
@@ -14188,6 +14928,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Materials/PP_Highlight",
+			"ExportBundleChunkIds": [
+				"a96856dfe0b89b8900000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/ParagonDekker/FX/Materials/Flares/M_Lensflare_TB_Soft",
 			"ExportBundleChunkIds": [
 				"8917c5a70d4b4aed00000001"
@@ -14581,6 +15327,558 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/Functions/FX_EmissiveModulate",
+			"ExportBundleChunkIds": [
+				"512c2f240ab2522000000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/Functions/MF_DitheredRefraction",
+			"ExportBundleChunkIds": [
+				"aa5fe926bb7f966300000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/FX/M_Wraith_Drone_ElectroField",
+			"ExportBundleChunkIds": [
+				"560c96ddb35e496a00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/FX/M_Wraith_Upperbody_Drone_Inst",
+			"ExportBundleChunkIds": [
+				"a2b89a8ddaf3a67600000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/M_Wraith_Upperbody",
+			"ExportBundleChunkIds": [
+				"8f5d086658edc6c000000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/MLayer/MF_Wraithlatex",
+			"ExportBundleChunkIds": [
+				"6e9cb0ebb32eed5200000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/Heroes/Wraith/MLayer/T_TireRubber_R",
+			"ExportBundleChunkIds": [
+				"810ad5c0bbfe3e7600000001"
+			],
+			"BulkDataChunkIds": [
+				"810ad5c0bbfe3e7600000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/HitFlash",
+			"ExportBundleChunkIds": [
+				"7f2ad2669ff90e1c00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/M_Tri_Test",
+			"ExportBundleChunkIds": [
+				"a1c69e43ba0425ca00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast",
+			"ExportBundleChunkIds": [
+				"e2cd136bebfe968200000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment",
+			"ExportBundleChunkIds": [
+				"5e12d6a81f1d4e8600000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime",
+			"ExportBundleChunkIds": [
+				"8a12ef3b71ab885100000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MaterialLayerConstructors/MLC_Standard",
+			"ExportBundleChunkIds": [
+				"80672e18ff6843fa00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_BrightnessAdjust",
+			"ExportBundleChunkIds": [
+				"af17367c034c97aa00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_Character_MaterialLayerQuality",
+			"ExportBundleChunkIds": [
+				"28489b481e79baf400000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_CharacterEffects",
+			"ExportBundleChunkIds": [
+				"511be705d037181200000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_DeathFade",
+			"ExportBundleChunkIds": [
+				"b94920e8b1a96c5d00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_OrionCharacterAO",
+			"ExportBundleChunkIds": [
+				"1a11ccdae3ebe91300000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/MF_OrionRimlight",
+			"ExportBundleChunkIds": [
+				"78e9af94fabadb7500000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/ParameterCollections/OrionGlobalGameplayCollection",
+			"ExportBundleChunkIds": [
+				"e8c423088ae5887300000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise01",
+			"ExportBundleChunkIds": [
+				"c37ca498dfa1d25100000001"
+			],
+			"BulkDataChunkIds": [
+				"c37ca498dfa1d25100000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise01_N",
+			"ExportBundleChunkIds": [
+				"0ff6d8c531a967c700000001"
+			],
+			"BulkDataChunkIds": [
+				"0ff6d8c531a967c700000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise03",
+			"ExportBundleChunkIds": [
+				"1f284120bbb2b36800000001"
+			],
+			"BulkDataChunkIds": [
+				"1f284120bbb2b36800000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialFunctions/Textures/T_Black_Linear",
+			"ExportBundleChunkIds": [
+				"ed8a4cff538d2d3700000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/ML_blue_Metal",
+			"ExportBundleChunkIds": [
+				"67ddc4f05128481500000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/ML_Metal_Scratched_Circular",
+			"ExportBundleChunkIds": [
+				"1310793ff6dd517200000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/ML_SoftMetal01",
+			"ExportBundleChunkIds": [
+				"f683b0d62c7ed30b00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Blue_Metal02",
+			"ExportBundleChunkIds": [
+				"0584a3413485351700000001"
+			],
+			"BulkDataChunkIds": [
+				"0584a3413485351700000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Metal_Scratched_Circular_01_COLOR",
+			"ExportBundleChunkIds": [
+				"0043a217a48aba3f00000001"
+			],
+			"BulkDataChunkIds": [
+				"0043a217a48aba3f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_Metal_Scratched_Circular_01_N",
+			"ExportBundleChunkIds": [
+				"a689a143ecf479a200000001"
+			],
+			"BulkDataChunkIds": [
+				"a689a143ecf479a200000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ML_Aluminum01",
+			"ExportBundleChunkIds": [
+				"d86cd23bcda902b600000001"
+			],
+			"BulkDataChunkIds": [
+				"d86cd23bcda902b600000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ML_Aluminum01_N",
+			"ExportBundleChunkIds": [
+				"d84bcb7df4f399b000000001"
+			],
+			"BulkDataChunkIds": [
+				"d84bcb7df4f399b000000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Metal/T_ScratchMask",
+			"ExportBundleChunkIds": [
+				"f3fe1598b2d7483b00000001"
+			],
+			"BulkDataChunkIds": [
+				"f3fe1598b2d7483b00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/ML__Blank",
+			"ExportBundleChunkIds": [
+				"dae1a36f93f5fdeb00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Painted/ML_MetallicClearCoat",
+			"ExportBundleChunkIds": [
+				"d59a379e1668876600000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Painted/T_PaintScratches",
+			"ExportBundleChunkIds": [
+				"4c4a9e9ea04d011b00000001"
+			],
+			"BulkDataChunkIds": [
+				"4c4a9e9ea04d011b00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Rubber/T_Blank_N",
+			"ExportBundleChunkIds": [
+				"1027b004ca2bf41b00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Rubber/T_ML_FineRubber_N",
+			"ExportBundleChunkIds": [
+				"ed557accc55b8e4800000001"
+			],
+			"BulkDataChunkIds": [
+				"ed557accc55b8e4800000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/Synthetics/ML_SimpleEmissive_underGlass",
+			"ExportBundleChunkIds": [
+				"ff27ffba972caa8500000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/MaterialLayers/T_TestML_Mask",
+			"ExportBundleChunkIds": [
+				"77f0c8c2cb91c62f00000001"
+			],
+			"BulkDataChunkIds": [
+				"77f0c8c2cb91c62f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Materials/Trails/M_Bullet_Trail",
+			"ExportBundleChunkIds": [
+				"c5be888d08237bae00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/FX/SM_Wraith_Drone_ElectroField",
+			"ExportBundleChunkIds": [
+				"40ff87da6901d17200000001"
+			],
+			"BulkDataChunkIds": [
+				"40ff87da6901d17200000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/SM_Wraith_Drone",
+			"ExportBundleChunkIds": [
+				"b5015b3a06af728f00000001"
+			],
+			"BulkDataChunkIds": [
+				"b5015b3a06af728f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Meshes/Heroes/Wraith/SM_Wraith_Drone_open",
+			"ExportBundleChunkIds": [
+				"fd514344a4721d9a00000001"
+			],
+			"BulkDataChunkIds": [
+				"fd514344a4721d9a00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Particles/Abilities/Drone/FX/P_Wraith_Drone_Attached_TeamColored",
+			"ExportBundleChunkIds": [
+				"c35c0894d18ae4fe00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/FluidPatterns/T_FluidTile01_DA",
+			"ExportBundleChunkIds": [
+				"cac689988bf659b400000001"
+			],
+			"BulkDataChunkIds": [
+				"cac689988bf659b400000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_ElectroHex_Tile",
+			"ExportBundleChunkIds": [
+				"f33bc02558d915c600000001"
+			],
+			"BulkDataChunkIds": [
+				"f33bc02558d915c600000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_BackPackbody_RGBA",
+			"ExportBundleChunkIds": [
+				"9d9af25ac520e29f00000001"
+			],
+			"BulkDataChunkIds": [
+				"9d9af25ac520e29f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_UpperBody_Mask",
+			"ExportBundleChunkIds": [
+				"54b727d195cffebb00000001"
+			],
+			"BulkDataChunkIds": [
+				"54b727d195cffebb00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_UpperBody_Mask2",
+			"ExportBundleChunkIds": [
+				"1e91ad7ffd4d5a0900000001"
+			],
+			"BulkDataChunkIds": [
+				"1e91ad7ffd4d5a0900000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_upperbody_N_DEMO",
+			"ExportBundleChunkIds": [
+				"590c1b7cd7b252d300000001"
+			],
+			"BulkDataChunkIds": [
+				"590c1b7cd7b252d300000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Heroes/Wraith/T_Wraith_Upperbody_RGBA",
+			"ExportBundleChunkIds": [
+				"7407becd57770f0300000001"
+			],
+			"BulkDataChunkIds": [
+				"7407becd57770f0300000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Masks/T_Beam_Gradient_02",
+			"ExportBundleChunkIds": [
+				"a98cbda2fadc51c900000001"
+			],
+			"BulkDataChunkIds": [
+				"a98cbda2fadc51c900000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Masks/T_SmokeTrailCoord1_Mask",
+			"ExportBundleChunkIds": [
+				"beb6d6a44406e13c00000001"
+			],
+			"BulkDataChunkIds": [
+				"beb6d6a44406e13c00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/ParagonWraith/FX/Textures/Tile/Noise/T_Noise_Rough_Dark_Big",
+			"ExportBundleChunkIds": [
+				"40946d3cbb2e313600000001"
+			],
+			"BulkDataChunkIds": [
+				"40946d3cbb2e313600000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Fx/NiagaraEmitters/Ne_Aura"
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Fx/NiagaraSystems/NS_Energy_2",
+			"ExportBundleChunkIds": [
+				"49b96cd5e26f6c9400000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Fx/NiagaraSystems/NS_Healing_1",
+			"ExportBundleChunkIds": [
+				"c6707a48f0f8cb9b00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Fx/NiagaraSystems/NS_Pickup_2",
+			"ExportBundleChunkIds": [
+				"301e7bbb5a4c6c2300000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Fx/NiagaraSystems/NS_Pickup_3",
+			"ExportBundleChunkIds": [
+				"1ad491412655313000000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/M_AdditiveScrollNiagara",
+			"ExportBundleChunkIds": [
+				"663f01a1892e1d7f00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/M_Master_Fresnel",
+			"ExportBundleChunkIds": [
+				"0482826492006eee00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/M_sA_Aura",
+			"ExportBundleChunkIds": [
+				"4311b8f32ffa3a3f00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/MI_Aura_1",
+			"ExportBundleChunkIds": [
+				"37b261248c4fd7ef00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/MI_Fresnel",
+			"ExportBundleChunkIds": [
+				"15e0e0bf2178fb9b00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/MI_Scroll_1",
+			"ExportBundleChunkIds": [
+				"32f1128dbb325b8600000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/Textures/T_Beam_01",
+			"ExportBundleChunkIds": [
+				"08a86e093190d72800000001"
+			],
+			"BulkDataChunkIds": [
+				"08a86e093190d72800000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/Textures/T_Noise_DistortedCaustic",
+			"ExportBundleChunkIds": [
+				"f5efa75bed8cce2500000001"
+			],
+			"BulkDataChunkIds": [
+				"f5efa75bed8cce2500000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseCloud_1",
+			"ExportBundleChunkIds": [
+				"0b52f06a407dee2500000001"
+			],
+			"BulkDataChunkIds": [
+				"0b52f06a407dee2500000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseCloud_2",
+			"ExportBundleChunkIds": [
+				"2f37f5058d9b067800000001"
+			],
+			"BulkDataChunkIds": [
+				"2f37f5058d9b067800000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/Textures/T_NoiseFurry",
+			"ExportBundleChunkIds": [
+				"1085158087d310a600000001"
+			],
+			"BulkDataChunkIds": [
+				"1085158087d310a600000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Materials/Textures/T_Ray_5",
+			"ExportBundleChunkIds": [
+				"c8940c3d148added00000001"
+			],
+			"BulkDataChunkIds": [
+				"c8940c3d148added00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Models/SM_Energy_1",
+			"ExportBundleChunkIds": [
+				"ca2d06ff1837cef200000001"
+			],
+			"BulkDataChunkIds": [
+				"ca2d06ff1837cef200000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Models/SM_Pickup_Health",
+			"ExportBundleChunkIds": [
+				"608437d8d28b714300000001"
+			],
+			"BulkDataChunkIds": [
+				"608437d8d28b714300000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/sA_PickupSet_1/Models/SM_Pickup_ss",
+			"ExportBundleChunkIds": [
+				"4324951a92251c6600000001"
+			],
+			"BulkDataChunkIds": [
+				"4324951a92251c6600000002"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Sounds/Attenuations/Footsteps_att",
 			"ExportBundleChunkIds": [
 				"cdf6c5045d0060d000000001"
@@ -14743,6 +16041,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Sounds/Grenades/ThrowGrenade_Cue",
+			"ExportBundleChunkIds": [
+				"60645988a19fe8d100000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Sounds/GunShots/SMG/SMG_Cue",
 			"ExportBundleChunkIds": [
 				"db6dc4cc6b71e00200000001"
@@ -14836,6 +16140,36 @@
 			],
 			"BulkDataChunkIds": [
 				"21bfcc589cb9c55e00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Sounds/Pickup/HealthBuff_Pickup_Cue",
+			"ExportBundleChunkIds": [
+				"a5521243fdd2596500000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Sounds/Pickup/HelathBuff_Pickup",
+			"ExportBundleChunkIds": [
+				"cea1671b6799bf8f00000001"
+			],
+			"BulkDataChunkIds": [
+				"cea1671b6799bf8f00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Sounds/Pickup/SpeedBuff_Pickup",
+			"ExportBundleChunkIds": [
+				"bd58e760533b7b1800000001"
+			],
+			"BulkDataChunkIds": [
+				"bd58e760533b7b1800000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Sounds/Pickup/SpeedBuff_Pickup_Cue",
+			"ExportBundleChunkIds": [
+				"4989be78916aa67700000001"
 			]
 		},
 		{
@@ -15088,6 +16422,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Textures/Grenades/GrenadeTextureOutlined12",
+			"ExportBundleChunkIds": [
+				"92610cb516b546c200000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Weapon/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_9mm",
 			"ExportBundleChunkIds": [
 				"a7356abb9dfa937400000001"
@@ -15121,6 +16461,15 @@
 			"Name": "/Game/Assets/Weapon/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SK_SMG11_Nostock_Y_Skeleton",
 			"ExportBundleChunkIds": [
 				"ac141a7fb3ae028100000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Mag_X",
+			"ExportBundleChunkIds": [
+				"9d00187dd1549a7f00000001"
+			],
+			"BulkDataChunkIds": [
+				"9d00187dd1549a7f00000002"
 			]
 		},
 		{
@@ -15376,6 +16725,12 @@
 			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/FX/P_Grenade_Explosion_01",
 			"ExportBundleChunkIds": [
 				"86668629923f4a5b00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/FX/P_Grenade_Explosion_sizeUP",
+			"ExportBundleChunkIds": [
+				"0278bc293d6599c300000001"
 			]
 		},
 		{
@@ -15661,6 +17016,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Pistol_AmmoPickup_Cue",
+			"ExportBundleChunkIds": [
+				"b24800b0c649028700000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Pistol_Lower_Cue",
 			"ExportBundleChunkIds": [
 				"ea5f37969f00a51f00000001"
@@ -15670,6 +17031,15 @@
 			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Pistol_ReloadInsert_Cue",
 			"ExportBundleChunkIds": [
 				"d5653040ceafc77f00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/Sound/Pistol/Wavs/Pistol_AmmoPickup",
+			"ExportBundleChunkIds": [
+				"7f6d3ab33a17e3b600000001"
+			],
+			"BulkDataChunkIds": [
+				"7f6d3ab33a17e3b600000002"
 			]
 		},
 		{
@@ -15727,9 +17097,24 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/Sound/Rifle/Rifle_AmmoPickup_Cue",
+			"ExportBundleChunkIds": [
+				"aad69d6a9d5a6ff200000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/Sound/Rifle/Rifle_ImpactSurface_Cue",
 			"ExportBundleChunkIds": [
 				"6a3706ea38f7cd8d00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapDark/Sound/Rifle/Wavs/Rifle_AmmoPickup",
+			"ExportBundleChunkIds": [
+				"e5eeaf738f3724f400000001"
+			],
+			"BulkDataChunkIds": [
+				"e5eeaf738f3724f400000002"
 			]
 		},
 		{
@@ -16291,6 +17676,66 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Pickups/AssaultRifle_Pickup",
+			"ExportBundleChunkIds": [
+				"b6eddb210be68bb700000001"
+			],
+			"BulkDataChunkIds": [
+				"b6eddb210be68bb700000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Pickups/Materials/M_Pickups_Inst",
+			"ExportBundleChunkIds": [
+				"e85abb0d8089a19600000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Pickups/Pistol_Pickup",
+			"ExportBundleChunkIds": [
+				"963f5e76808f74c500000001"
+			],
+			"BulkDataChunkIds": [
+				"963f5e76808f74c500000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Pickups/Shotgun_Pickup",
+			"ExportBundleChunkIds": [
+				"a334d569038b5ece00000001"
+			],
+			"BulkDataChunkIds": [
+				"a334d569038b5ece00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Diff",
+			"ExportBundleChunkIds": [
+				"094008872db9b1df00000001"
+			],
+			"BulkDataChunkIds": [
+				"094008872db9b1df00000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Masks",
+			"ExportBundleChunkIds": [
+				"bb56a36307ced63800000001"
+			],
+			"BulkDataChunkIds": [
+				"bb56a36307ced63800000002"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Pickups/Textures/Pickup_Norm",
+			"ExportBundleChunkIds": [
+				"37e172ae16d8007d00000001"
+			],
+			"BulkDataChunkIds": [
+				"37e172ae16d8007d00000002"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Attenuation/Explosion_att",
 			"ExportBundleChunkIds": [
 				"6caf0f0e86dbb51d00000001"
@@ -16315,6 +17760,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_AmmoPickup_Cue",
+			"ExportBundleChunkIds": [
+				"6e3c2bcd6a119d6200000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue",
 			"ExportBundleChunkIds": [
 				"713d0dae96b8dc3800000001"
@@ -16324,6 +17775,15 @@
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue",
 			"ExportBundleChunkIds": [
 				"2c9bd6d774f0f6dc00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup",
+			"ExportBundleChunkIds": [
+				"459be1b78c0da3f700000001"
+			],
+			"BulkDataChunkIds": [
+				"459be1b78c0da3f700000002"
 			]
 		},
 		{
@@ -16444,6 +17904,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Cues/Pistol_AmmoPickup_Cue",
+			"ExportBundleChunkIds": [
+				"19cc22d2df7e9f3100000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Cues/Pistol_ReloadInsert_Cue",
 			"ExportBundleChunkIds": [
 				"ea1a4410d40142ae00000001"
@@ -16453,6 +17919,15 @@
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue",
 			"ExportBundleChunkIds": [
 				"b71f656d3d55c59600000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Pistol/Wavs/Pistol_AmmoPickup",
+			"ExportBundleChunkIds": [
+				"fb2826054e76156b00000001"
+			],
+			"BulkDataChunkIds": [
+				"fb2826054e76156b00000002"
 			]
 		},
 		{
@@ -16837,6 +18312,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Cues/RocketLauncher_AmmoPickup_Cue",
+			"ExportBundleChunkIds": [
+				"ab5aba6fca0e147d00000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Cues/RocketLauncher_Explosion_Cue",
 			"ExportBundleChunkIds": [
 				"81ee1f1ec0ff196600000001"
@@ -16852,6 +18333,15 @@
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Cues/RocketLauncherA_Fire_Cue",
 			"ExportBundleChunkIds": [
 				"cb02040ae822676000000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/RocketLauncher/Wavs/RocketLauncher_AmmoPickup",
+			"ExportBundleChunkIds": [
+				"e3ce444c576df12e00000001"
+			],
+			"BulkDataChunkIds": [
+				"e3ce444c576df12e00000002"
 			]
 		},
 		{
@@ -16990,6 +18480,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_AmmoPickup_Cue",
+			"ExportBundleChunkIds": [
+				"808b85e0b17b273600000001"
+			]
+		},
+		{
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue",
 			"ExportBundleChunkIds": [
 				"3458f56d6743f54900000001"
@@ -17005,6 +18501,15 @@
 			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue",
 			"ExportBundleChunkIds": [
 				"c51a389b36a50b8d00000001"
+			]
+		},
+		{
+			"Name": "/Game/Assets/Weapon/MilitaryWeapSilver/Sound/Shotgun/Wavs/Shotgun_AmmoPickup",
+			"ExportBundleChunkIds": [
+				"dfe82e4e63894f4e00000001"
+			],
+			"BulkDataChunkIds": [
+				"dfe82e4e63894f4e00000002"
 			]
 		},
 		{
@@ -17662,6 +19167,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Blueprints/Character/Animation/ThrowGrenade",
+			"ExportBundleChunkIds": [
+				"a24d1c3fb8bd3a6f00000001"
+			]
+		},
+		{
 			"Name": "/Game/Blueprints/Character/Animation/UnequippedIdleWalkRun",
 			"ExportBundleChunkIds": [
 				"58f0be22713547e400000001"
@@ -17725,6 +19236,54 @@
 			"Name": "/Game/Blueprints/HUD/WBP_SniperScope",
 			"ExportBundleChunkIds": [
 				"10a955b4c527367700000001"
+			]
+		},
+		{
+			"Name": "/Game/Blueprints/Pickups/Ammo/BP_ARAmmo",
+			"ExportBundleChunkIds": [
+				"d96cccc34440512300000001"
+			]
+		},
+		{
+			"Name": "/Game/Blueprints/Pickups/Ammo/BP_GrenadeLauncherAmmo",
+			"ExportBundleChunkIds": [
+				"d2053e892aa1454e00000001"
+			]
+		},
+		{
+			"Name": "/Game/Blueprints/Pickups/Ammo/BP_PistolAmmo",
+			"ExportBundleChunkIds": [
+				"2699dd37804c477a00000001"
+			]
+		},
+		{
+			"Name": "/Game/Blueprints/Pickups/Ammo/BP_RocketAmmo",
+			"ExportBundleChunkIds": [
+				"e6838668ea65206c00000001"
+			]
+		},
+		{
+			"Name": "/Game/Blueprints/Pickups/Ammo/BP_ShotgunAmmo",
+			"ExportBundleChunkIds": [
+				"8173526ff6a293e100000001"
+			]
+		},
+		{
+			"Name": "/Game/Blueprints/Pickups/Ammo/BP_SMGAmmo",
+			"ExportBundleChunkIds": [
+				"c681b93591a1ceac00000001"
+			]
+		},
+		{
+			"Name": "/Game/Blueprints/Pickups/Buff/BP_HealthPickup",
+			"ExportBundleChunkIds": [
+				"52c3d0299afe25e000000001"
+			]
+		},
+		{
+			"Name": "/Game/Blueprints/Pickups/Buff/BP_SpeedPickup",
+			"ExportBundleChunkIds": [
+				"3e583be3fa2806f400000001"
 			]
 		},
 		{
@@ -17818,6 +19377,12 @@
 			]
 		},
 		{
+			"Name": "/Game/Blueprints/Weapon/Projectiles/BP_ThrowGrenade",
+			"ExportBundleChunkIds": [
+				"787763ceeaa183f000000001"
+			]
+		},
+		{
 			"Name": "/Game/Maps/BlasterMap",
 			"ExportBundleChunkIds": [
 				"4ffcb41a1eb3cd3900000001"
@@ -17854,6 +19419,15 @@
 			"Name": "/Game/Maps/TransitionMap",
 			"ExportBundleChunkIds": [
 				"9f2528a03c8d204200000001"
+			]
+		},
+		{
+			"Name": "/Game/Sounds/Foley/wav/sw_Foley_Aim_01",
+			"ExportBundleChunkIds": [
+				"e55adc69035f3c7600000001"
+			],
+			"BulkDataChunkIds": [
+				"e55adc69035f3c7600000002"
 			]
 		},
 		{
@@ -17935,7 +19509,22 @@
 			]
 		},
 		{
+			"Name": "/Niagara/DynamicInputs/LinearColor/MultiplyLinearColor"
+		},
+		{
+			"Name": "/Niagara/DynamicInputs/Multiply/Multiply_Float"
+		},
+		{
 			"Name": "/Niagara/DynamicInputs/TypeConversions/Vector2DFromFloat"
+		},
+		{
+			"Name": "/Niagara/DynamicInputs/TypeConversions/VectorFromFloat"
+		},
+		{
+			"Name": "/Niagara/DynamicInputs/UniformRange/UniformRangedFloat"
+		},
+		{
+			"Name": "/Niagara/DynamicInputs/UniformRange/UniformRangedVector"
 		},
 		{
 			"Name": "/Niagara/DynamicInputs/UniformRange/V2/RandomRangeFloat"
@@ -17945,6 +19534,18 @@
 		},
 		{
 			"Name": "/Niagara/DynamicInputs/ValueFromCurve/VectorFromCurve"
+		},
+		{
+			"Name": "/Niagara/Enums/Angles/ENiagara_AngleInput",
+			"ExportBundleChunkIds": [
+				"aaf0dcf34da6539400000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Enums/ENiagara_AttributeSamplingApplyOutput",
+			"ExportBundleChunkIds": [
+				"6942f8168c428dc300000001"
+			]
 		},
 		{
 			"Name": "/Niagara/Enums/ENiagara_ColorInitializationMode",
@@ -18001,6 +19602,12 @@
 			]
 		},
 		{
+			"Name": "/Niagara/Enums/ENiagaraCalculateRadiusOptions",
+			"ExportBundleChunkIds": [
+				"8f18ada3e2a3cda100000001"
+			]
+		},
+		{
 			"Name": "/Niagara/Enums/ENiagaraChannelCorrelation",
 			"ExportBundleChunkIds": [
 				"32a17abc290d048e00000001"
@@ -18025,9 +19632,21 @@
 			]
 		},
 		{
+			"Name": "/Niagara/Enums/ENiagaraExpansionMode",
+			"ExportBundleChunkIds": [
+				"8fddd6387a2a9c2200000001"
+			]
+		},
+		{
 			"Name": "/Niagara/Enums/ENiagaraInactiveMode",
 			"ExportBundleChunkIds": [
 				"c59e08e7b318df6f00000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Enums/ENiagaraMeshTransforms",
+			"ExportBundleChunkIds": [
+				"2edf26bfc26203c000000001"
 			]
 		},
 		{
@@ -18055,6 +19674,12 @@
 			]
 		},
 		{
+			"Name": "/Niagara/Enums/ENiagaraTorusDistributionMode",
+			"ExportBundleChunkIds": [
+				"db927cfb04c3181c00000001"
+			]
+		},
+		{
 			"Name": "/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSet",
 			"ExportBundleChunkIds": [
 				"4e5e9ee9165beaff00000001"
@@ -18073,10 +19698,40 @@
 			]
 		},
 		{
+			"Name": "/Niagara/Enums/Utility/ENiagara_OrientVectorCount",
+			"ExportBundleChunkIds": [
+				"d1c3ad689f083fb500000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Enums/Utility/ENiagara_UpdateMeshOrientationMode",
+			"ExportBundleChunkIds": [
+				"3fe6b01464aa5bfe00000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Functions/CalculateMeshRadius"
+		},
+		{
+			"Name": "/Niagara/Functions/DeriveThirdOrthogonalVector"
+		},
+		{
+			"Name": "/Niagara/Functions/DirectionAndLengthSafe"
+		},
+		{
+			"Name": "/Niagara/Functions/Drag/DragVelocity"
+		},
+		{
 			"Name": "/Niagara/Functions/Emitter/EmitterChangeState"
 		},
 		{
 			"Name": "/Niagara/Functions/GetRandomInfo"
+		},
+		{
+			"Name": "/Niagara/Functions/Helpers/DoOnce_fn"
+		},
+		{
+			"Name": "/Niagara/Functions/Helpers/FN_FirstFrame_Numeric"
 		},
 		{
 			"Name": "/Niagara/Functions/LinearColor/HueShiftLinearColor"
@@ -18088,13 +19743,85 @@
 			"Name": "/Niagara/Functions/Localspace/TransformBase"
 		},
 		{
+			"Name": "/Niagara/Functions/Localspace/TransformPosition"
+		},
+		{
 			"Name": "/Niagara/Functions/Localspace/TransformVector"
+		},
+		{
+			"Name": "/Niagara/Functions/MakeVectorsOrthogonal"
+		},
+		{
+			"Name": "/Niagara/Functions/Math/CalculateRandomPointInConeSphereIntersection"
+		},
+		{
+			"Name": "/Niagara/Functions/Math/CentimeterMeterConversion"
+		},
+		{
+			"Name": "/Niagara/Functions/Math/InterpolateOverTime_V3_"
+		},
+		{
+			"Name": "/Niagara/Functions/Math/RemapValueRange"
 		},
 		{
 			"Name": "/Niagara/Functions/Math/SaturateFloat"
 		},
 		{
+			"Name": "/Niagara/Functions/Math/V2/SmoothLerpOverTime"
+		},
+		{
+			"Name": "/Niagara/Functions/PolarToCartesianCoordinates"
+		},
+		{
+			"Name": "/Niagara/Functions/ProjectVectorOnPlane"
+		},
+		{
+			"Name": "/Niagara/Functions/RandomPointInSphere"
+		},
+		{
 			"Name": "/Niagara/Functions/RandomRangeFloat"
+		},
+		{
+			"Name": "/Niagara/Functions/RandomVectorInCone"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/AngleUnitConverter"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/AxisAngleToQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/FindQuatBetween"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/InvertQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/LerpQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MakeQuaternionFrom3BasisVectors"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MakeQuaternionFromXAndYVectors"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MakeQuaternionFromXAndZVectors"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MatrixToQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MultiplyQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/MultiplyVectorWithQuaternion"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/RotateAngleOnAxis"
+		},
+		{
+			"Name": "/Niagara/Functions/Rotation/TwoVectorsToQuaternion"
 		},
 		{
 			"Name": "/Niagara/Functions/System/SystemChangeState"
@@ -18118,13 +19845,52 @@
 			]
 		},
 		{
+			"Name": "/Niagara/Icons/Modules/T_Icon_Solver_LimitAccel",
+			"ExportBundleChunkIds": [
+				"5d9f9dba791360f700000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Icons/Modules/T_Icon_Solver_LimitSpeed",
+			"ExportBundleChunkIds": [
+				"6d0e17e6637a2b0600000001"
+			]
+		},
+		{
+			"Name": "/Niagara/Icons/Modules/T_Icon_Solver_RotationalSolve",
+			"ExportBundleChunkIds": [
+				"57b7a44e84f90b8100000001"
+			]
+		},
+		{
 			"Name": "/Niagara/Modules/Emitter/EmitterState"
+		},
+		{
+			"Name": "/Niagara/Modules/Emitter/SpawnBurst_Instantaneous"
 		},
 		{
 			"Name": "/Niagara/Modules/Emitter/SpawnRate"
 		},
 		{
+			"Name": "/Niagara/Modules/Solvers/ApplyRotationVector"
+		},
+		{
+			"Name": "/Niagara/Modules/Solvers/SolveForcesAndVelocity"
+		},
+		{
+			"Name": "/Niagara/Modules/Spawn/Initialization/InitializeParticle"
+		},
+		{
 			"Name": "/Niagara/Modules/Spawn/Initialization/V2/InitializeParticle"
+		},
+		{
+			"Name": "/Niagara/Modules/Spawn/Location/SphereLocation"
+		},
+		{
+			"Name": "/Niagara/Modules/Spawn/Location/SystemLocation"
+		},
+		{
+			"Name": "/Niagara/Modules/Spawn/Velocity/AddVelocityInCone"
 		},
 		{
 			"Name": "/Niagara/Modules/System/SystemState"
@@ -18133,7 +19899,22 @@
 			"Name": "/Niagara/Modules/Update/Color/ScaleColor"
 		},
 		{
+			"Name": "/Niagara/Modules/Update/Forces/Drag"
+		},
+		{
+			"Name": "/Niagara/Modules/Update/Forces/GravityForce"
+		},
+		{
 			"Name": "/Niagara/Modules/Update/Lifetime/ParticleState"
+		},
+		{
+			"Name": "/Niagara/Modules/Update/Material/DynamicMaterialParameters"
+		},
+		{
+			"Name": "/Niagara/Modules/Update/Orientation/V3/UpdateMeshOrientation"
+		},
+		{
+			"Name": "/Niagara/Modules/Update/Size/ScaleMeshSize"
 		},
 		{
 			"Name": "/Niagara/Modules/Update/Size/ScaleSpriteSize"

@@ -38,7 +38,7 @@ public:
 	void Elim();
 
 	// 플레이어 죽음
-	UFUNCTION(NetMulticast, Reliable)
+	UFUNCTION(NetMulticast, Reliable) 
 	void MulticastElim();
 
 	virtual void Destroyed() override;
