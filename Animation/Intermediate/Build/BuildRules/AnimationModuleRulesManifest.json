@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\git\\UnrealEngineRepo\\Animation\\Source\\Animation\\Animation.Build.cs",
+		"D:\\git\\UnrealEngineRepo\\Animation\\Source\\Animation.Target.cs",
+		"D:\\git\\UnrealEngineRepo\\Animation\\Source\\AnimationEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.1"
+}

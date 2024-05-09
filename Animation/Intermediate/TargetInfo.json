@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Animation",
+			"Path": "..\\Source\\Animation.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AnimationEditor",
+			"Path": "..\\Source\\AnimationEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

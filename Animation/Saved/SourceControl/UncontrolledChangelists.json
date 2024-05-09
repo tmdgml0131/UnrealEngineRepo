@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/git/UnrealEngineRepo/Animation/Content/Animation/Material/Beta_HighLimbsGeoSG3.uasset",
+				"D:/git/UnrealEngineRepo/Animation/Content/Animation/Material/Beta_Joints_MAT1.uasset",
+				"D:/git/UnrealEngineRepo/Animation/Content/Animation/Mesh/Flair_Skeleton.uasset",
+				"D:/git/UnrealEngineRepo/Animation/Content/Animation/Mesh/Flair_PhysicsAsset.uasset",
+				"D:/git/UnrealEngineRepo/Animation/Content/Animation/Mesh/Flair.uasset",
+				"D:/git/UnrealEngineRepo/Animation/Content/Animation/Clip/Flair_Anim_mixamo_com.uasset"
+			]
+		}
+	]
+}
