@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Animation_Retarget",
+			"Path": "..\\Source\\Animation_Retarget.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Animation_RetargetEditor",
+			"Path": "..\\Source\\Animation_RetargetEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/96/6WFHNCZ9HDAZ76QCBUDP49.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/8R/K8K3X53ZXOSUZMX2V3BKT2.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/Animation_Retarget_-_Unreal_Editor_2024-05-09_11-29-37.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/ZG/87UJQUKOG857KEAFZJFL4L.uasset",
+				"D:/UE_5.4/Engine/Plugins/Media/MediaPlate/Content/M_MediaPlate.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/MixamoAnimation/Materials/Beta_HighLimbsGeoSG3.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/MixamoAnimation/Materials/Beta_Joints_MAT1.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/MixamoAnimation/PHYS_Mixamo.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/MixamoAnimation/SK_Mixamo.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/MixamoAnimation/Dancing.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/MixamoAnimation/SKM_Mixamo.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/MixamoAnimation/AnimationClips/Dancing.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/BorisAnimation/Dancing.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/GL/BNCG4DUP9LCWDSEJSOD22R.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/BR/T9GFER9Y787CYH922IWMIX.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/J3/JR07EBI9MEYWOS82T1JYIG.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/O9/31K5I12UOB2O0RAR3EQFOL.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/0A/QAN2JGKW56DPURYK5WNQN7.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/ParagonBoris/Characters/Heroes/Boris/Meshes/Boris_Skeleton.uasset",
+				"D:/git/UnrealEngineRepo/Animation_Retarget/Content/ParagonBoris/Characters/Heroes/Boris/Meshes/Boris.uasset"
+			]
+		}
+	]
+}

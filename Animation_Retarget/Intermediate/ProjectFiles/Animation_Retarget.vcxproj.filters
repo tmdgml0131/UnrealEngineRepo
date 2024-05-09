@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Animation_Retarget.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Animation_Retarget.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Animation_RetargetEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Animation_Retarget">
+      <UniqueIdentifier>{9D7CB20F-E8C3-34BB-889E-B587F90FE33B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Animation_Retarget\Animation_Retarget.Build.cs">
+      <Filter>Source\Animation_Retarget</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Animation_Retarget\Animation_Retarget.cpp">
+      <Filter>Source\Animation_Retarget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Animation_Retarget\Animation_Retarget.h">
+      <Filter>Source\Animation_Retarget</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Animation_Retarget\Animation_RetargetCharacter.cpp">
+      <Filter>Source\Animation_Retarget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Animation_Retarget\Animation_RetargetCharacter.h">
+      <Filter>Source\Animation_Retarget</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Animation_Retarget\Animation_RetargetGameMode.cpp">
+      <Filter>Source\Animation_Retarget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Animation_Retarget\Animation_RetargetGameMode.h">
+      <Filter>Source\Animation_Retarget</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

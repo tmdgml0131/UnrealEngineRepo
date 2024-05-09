@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\git\\UnrealEngineRepo\\Animation_Retarget\\Source\\Animation_Retarget\\Animation_Retarget.Build.cs",
+		"D:\\git\\UnrealEngineRepo\\Animation_Retarget\\Source\\Animation_Retarget.Target.cs",
+		"D:\\git\\UnrealEngineRepo\\Animation_Retarget\\Source\\Animation_RetargetEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.1"
+}
